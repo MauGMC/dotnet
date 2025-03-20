@@ -1,0 +1,273 @@
+<?xml version="1.0"?>
+<base>
+    <alumno>
+        <ID>1</ID>
+        <Apellidos>García López</Apellidos>
+        <Nombres>Juan</Nombres>
+        <Primer_parcial>8</Primer_parcial>
+        <Segundo_parcial>9</Segundo_parcial>
+        <Tercer_parcial>7</Tercer_parcial>
+        <Extraordinario>NP</Extraordinario>
+    </alumno>
+    <alumno>
+        <ID>2</ID>
+        <Apellidos>Martínez Pérez</Apellidos>
+        <Nombres>Ana Sofía</Nombres>
+        <Primer_parcial>10</Primer_parcial>
+        <Segundo_parcial>10</Segundo_parcial>
+        <Tercer_parcial>10</Tercer_parcial>
+        <Extraordinario>NP</Extraordinario>
+    </alumno>
+    <alumno>
+        <ID>3</ID>
+        <Apellidos>Hernández Torres</Apellidos>
+        <Nombres>Carlos</Nombres>
+        <Primer_parcial>6</Primer_parcial>
+        <Segundo_parcial>5</Segundo_parcial>
+        <Tercer_parcial>7</Tercer_parcial>
+        <Extraordinario>8</Extraordinario>
+    </alumno>
+    <alumno>
+        <ID>4</ID>
+        <Apellidos>Rodríguez Jiménez</Apellidos>
+        <Nombres>Mariana</Nombres>
+        <Primer_parcial>7</Primer_parcial>
+        <Segundo_parcial>NP</Segundo_parcial>
+        <Tercer_parcial>6</Tercer_parcial>
+        <Extraordinario>9</Extraordinario>
+    </alumno>
+    <alumno>
+        <ID>5</ID>
+        <Apellidos>Fernández Ruiz</Apellidos>
+        <Nombres>José Luis</Nombres>
+        <Primer_parcial>9</Primer_parcial>
+        <Segundo_parcial>8</Segundo_parcial>
+        <Tercer_parcial>NP</Tercer_parcial>
+        <Extraordinario>7</Extraordinario>
+    </alumno>
+    <alumno>
+        <ID>6</ID>
+        <Apellidos>Ramírez Castro</Apellidos>
+        <Nombres>Daniela</Nombres>
+        <Primer_parcial>NP</Primer_parcial>
+        <Segundo_parcial>6</Segundo_parcial>
+        <Tercer_parcial>5</Tercer_parcial>
+        <Extraordinario>10</Extraordinario>
+    </alumno>
+    <alumno>
+        <ID>7</ID>
+        <Apellidos>Gómez Salazar</Apellidos>
+        <Nombres>Fernando</Nombres>
+        <Primer_parcial>5</Primer_parcial>
+        <Segundo_parcial>4</Segundo_parcial>
+        <Tercer_parcial>6</Tercer_parcial>
+        <Extraordinario>7</Extraordinario>
+    </alumno>
+    <alumno>
+        <ID>8</ID>
+        <Apellidos>Díaz Mendoza</Apellidos>
+        <Nombres>Gabriela</Nombres>
+        <Primer_parcial>10</Primer_parcial>
+        <Segundo_parcial>9</Segundo_parcial>
+        <Tercer_parcial>10</Tercer_parcial>
+        <Extraordinario>NP</Extraordinario>
+    </alumno>
+    <alumno>
+        <ID>9</ID>
+        <Apellidos>Morales Vega</Apellidos>
+        <Nombres>Raúl</Nombres>
+        <Primer_parcial>6</Primer_parcial>
+        <Segundo_parcial>NP</Segundo_parcial>
+        <Tercer_parcial>4</Tercer_parcial>
+        <Extraordinario>5</Extraordinario>
+    </alumno>
+    <alumno>
+        <ID>10</ID>
+        <Apellidos>Ortiz Pacheco</Apellidos>
+        <Nombres>Sofía</Nombres>
+        <Primer_parcial>8</Primer_parcial>
+        <Segundo_parcial>7</Segundo_parcial>
+        <Tercer_parcial>9</Tercer_parcial>
+        <Extraordinario>NP</Extraordinario>
+    </alumno>
+    <alumno>
+        <ID>11</ID>
+        <Apellidos>Vargas Herrera</Apellidos>
+        <Nombres>Rodrigo</Nombres>
+        <Primer_parcial>9</Primer_parcial>
+        <Segundo_parcial>8</Segundo_parcial>
+        <Tercer_parcial>7</Tercer_parcial>
+        <Extraordinario>10</Extraordinario>
+    </alumno>
+    <alumno>
+        <ID>12</ID>
+        <Apellidos>Castillo Orozco</Apellidos>
+        <Nombres>Alejandra</Nombres>
+        <Primer_parcial>NP</Primer_parcial>
+        <Segundo_parcial>5</Segundo_parcial>
+        <Tercer_parcial>6</Tercer_parcial>
+        <Extraordinario>8</Extraordinario>
+    </alumno>
+    <alumno>
+        <ID>13</ID>
+        <Apellidos>Chávez Ríos</Apellidos>
+        <Nombres>Francisco</Nombres>
+        <Primer_parcial>4</Primer_parcial>
+        <Segundo_parcial>6</Segundo_parcial>
+        <Tercer_parcial>5</Tercer_parcial>
+        <Extraordinario>9</Extraordinario>
+    </alumno>
+    <alumno>
+        <ID>14</ID>
+        <Apellidos>Mejía Flores</Apellidos>
+        <Nombres>Elena</Nombres>
+        <Primer_parcial>7</Primer_parcial>
+        <Segundo_parcial>9</Segundo_parcial>
+        <Tercer_parcial>8</Tercer_parcial>
+        <Extraordinario>NP</Extraordinario>
+    </alumno>
+    <alumno>
+        <ID>15</ID>
+        <Apellidos>Pérez Morales</Apellidos>
+        <Nombres>Ricardo</Nombres>
+        <Primer_parcial>10</Primer_parcial>
+        <Segundo_parcial>10</Segundo_parcial>
+        <Tercer_parcial>10</Tercer_parcial>
+        <Extraordinario>NP</Extraordinario>
+    </alumno>
+    <alumno>
+        <ID>16</ID>
+        <Apellidos>López Aguilar</Apellidos>
+        <Nombres>Fernanda</Nombres>
+        <Primer_parcial>6</Primer_parcial>
+        <Segundo_parcial>NP</Segundo_parcial>
+        <Tercer_parcial>7</Tercer_parcial>
+        <Extraordinario>10</Extraordinario>
+    </alumno>
+    <alumno>
+        <ID>17</ID>
+        <Apellidos>Ramírez Carrillo</Apellidos>
+        <Nombres>César</Nombres>
+        <Primer_parcial>5</Primer_parcial>
+        <Segundo_parcial>6</Segundo_parcial>
+        <Tercer_parcial>4</Tercer_parcial>
+        <Extraordinario>7</Extraordinario>
+    </alumno>
+    <alumno>
+        <ID>18</ID>
+        <Apellidos>Vega Torres</Apellidos>
+        <Nombres>Valeria</Nombres>
+        <Primer_parcial>8</Primer_parcial>
+        <Segundo_parcial>9</Segundo_parcial>
+        <Tercer_parcial>NP</Tercer_parcial>
+        <Extraordinario>6</Extraordinario>
+    </alumno>
+    <alumno>
+        <ID>19</ID>
+        <Apellidos>Mendoza Lara</Apellidos>
+        <Nombres>Diego</Nombres>
+        <Primer_parcial>10</Primer_parcial>
+        <Segundo_parcial>8</Segundo_parcial>
+        <Tercer_parcial>9</Tercer_parcial>
+        <Extraordinario>NP</Extraordinario>
+    </alumno>
+    <alumno>
+        <ID>20</ID>
+        <Apellidos>Cortés Sandoval</Apellidos>
+        <Nombres>Jimena</Nombres>
+        <Primer_parcial>6</Primer_parcial>
+        <Segundo_parcial>5</Segundo_parcial>
+        <Tercer_parcial>7</Tercer_parcial>
+        <Extraordinario>8</Extraordinario>
+    </alumno>
+        <alumno>
+        <ID>21</ID>
+        <Apellidos>Serrano Fuentes</Apellidos>
+        <Nombres>Emilio</Nombres>
+        <Primer_parcial>7</Primer_parcial>
+        <Segundo_parcial>6</Segundo_parcial>
+        <Tercer_parcial>8</Tercer_parcial>
+        <Extraordinario>9</Extraordinario>
+    </alumno>
+    <alumno>
+        <ID>22</ID>
+        <Apellidos>Navarro Rojas</Apellidos>
+        <Nombres>Luciana</Nombres>
+        <Primer_parcial>9</Primer_parcial>
+        <Segundo_parcial>8</Segundo_parcial>
+        <Tercer_parcial>NP</Tercer_parcial>
+        <Extraordinario>7</Extraordinario>
+    </alumno>
+    <alumno>
+        <ID>23</ID>
+        <Apellidos>León Méndez</Apellidos>
+        <Nombres>Javier</Nombres>
+        <Primer_parcial>5</Primer_parcial>
+        <Segundo_parcial>6</Segundo_parcial>
+        <Tercer_parcial>4</Tercer_parcial>
+        <Extraordinario>8</Extraordinario>
+    </alumno>
+    <alumno>
+        <ID>24</ID>
+        <Apellidos>Silva Ocampo</Apellidos>
+        <Nombres>Regina</Nombres>
+        <Primer_parcial>10</Primer_parcial>
+        <Segundo_parcial>9</Segundo_parcial>
+        <Tercer_parcial>10</Tercer_parcial>
+        <Extraordinario>NP</Extraordinario>
+    </alumno>
+    <alumno>
+        <ID>25</ID>
+        <Apellidos>Campos Estrada</Apellidos>
+        <Nombres>Mateo</Nombres>
+        <Primer_parcial>8</Primer_parcial>
+        <Segundo_parcial>7</Segundo_parcial>
+        <Tercer_parcial>NP</Tercer_parcial>
+        <Extraordinario>6</Extraordinario>
+    </alumno>
+    <alumno>
+        <ID>26</ID>
+        <Apellidos>Reyes Bautista</Apellidos>
+        <Nombres>Paola</Nombres>
+        <Primer_parcial>6</Primer_parcial>
+        <Segundo_parcial>5</Segundo_parcial>
+        <Tercer_parcial>7</Tercer_parcial>
+        <Extraordinario>9</Extraordinario>
+    </alumno>
+    <alumno>
+        <ID>27</ID>
+        <Apellidos>Luna Galván</Apellidos>
+        <Nombres>Antonio</Nombres>
+        <Primer_parcial>NP</Primer_parcial>
+        <Segundo_parcial>8</Segundo_parcial>
+        <Tercer_parcial>9</Tercer_parcial>
+        <Extraordinario>10</Extraordinario>
+    </alumno>
+    <alumno>
+        <ID>28</ID>
+        <Apellidos>Molina Pineda</Apellidos>
+        <Nombres>Elisa</Nombres>
+        <Primer_parcial>7</Primer_parcial>
+        <Segundo_parcial>6</Segundo_parcial>
+        <Tercer_parcial>5</Tercer_parcial>
+        <Extraordinario>8</Extraordinario>
+    </alumno>
+    <alumno>
+        <ID>29</ID>
+        <Apellidos>Guzmán Vázquez</Apellidos>
+        <Nombres>Andrés</Nombres>
+        <Primer_parcial>9</Primer_parcial>
+        <Segundo_parcial>NP</Segundo_parcial>
+        <Tercer_parcial>8</Tercer_parcial>
+        <Extraordinario>10</Extraordinario>
+    </alumno>
+    <alumno>
+        <ID>30</ID>
+        <Apellidos>Carrillo Espinosa</Apellidos>
+        <Nombres>María José</Nombres>
+        <Primer_parcial>10</Primer_parcial>
+        <Segundo_parcial>10</Segundo_parcial>
+        <Tercer_parcial>10</Tercer_parcial>
+        <Extraordinario>NP</Extraordinario>
+    </alumno>
+</base>

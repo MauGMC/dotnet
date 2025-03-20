@@ -1,0 +1,225 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Primer parcial .NET";
+}
+
+<script src="~/jquery/jquery-3.7.1.min.js"></script>
+<link rel="stylesheet" href="~/css/datatables.min.css" />
+<script src="~/js/dataTables.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<h2>Lista de Alumnos</h2>
+@try
+{
+    <table id="Alumnos" class="display" border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Apellidos</th>
+                <th>Nombre(s)</th>
+                <th>Primer Parcial</th>
+                <th>Segundo Parcial</th>
+                <th>Tercer Parcial</th>
+                <th>Extraordinario</th>
+                <th>Promedio</th>  
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model.Alumnos.Rows.Count; i++)
+            {
+                <tr>
+                    @for (int j = 0; j < Model.Alumnos.Columns.Count; j++)
+                    {
+                        <td>@Model.Alumnos.Rows[i][j]</td>
+                    }
+
+                    @{
+                        var primerParcial = Model.Alumnos.Rows[i]["Primer_parcial"].ToString();
+                        var segundoParcial = Model.Alumnos.Rows[i]["Segundo_parcial"].ToString();
+                        var tercerParcial = Model.Alumnos.Rows[i]["Tercer_parcial"].ToString();
+                        var extraordinario = Model.Alumnos.Rows[i]["Extraordinario"].ToString();
+
+                        int Calificacion(string calificacion) => calificacion == "NP" ? -1 : Convert.ToInt32(calificacion);
+
+                        var primerParcialInt = Calificacion(primerParcial);
+                        var segundoParcialInt = Calificacion(segundoParcial);
+                        var tercerParcialInt = Calificacion(tercerParcial);
+                        var extraordinarioInt = Calificacion(extraordinario);
+
+                        var sumatoriaParciales = 0;
+
+                        if (primerParcialInt != -1) 
+                        { 
+                            sumatoriaParciales += primerParcialInt; 
+                        }
+                        if (segundoParcialInt != -1) 
+                        { 
+                            sumatoriaParciales += segundoParcialInt; 
+                        }
+                        if (tercerParcialInt != -1) 
+                        { 
+                            sumatoriaParciales += tercerParcialInt; 
+                        }
+
+                        double promedio = sumatoriaParciales / 3;
+
+                        if (extraordinarioInt != -1)
+                        {
+                            promedio = Math.Max(promedio, extraordinarioInt);
+                        }
+
+                        if (promedio >= 6)
+                        {
+                            promedio = Math.Round(promedio, 0, MidpointRounding.AwayFromZero);
+                        }
+                        else
+                        {
+                            promedio = Math.Floor(promedio);
+                        }
+                    }
+                    <td class="promedio">@promedio</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <!-- Contenedores para las gráficas -->
+    <h3>Promedios de los Alumnos</h3>
+    <canvas id="promediosChart"></canvas>
+
+    <h3>Top 5 Mejores Alumnos</h3>
+    <canvas id="top5MejoresChart"></canvas>
+
+    <h3>Top 5 Peores Alumnos</h3>
+    <canvas id="top5PeoresChart"></canvas>
+
+    <h3>Moda de los Promedios</h3>
+    <canvas id="modaChart"></canvas>
+
+    <h3>Índice de Aprobados vs Reprobados</h3>
+    <canvas id="aprobadosChart"></canvas>
+}
+catch(Exception e)
+{
+    <p>Error: @e</p>
+}
+
+<script>
+    new DataTable("#Alumnos", {
+        paging: false,  
+    searching: false, 
+    info: false, 
+    });
+
+    document.addEventListener("DOMContentLoaded", function () {
+        let nombres = [];
+        let promedios = [];
+
+        document.querySelectorAll("#Alumnos tbody tr").forEach(row => {
+            let nombre = row.cells[2].textContent.trim();
+            let promedio = parseFloat(row.cells[7].textContent.trim());
+            nombres.push(nombre);
+            promedios.push(promedio);
+        });
+
+        // Grafica promedios generales
+        const ctx1 = document.getElementById("promediosChart").getContext("2d");
+        new Chart(ctx1, {
+            type: "bar",
+            data: {
+                labels: nombres, 
+                datasets: [{
+                    label: "Promedio", 
+                    data: promedios,
+                    backgroundColor: "rgba(75, 192, 192, 0.5)", 
+                    borderColor: "rgba(75, 192, 192, 1)", 
+                    borderWidth: 1
+                }]
+            },
+            options: { 
+                scales: { y: { beginAtZero: true, max: 10 } } // Limita el eje Y a un máximo de 10 (como los promedios)
+            }
+        });
+
+        // Ordenar y crear las listas de los Top 5 Mejores y Peores Alumnos
+        let top5Mejores = [...promedios].map((p, i) => ({ nombre: nombres[i], promedio: p }))
+            .sort((a, b) => b.promedio - a.promedio).slice(0, 5); 
+        let top5Peores = [...promedios].map((p, i) => ({ nombre: nombres[i], promedio: p }))
+            .sort((a, b) => a.promedio - b.promedio).slice(0, 5); 
+
+        // Gráfica de los top 5 
+        function crearGrafico(id, titulo, datos, color) {
+            new Chart(document.getElementById(id).getContext("2d"), {
+                type: "bar",
+                data: {
+                    labels: datos.map(d => d.nombre), 
+                    datasets: [{
+                        label: titulo, 
+                        data: datos.map(d => d.promedio), 
+                        backgroundColor: color, 
+                        borderWidth: 1 
+                    }]
+                },
+                options: { scales: { y: { beginAtZero: true, max: 10 } } }
+            });
+        }
+
+        // Mostrar las gráficas para los mejores y peores alumnos
+        crearGrafico("top5MejoresChart", "Top 5 Mejores", top5Mejores, "rgba(0, 128, 0, 0.5)");
+        crearGrafico("top5PeoresChart", "Top 5 Peores", top5Peores, "rgba(255, 0, 0, 0.5)");
+
+        // Cálculo de la Moda de los promedios
+        let frecuencias = {};
+        promedios.forEach(p => {
+            let key = p.toFixed(1); 
+            frecuencias[key] = (frecuencias[key] || 0) + 1; 
+        });
+
+        // Etiquetas y valores de la moda 
+        let modaLabels = Object.keys(frecuencias);
+        let modaValues = Object.values(frecuencias);
+
+        // Crear gráfico de la frecuencia de promedios
+        new Chart(document.getElementById("modaChart").getContext("2d"), {
+            type: "bar",
+            data: {
+                labels: modaLabels, // Las etiquetas de los promedios (frecuencia)
+                datasets: [{
+                    label: "Frecuencia de Promedios", // Título del gráfico
+                    data: modaValues, // Las frecuencias de los promedios
+                    backgroundColor: "rgba(54, 162, 235, 0.5)", // Color de las barras
+                    borderColor: "rgba(54, 162, 235, 1)", // Color del borde de las barras
+                    borderWidth: 1 // Ancho del borde
+                }]
+            },
+            options: {
+                scales: { y: { beginAtZero: true } } // Asegura que el eje Y comience desde cero
+            }
+        });
+
+        // Cálculo del Índice de Aprobados/Reprobados
+        let aprobados = promedios.filter(p => p >= 6).length; // Contar los aprobados (promedio >= 6)
+        let reprobados = promedios.length - aprobados; // Contar los reprobados (el resto)
+
+        // Grafica de pastel para el índice de aprobados/reprobados
+        new Chart(document.getElementById("aprobadosChart").getContext("2d"), {
+            type: "pie", // Tipo de gráfico: pastel
+            data: {
+                labels: ["Aprobados", "Reprobados"], // Etiquetas del gráfico
+                datasets: [{
+                    data: [aprobados, reprobados], // Datos para los aprobados y reprobados
+                    backgroundColor: ["rgba(0, 128, 0, 0.7)", "rgba(255, 0, 0, 0.7)"] // Colores para los segmentos
+                }]
+            }
+        });
+    });
+</script>
+<style>
+    /* Centra las celdas de la tabla */
+    #Alumnos td, #Alumnos th {
+        text-align: center;
+    }
+</style>
+
+

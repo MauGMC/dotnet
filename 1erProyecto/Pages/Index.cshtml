@@ -156,7 +156,7 @@ catch(Exception e)
             }
         });
 
-        // Ordenar y crear las listas de los Top 5 Mejores y Peores Alumnos
+        // Listas de los Top 5 Mejores y Peores Alumnos
         let top5Mejores = [...promedios].map((p, i) => ({ nombre: nombres[i], promedio: p }))
             .sort((a, b) => b.promedio - a.promedio).slice(0, 5); 
         let top5Peores = [...promedios].map((p, i) => ({ nombre: nombres[i], promedio: p }))
@@ -179,51 +179,50 @@ catch(Exception e)
             });
         }
 
-        // Mostrar las gráficas para los mejores y peores alumnos
+        // Gráficas para los mejores y peores alumnos
         crearGrafico("top5MejoresChart", "Top 5 Mejores", top5Mejores, "rgba(0, 128, 0, 0.5)");
         crearGrafico("top5PeoresChart", "Top 5 Peores", top5Peores, "rgba(255, 0, 0, 0.5)");
 
-        // Cálculo de la Moda de los promedios
+        // Moda de los promedios
         let frecuencias = {};
         promedios.forEach(p => {
             let key = p.toFixed(1); 
             frecuencias[key] = (frecuencias[key] || 0) + 1; 
         });
 
-        // Etiquetas y valores de la moda 
         let modaLabels = Object.keys(frecuencias);
         let modaValues = Object.values(frecuencias);
 
-        // Crear gráfico de la frecuencia de promedios
+        // Gráfica de la moda
         new Chart(document.getElementById("modaChart").getContext("2d"), {
             type: "bar",
             data: {
                 labels: modaLabels, // Las etiquetas de los promedios (frecuencia)
                 datasets: [{
-                    label: "Frecuencia de Promedios", // Título del gráfico
-                    data: modaValues, // Las frecuencias de los promedios
-                    backgroundColor: "rgba(54, 162, 235, 0.5)", // Color de las barras
-                    borderColor: "rgba(54, 162, 235, 1)", // Color del borde de las barras
-                    borderWidth: 1 // Ancho del borde
+                    label: "Frecuencia de Promedios", 
+                    data: modaValues, 
+                    backgroundColor: "rgba(54, 162, 235, 0.5)", 
+                    borderColor: "rgba(54, 162, 235, 1)",
+                    borderWidth: 1 
                 }]
             },
             options: {
-                scales: { y: { beginAtZero: true } } // Asegura que el eje Y comience desde cero
+                scales: { y: { beginAtZero: true } }
             }
         });
 
-        // Cálculo del Índice de Aprobados/Reprobados
-        let aprobados = promedios.filter(p => p >= 6).length; // Contar los aprobados (promedio >= 6)
-        let reprobados = promedios.length - aprobados; // Contar los reprobados (el resto)
+        //Índice de Aprobados/Reprobados
+        let aprobados = promedios.filter(p => p >= 6).length;
+        let reprobados = promedios.length - aprobados; 
 
-        // Grafica de pastel para el índice de aprobados/reprobados
+        // Grafica del índice de aprobados/reprobados
         new Chart(document.getElementById("aprobadosChart").getContext("2d"), {
-            type: "pie", // Tipo de gráfico: pastel
+            type: "pie",
             data: {
-                labels: ["Aprobados", "Reprobados"], // Etiquetas del gráfico
+                labels: ["Aprobados", "Reprobados"], 
                 datasets: [{
-                    data: [aprobados, reprobados], // Datos para los aprobados y reprobados
-                    backgroundColor: ["rgba(0, 128, 0, 0.7)", "rgba(255, 0, 0, 0.7)"] // Colores para los segmentos
+                    data: [aprobados, reprobados], 
+                    backgroundColor: ["rgba(0, 128, 0, 0.7)", "rgba(255, 0, 0, 0.7)"] 
                 }]
             }
         });

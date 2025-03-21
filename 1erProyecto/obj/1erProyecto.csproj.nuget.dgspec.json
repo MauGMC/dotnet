@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Mmaur\\dotnet\\1erProyecto\\1erProyecto.csproj": {}
+    "C:\\Users\\Mmaur\\dotnet\\1erProyecto\\1erProyecto.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Mmaur\\dotnet\\1erProyecto\\1erProyecto.csproj": {
+    "C:\\Users\\Mmaur\\dotnet\\1erProyecto\\1erProyecto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Mmaur\\dotnet\\1erProyecto\\1erProyecto.csproj",
+        "projectUniqueName": "C:\\Users\\Mmaur\\dotnet\\1erProyecto\\1erProyecto.csproj",
         "projectName": "1erProyecto",
-        "projectPath": "c:\\Users\\Mmaur\\dotnet\\1erProyecto\\1erProyecto.csproj",
+        "projectPath": "C:\\Users\\Mmaur\\dotnet\\1erProyecto\\1erProyecto.csproj",
         "packagesPath": "C:\\Users\\Mmaur\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Mmaur\\dotnet\\1erProyecto\\obj\\",
+        "outputPath": "C:\\Users\\Mmaur\\dotnet\\1erProyecto\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mmaur\\AppData\\Roaming\\NuGet\\NuGet.Config",

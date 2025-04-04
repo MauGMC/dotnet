@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mmaur\\progra\\ejercicios_clase\\dotnet.csproj",
+      "projectUniqueName": "C:\\Users\\Mmaur\\dotnet\\ejercicios_clase\\dotnet.csproj",
       "projectName": "dotnet",
-      "projectPath": "C:\\Users\\Mmaur\\progra\\ejercicios_clase\\dotnet.csproj",
+      "projectPath": "C:\\Users\\Mmaur\\dotnet\\ejercicios_clase\\dotnet.csproj",
       "packagesPath": "C:\\Users\\Mmaur\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mmaur\\progra\\ejercicios_clase\\obj\\",
+      "outputPath": "C:\\Users\\Mmaur\\dotnet\\ejercicios_clase\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Mmaur\\AppData\\Roaming\\NuGet\\NuGet.Config",

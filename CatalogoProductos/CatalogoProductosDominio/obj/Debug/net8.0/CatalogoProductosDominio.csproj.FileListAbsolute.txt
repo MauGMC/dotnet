@@ -1,0 +1,12 @@
+C:\Users\Mmaur\dotnet\CatalogoProductos\CatalogoProductosDominio\bin\Debug\net8.0\CatalogoProductosDominio.deps.json
+C:\Users\Mmaur\dotnet\CatalogoProductos\CatalogoProductosDominio\bin\Debug\net8.0\CatalogoProductosDominio.dll
+C:\Users\Mmaur\dotnet\CatalogoProductos\CatalogoProductosDominio\bin\Debug\net8.0\CatalogoProductosDominio.pdb
+C:\Users\Mmaur\dotnet\CatalogoProductos\CatalogoProductosDominio\obj\Debug\net8.0\CatalogoProductosDominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mmaur\dotnet\CatalogoProductos\CatalogoProductosDominio\obj\Debug\net8.0\CatalogoProductosDominio.AssemblyInfoInputs.cache
+C:\Users\Mmaur\dotnet\CatalogoProductos\CatalogoProductosDominio\obj\Debug\net8.0\CatalogoProductosDominio.AssemblyInfo.cs
+C:\Users\Mmaur\dotnet\CatalogoProductos\CatalogoProductosDominio\obj\Debug\net8.0\CatalogoProductosDominio.csproj.CoreCompileInputs.cache
+C:\Users\Mmaur\dotnet\CatalogoProductos\CatalogoProductosDominio\obj\Debug\net8.0\CatalogoProductosDominio.sourcelink.json
+C:\Users\Mmaur\dotnet\CatalogoProductos\CatalogoProductosDominio\obj\Debug\net8.0\CatalogoProductosDominio.dll
+C:\Users\Mmaur\dotnet\CatalogoProductos\CatalogoProductosDominio\obj\Debug\net8.0\refint\CatalogoProductosDominio.dll
+C:\Users\Mmaur\dotnet\CatalogoProductos\CatalogoProductosDominio\obj\Debug\net8.0\CatalogoProductosDominio.pdb
+C:\Users\Mmaur\dotnet\CatalogoProductos\CatalogoProductosDominio\obj\Debug\net8.0\ref\CatalogoProductosDominio.dll

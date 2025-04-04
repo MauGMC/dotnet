@@ -1,0 +1,21 @@
+﻿<div class="producto-card">
+	<div class="producto-card-body">
+		<h5>@producto.Nombre</h5>
+		ID: @producto.ID_prod <br />
+		Cantidad: @producto.Cantidad <br />
+		Precio: @producto.Precio <br />
+		Categoria: @producto.Categorias <br />
+		Descripción: @producto.Descripcion
+	</div>
+	<div class="acciones">
+		<a href="@($"/edit/{producto.ID_prod}")" class="btn btn-warning shadow-none">
+			Editar
+		</a>
+	</div>
+</div>
+
+@code 
+{
+	[Parameter]
+	public required Productos producto{ get; set; }
+}

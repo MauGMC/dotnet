@@ -1,0 +1,45 @@
+﻿@page "/"
+@inject IProductosRepo Repository
+@attribute [StreamRendering]
+<h3>Listado</h3>
+<PageTitle>
+	Listado de productos
+</PageTitle>
+<div class="row justify-content-center">
+	<div class="col-6">
+		<a href="agregar" class="btn btn-primary shadow-none mb-3">
+			Agregar nuevo
+		</a>
+		@if(productos is null)
+		{
+			<div class="producto-item">
+				Cargando productos. Por favor, espere
+			</div>
+		}
+		else if(productos.Any())
+		{
+			@foreach(var producto in productos)
+			{
+				<div class="producto-item">
+					<ProductoCard Producto="producto"/>
+				</div>
+			}
+		}
+		else
+		{
+			<div class="producto-item">
+				No se encontraron productos
+			</div>
+		}
+	</div>
+</div>
+@code 
+{
+	private List<Productos>? productos;
+	protected override async Task OnInitializedAsync()
+	{
+		await Task.Delay(1000);// Para esperar para el refrescado
+		productos = await Repository.GetAllAsync();
+	}
+
+}

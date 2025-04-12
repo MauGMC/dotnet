@@ -3,18 +3,30 @@
 @{
     ViewData["Title"] = "Home page";
 }
-<script src="~/jquery/jquery-3.7.1.min.js"></script>
-<link rel="stylesheet" href="~/css/datatables.min.css" />
-<script src="~/js/dataTables.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<link rel="stylesheet" href="~/css/datatables.css" />
+<link rel="stylesheet" href="~/css/buttons.dataTables.css" />
+<link rel="stylesheet" href="~/css/select.dataTables.css" />
+<script src="~/js/dataTables.js"></script>
+<script src="~/js/buttons.dataTables.js"></script>
+<script src="~/js/select.dataTables.js"></script>
+
+
 <div class="text-center">
+    <div class="dt-buttons-custom mb-2">
+        <button id="btnAgregar" class="btn btn-primary btn-sm" enabled>Agregar</button>
+        <button id="btnEditar" class="btn btn-warning btn-sm me-2" disabled>Editar</button>
+        <button id="btnEliminar" class="btn btn-danger btn-sm" disabled>Eliminar</button>
+    </div>
     <table id="Productos" class="display" border="1">
         <thead>
             <tr>
                 <th>ID producto</th>
                 <th>Nombre</th>
-                <th>Cantidad</th>
+                <th>Descripcion</th>
                 <th>Precios</th>
+                <th>Cantidad</th>
+                <th>Categorias</th>
             </tr>
         </thead>
         <tbody>
@@ -30,6 +42,91 @@
         </tbody>
     </table>
 </div>
+<!--BUSCAR SWEETALERT Y JS PROMISES(AJAX) y ASP ACTIONS-->
+<!--
+<div id="modalAgregar" class="modal-custom d-flex" hidden>
+    <div class="modal-content-custom">
+        
+    </div>
+</div>
+<div id="modalEditar" class="modal-custom d-flex" hidden>
+    <div class="modal-content-custom">
+        <h5>Editar producto</h5>
+        <form id="formEditar">
+            <div class="mb-2">
+                <label>Nombre</label>
+                <input type="text" class="form-control" id="editNombre" />
+            </div>
+            <div class="mb-2">
+                <label>Descripción</label>
+                <input type="text" class="form-control" id="editDescripcion" />
+            </div>
+            <div class="mb-2">
+                <label>Precio</label>
+                <input type="number" step="0.01" class="form-control" id="editPrecio" />
+            </div>
+            <div class="mb-2">
+                <label>Cantidad</label>
+                <input type="number" class="form-control" id="editCantidad" />
+            </div>
+            <div class="mb-2">
+                <label>Categoría</label>
+                <input type="text" class="form-control" id="editCategoria" />
+            </div>
+            <div class="text-end">
+                <button type="button" class="btn btn-secondary btn-sm me-2" onclick="cerrarModalEditar()">Cancelar</button>
+                <button type="submit" class="btn btn-primary btn-sm">Guardar</button>
+            </div>
+        </form>
+    </div>
+</div>
+<div id="modalEliminar" class="modal-custom d-flex" hidden>
+    <div class="modal-content-custom text-center">
+        <h5>¿Seguro que deseas eliminar el item?</h5>
+        <div class="mt-3">
+            <button class="btn btn-secondary btn-sm me-2" onclick="cerrarModalEliminar()">Cancelar</button>
+            <button class="btn btn-danger btn-sm">Eliminar</button>
+        </div>
+    </div>
+</div>
+-->
 <script>
-    new DataTable("#Productos", {});
+    new DataTable("#Productos", {
+        layout: {
+            topStart: {
+                buttons: [
+                    {
+                        text: 'Agregar',
+                        action: function (e, dt, node, config) {
+                            // Aquí va tu lógica para abrir el modal de edición
+                        },
+                        className: 'btn btn-sm btn-primary',
+                        enabled: true // desactivado al inicio
+                    },
+
+                    {
+                        text: 'Editar',
+                        action: function (e, dt, node, config) {
+                            // Aquí va tu lógica para abrir el modal de edición
+                            alert("Botón Editar presionado");
+                        },
+                        className: 'btn btn-sm btn-primary',
+                        enabled: false // desactivado al inicio
+                    },
+                    {
+                        text: 'Eliminar',
+                        action: function (e, dt, node, config) {
+                            // Aquí va tu lógica para abrir el modal de confirmación
+                            alert("Botón Eliminar presionado");
+                        },
+                        className: 'btn btn-sm btn-danger',
+                        enabled: false // desactivado al inicio
+                    }
+                ]
+            }
+        },
+        select: true,
+        paging: false
+    });
 </script>
+

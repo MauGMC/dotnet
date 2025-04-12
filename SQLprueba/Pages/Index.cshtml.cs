@@ -2,8 +2,8 @@
 using System.Linq.Expressions;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.Data.SqlClient;
-
+using MySqlConnector;
+using WebMySqlDemo.Modelos;
 namespace SQLprueba.Pages;
 
 public class IndexModel : PageModel
@@ -20,9 +20,9 @@ public class IndexModel : PageModel
     {
         try
         {
-        DataSet dst=new DataSet();
-        conexionSQL aux=new conexionSQL("DESKTOP-N0549AQ","TEST","prueba","sa","SqL.258@","true");
-        dst=aux.cargaDatos("productos");
+        DataSet dst=new DataSet(); 
+        MySQLaux aux=new MySQLaux("localhost","3306","prueba","root","admin");
+        dst=aux.SeleccionTodo("productos");
         productos = dst.Tables[0];
         }
         catch(Exception e)
@@ -30,31 +30,4 @@ public class IndexModel : PageModel
             Console.WriteLine($"Error: {e}");
         }
     }
-}
-public class conexionSQL
-{
-    private string cnxstr;
-    public conexionSQL(string srvrName, string instanceName, string db, string usr, string pass,string certificado)
-    {
-        this.cnxstr = @$"Server={srvrName}\{instanceName};Database={db};User Id={usr};Password={pass};TrustServerCertificate={certificado}";
-    }
-    public DataSet cargaDatos(string tabla)
-    {   
-        DataSet dst=new DataSet();
-        try
-        {
-        SqlConnection cnx=new SqlConnection(this.cnxstr);
-        SqlDataAdapter adp=new SqlDataAdapter(string.Format($"select * from {tabla}"),cnx);
-        adp.Fill(dst);
-        cnx.Close();
-        return dst;
-        }
-        catch(Exception e)
-        {
-            Console.WriteLine("Error: "+e);
-        }
-        return dst;
-    }
-    
-
 }

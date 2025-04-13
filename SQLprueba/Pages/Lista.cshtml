@@ -1,26 +1,9 @@
 @page "/lista"
-@model EditarModel
+@model ListaModel
 @{
-    ViewData["Title"] = "Editar";
+    ViewData["Title"] = "Lista";
 }
-<h1>Lista de productos </h1>
-<form>
-    <label form="ID">ID:</label>
-    <input type="text" id="nombre" name="id" value="@Model.Producto.ID" readonly></input> </br>
-    <label form="Nombre">Nombre:</label>
-    <input type="text" id="nombre" name="id" value="@Model.Producto.Nombre"></input> </br>
-    <label form="ID">Descripcion:</label>
-    <input type="text" id="nombre" name="id" value="@Model.Producto.Descripcion"></input> </br>
-    <label form="ID">Precio:</label>
-    <input type="text" id="nombre" name="id" value="@Model.Producto.Precio"></input> </br>
-    <label form="ID">Cantidad:</label>
-    <input type="text" id="nombre" name="id" value="@Model.Producto.Cantidad"></input> </br>
-    <label form="ID">Categoria:</label>
-    <input type="text" id="nombre" name="id" value="@Model.Producto.Categoria"></input> </br>
-    <button asp-page="/">Cancelar</button>
-    <button>Guardar</button>
 
-</form>
 <!--
 foreach(var producto in Model.Producto)
 {

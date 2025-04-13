@@ -531,23 +531,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\52557\\.nuget\\packages\\": {},
+    "C:\\Users\\Mmaur\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\52557\\dotnet\\SQLprueba\\SQLprueba.csproj",
+      "projectUniqueName": "C:\\Users\\Mmaur\\dotnet\\SQLprueba\\SQLprueba.csproj",
       "projectName": "SQLprueba",
-      "projectPath": "C:\\Users\\52557\\dotnet\\SQLprueba\\SQLprueba.csproj",
-      "packagesPath": "C:\\Users\\52557\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\52557\\dotnet\\SQLprueba\\obj\\",
+      "projectPath": "C:\\Users\\Mmaur\\dotnet\\SQLprueba\\SQLprueba.csproj",
+      "packagesPath": "C:\\Users\\Mmaur\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Mmaur\\dotnet\\SQLprueba\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\52557\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Mmaur\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

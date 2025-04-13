@@ -1,0 +1,47 @@
+@model AgregarModal
+
+<form method="post" asp-page="/Agregar" asp-page-handler="AgregarProducto" autocomplete="off">
+    <div class="modal-header">
+        <h5 class="modal-title">Agregar un producto</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+    </div>
+
+    <div class="modal-body">
+        <div class="mb-3">
+            <label asp-for="Producto.Nombre" class="form-label"></label>
+            <input asp-for="Producto.Nombre" class="form-control" />
+            <span asp-validation-for="Producto.Nombre" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Producto.Descripcion" class="form-label"></label>
+            <input asp-for="Producto.Descripcion" class="form-control" />
+            <span asp-validation-for="Producto.Descripcion" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Producto.Precio" class="form-label"></label>
+            <input asp-for="Producto.Precio" class="form-control" />
+            <span asp-validation-for="Producto.Precio" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Producto.Cantidad" class="form-label"></label>
+            <input asp-for="Producto.Cantidad" class="form-control" />
+            <span asp-validation-for="Producto.Cantidad" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Producto.Categoria" class="form-label"></label>
+            <select asp-for="Producto.Categoria" asp-items="Model.CategoriasLista" class="form-control">
+                <option value="">Seleccionar categoría...</option>
+            </select>
+            <span asp-validation-for="Producto.Categoria" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="modal-footer">
+        <button type="submit" class="btn btn-primary">Guardar</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+    </div>
+</form>

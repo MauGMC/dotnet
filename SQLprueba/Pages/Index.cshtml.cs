@@ -13,16 +13,34 @@ public class IndexModel : PageModel
     public DataTable productos=new DataTable();
     public EditarModal editarModal { get; set; }
     public AgregarModal agregarModal { get; set; }
+    public EliminarModal eliminarModal { get; set; }
     private readonly MySQLaux aux = new MySQLaux("localhost", "3306", "prueba", "root", "admin");
     [BindProperty]
     public Producto Producto { get; set; }
-    public List<SelectListItem> CategoriasLista { get; set; }
-    
+    private List<SelectListItem> ObtenerCategorias()
+    {
+        return Enum.GetValues(typeof(Categorias))
+            .Cast<Categorias>()
+            .Select(c => new SelectListItem
+            {
+                Value = ((int)c).ToString(),
+                Text = c.ToString()
+            }).ToList();
+    }
+
+
     private readonly ILogger<IndexModel> _logger;
 
     public IndexModel(ILogger<IndexModel> logger)
     {
         _logger = logger;
+    }
+    private void CargarModales()
+    {
+        var categorias = ObtenerCategorias();
+        agregarModal = new AgregarModal { Producto = new Producto(), CategoriasLista = categorias };
+        editarModal = new EditarModal { Producto = new Producto(), CategoriasLista = categorias };
+        eliminarModal = new EliminarModal { Producto = new Producto(), CategoriasLista = categorias };
     }
 
     public void OnGet()
@@ -30,54 +48,33 @@ public class IndexModel : PageModel
         try
         {
             DataSet dst=new DataSet();
-            MySQLaux aux= new MySQLaux("localhost", "3306", "prueba", "root", "admin");
             dst= aux.SeleccionTodo("productos");
             productos=dst.Tables[0];
-
-            editarModal = new EditarModal
-            {
-                Producto = new Producto(),
-                CategoriasLista = Enum.GetValues(typeof(Categorias))
-                    .Cast<Categorias>()
-                    .Select(c => new SelectListItem
-                    {
-                        Value = ((int)c).ToString(),
-                        Text = c.ToString()
-                    }).ToList()
-            };
-            agregarModal = new AgregarModal
-            {
-                Producto = new Producto(),
-                CategoriasLista = Enum.GetValues(typeof(Categorias))
-                    .Cast<Categorias>()
-                    .Select(c => new SelectListItem
-                    {
-                        Value = ((int)c).ToString(),
-                        Text = c.ToString()
-                    }).ToList()
-            };
+            CargarModales();
         }
         catch (Exception e)
         {
-            Console.WriteLine("Error: " + e.Message);
+            _logger.LogError(e, "Error al mostrar producto.");
         }
     }
 
 
-    public void OnPostAgregar()
+    public IActionResult OnPostAgregarProducto()
     {
         agregarModal = new AgregarModal
         {
             Producto = new Producto(),
-            CategoriasLista = Enum.GetValues(typeof(Categorias))
-            .Cast<Categorias>()
-            .Select(c => new SelectListItem
-            {
-                Value = ((int)c).ToString(),
-                Text = c.ToString()
-            }).ToList()
+            CategoriasLista = ObtenerCategorias()
         };
+
+        if (!ModelState.IsValid)
+        {
+            return Page();
+        }
+        aux.AgregarNuevo("productos", Producto.Nombre, Producto.Descripcion, Producto.Precio, Producto.Cantidad, Producto.Categoria);
+        return RedirectToPage("/Index");
     }
+    /*
     public IActionResult OnPost()
     {
         CargarCategorias();
@@ -88,18 +85,8 @@ public class IndexModel : PageModel
         }
         aux.AgregarNuevo("productos", Producto.Nombre, Producto.Descripcion, Producto.Precio, Producto.Cantidad, Producto.Categoria);
         return RedirectToPage("/Index");
-    }
-    private void CargarCategorias()
-    {
-        CategoriasLista = Enum.GetValues(typeof(Categorias))
-            .Cast<Categorias>()
-            .Select(c => new SelectListItem
-            {
-                Value = ((int)c).ToString(),
-                Text = c.ToString()
-            })
-            .ToList();
-    }
+    }*/
+    
     /*
     public IActionResult OnGetEditarProducto(int id)
     {
@@ -140,21 +127,13 @@ public class IndexModel : PageModel
     }*/
 
 
-    public IActionResult OnPostEditarProducto(int id, Producto producto)
+    public IActionResult OnPostEditarProducto()
     {
         editarModal = new EditarModal
         {
             Producto = new Producto(),
-            CategoriasLista = Enum.GetValues(typeof(Categorias))
-                    .Cast<Categorias>()
-                    .Select(c => new SelectListItem
-                    {
-                        Value = ((int)c).ToString(),
-                        Text = c.ToString()
-                    }).ToList()
+            CategoriasLista = ObtenerCategorias()
         };
-        Console.WriteLine("ID recibido: " + id);
-        Console.WriteLine("Producto recibido: " + producto.Nombre);
         var productoEditar = aux.SeleccionPorID(Producto.ID);
         if (productoEditar == null)
         {
@@ -176,11 +155,33 @@ public class IndexModel : PageModel
         }
         catch (Exception e)
         {
-            Console.WriteLine("Error al editar: " + e.Message);
+            _logger.LogError(e, "Error al editar producto.");
             return Page();  // Si ocurre un error, vuelve a cargar la página
         }
 
         return RedirectToPage("/Index");  // Redirige a la página de índice después de editar
+    }
+    public IActionResult OnPostEliminarProducto(int id)
+    {
+        if (id <= 0)
+            return BadRequest("ID inválido");
+
+        var producto = aux.SeleccionPorID(id);
+        if (producto == null)
+            return NotFound("No existe el producto");
+
+        aux.EliminarProducto("productos", id);
+        return new JsonResult(new { mensaje = "Eliminado correctamente." });
+    }
+
+
+
+
+
+
+    public class EliminarRequest
+    {
+        public int Id { get; set; }
     }
 
 

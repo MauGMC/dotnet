@@ -85,12 +85,10 @@ namespace WebMySqlDemo.Modelos
             using var cnx = new MySqlConnection(this.cnxstr);
             cnx.Open();
 
-            // Usamos parámetros para evitar inyección SQL
             var query = $"UPDATE {tabla} SET Nombre = @nombre, Descripcion = @descripcion, Precio = @precio, Cantidad = @cantidad, Categorias = @categoria WHERE ID_prod = @id";
 
             using var cmd = new MySqlCommand(query, cnx);
 
-            // Añadir parámetros de forma segura
             cmd.Parameters.AddWithValue("@nombre", nombre);
             cmd.Parameters.AddWithValue("@descripcion", descripcion);
             cmd.Parameters.AddWithValue("@precio", precio);
@@ -98,10 +96,17 @@ namespace WebMySqlDemo.Modelos
             cmd.Parameters.AddWithValue("@categoria", categoria);
             cmd.Parameters.AddWithValue("@id", id);
 
-            // Ejecutar la consulta
             cmd.ExecuteNonQuery();
         }
-
+        public void EliminarProducto(string tabla, int id)
+        {
+            using var cnx = new MySqlConnection(this.cnxstr);
+            cnx.Open();
+            var query = $"DELETE FROM {tabla} WHERE ID_prod = @id";
+            using var cmd = new MySqlCommand(query, cnx);
+            cmd.Parameters.AddWithValue("@id", id);
+            cmd.ExecuteNonQuery();
+        }
 
     }
 

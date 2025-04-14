@@ -19,7 +19,7 @@
     <table id="Productos" class="display" border="1">
         <thead>
             <tr>
-                <th>ID producto</th>
+                <th>ID</th>
                 <th>Nombre</th>
                 <th>Descripcion</th>
                 <th>Precios</th>
@@ -66,13 +66,21 @@
     </div>
 </div>
 
+<div class="modal fade" id="EliminarModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            @await Html.PartialAsync("EliminarModal", Model.eliminarModal)
+        </div>
+    </div>
+</div>
+
 <script>
-    
-    var tabla = new DataTable("#Productos", {
+        
+            var tabla = new DataTable("#Productos", {
         layout: {
             topStart: {
                 buttons: [
-                    {   
+                    {
                         text: 'Agregar',
                         action: function () {
                             const modal = new bootstrap.Modal(document.getElementById('AgregarModal'));
@@ -93,25 +101,54 @@
                     {
                         text: 'Eliminar',
                         action: function (e, dt, node, config) {
-                            Swal.fire({
-                                title: '¿Seguro que deseas eliminar el item?',
-                                icon: 'warning',
-                                showCancelButton: true,
-                                confirmButtonText: 'Sí, eliminar',
-                                cancelButtonText: 'Cancelar'
-                            });
+                            const selectedData = tabla.rows({ selected: true }).data()[0]; // Obtener los datos de la fila seleccionada
+
+                            // Verificar qué datos hay en selectedData
+                            console.log(selectedData);  // Esto debería mostrar el objeto con el ID
+
+                            if (selectedData) {
+                                const idProducto = selectedData["ID producto"] || selectedData[0];  // Acceder a la propiedad "ID producto" correctamente
+
+                                Swal.fire({
+                                    title: `¿Seguro que deseas eliminar el item con ID ${idProducto}?`,
+                                    icon: 'warning',
+                                    showCancelButton: true,
+                                    confirmButtonText: 'Sí, eliminar',
+                                    cancelButtonText: 'Cancelar'
+                                }).then((result) => {
+                                    if (result.isConfirmed) {
+                                        // Realizamos la llamada AJAX para eliminar el producto
+                                                   $.ajax({
+                                                    url: '/Index?handler=EliminarProducto',
+                                                    method: 'POST',
+                                                    data: { id: idProducto },  // <- Aquí simplemente mandas { id: 5 }
+                                                    success: function (respuesta) {
+                                                        Swal.fire('¡Eliminado!', respuesta.mensaje, 'success');
+                                                        location.reload();
+                                                    },
+                                                    error: function (xhr) {
+                                                        Swal.fire('Error', xhr.responseText || 'No se pudo eliminar el producto.', 'error');
+                                                    }
+                                                });
+
+                                    }
+                                });
+                            } else {
+                                Swal.fire('Error', 'No se pudo obtener los datos del producto.', 'error');
+                            }
                         },
                         className: 'btn btn-sm btn-danger',
-                        enabled: false
+                        enabled: false // Deshabilitado al principio
                     }
                 ]
             }
         },
         select: {
-            style:'single'
+            style: 'single'
         },
-        paging: false
+        paging: true
     });
+
     $('#Productos tbody').on('click', 'tr', function () {
             var data = tabla.row(this).data(); // Obtiene los datos de la fila seleccionada
             if (data) {
@@ -130,7 +167,9 @@
         tabla.button(1).enable(selected); // Editar
         tabla.button(2).enable(selected); // Eliminar
     });
-    document.getElementById("editar-titulo").textContent = `Editar el producto con ID #${rowData[0]}`;
+    if (data) {
+        document.getElementById("editar-titulo").textContent = `Editar el producto con ID #${data[0]}`;
+    }
 </script>
 
 

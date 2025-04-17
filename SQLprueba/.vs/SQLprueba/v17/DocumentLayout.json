@@ -3,48 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Mmaur\\dotnet\\SQLprueba\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|c:\\users\\mmaur\\dotnet\\sqlprueba\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|solutionrelative:pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|c:\\users\\mmaur\\dotnet\\sqlprueba\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|c:\\users\\mmaur\\dotnet\\sqlprueba\\pages\\eliminarmodal.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|solutionrelative:pages\\eliminarmodal.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|c:\\users\\mmaur\\dotnet\\sqlprueba\\pages\\modelos\\mysqlaux.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|solutionrelative:pages\\modelos\\mysqlaux.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|c:\\users\\mmaur\\dotnet\\sqlprueba\\pages\\eliminarmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|solutionrelative:pages\\eliminarmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|c:\\users\\mmaur\\dotnet\\sqlprueba\\pages\\editarmodal.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|solutionrelative:pages\\editarmodal.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|c:\\users\\mmaur\\dotnet\\sqlprueba\\pages\\editarmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|solutionrelative:pages\\editarmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|c:\\users\\mmaur\\dotnet\\sqlprueba\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|solutionrelative:pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|c:\\users\\mmaur\\dotnet\\sqlprueba\\pages\\agregarmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|solutionrelative:pages\\agregarmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|c:\\users\\mmaur\\dotnet\\sqlprueba\\pages\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|solutionrelative:pages\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|c:\\users\\mmaur\\dotnet\\sqlprueba\\pages\\lista.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|solutionrelative:pages\\lista.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|c:\\users\\mmaur\\dotnet\\sqlprueba\\pages\\lista.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|solutionrelative:pages\\lista.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|c:\\users\\mmaur\\dotnet\\sqlprueba\\pages\\agregar.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -53,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|c:\\users\\mmaur\\dotnet\\sqlprueba\\pages\\agregar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|solutionrelative:pages\\agregar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|c:\\users\\mmaur\\dotnet\\sqlprueba\\pages\\colecciones\\productolista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|solutionrelative:pages\\colecciones\\productolista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,8 +26,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Lista.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\SQLprueba\\Pages\\Lista.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Lista.cshtml.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\SQLprueba\\Pages\\Lista.cshtml.cs",
+              "RelativeToolTip": "Pages\\Lista.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T15:14:44.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Lista.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\SQLprueba\\Pages\\Lista.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Lista.cshtml",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\SQLprueba\\Pages\\Lista.cshtml",
+              "RelativeToolTip": "Pages\\Lista.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T15:14:41.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Agregar.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\SQLprueba\\Pages\\Agregar.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Agregar.cshtml.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\SQLprueba\\Pages\\Agregar.cshtml.cs",
+              "RelativeToolTip": "Pages\\Agregar.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T15:14:34.887Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -82,161 +81,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EliminarModal.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\SQLprueba\\Pages\\EliminarModal.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\EliminarModal.cshtml.cs",
-              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\SQLprueba\\Pages\\EliminarModal.cshtml.cs",
-              "RelativeToolTip": "Pages\\EliminarModal.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T18:32:08.595Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\SQLprueba\\Pages\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Index.cshtml.cs",
-              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\SQLprueba\\Pages\\Index.cshtml.cs",
-              "RelativeToolTip": "Pages\\Index.cshtml.cs",
-              "ViewState": "AgIAAJQAAAAAAAAAAAAgwKwAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T03:21:17.448Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\SQLprueba\\Pages\\Index.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\SQLprueba\\Pages\\Index.cshtml",
-              "RelativeToolTip": "Pages\\Index.cshtml",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAAAHkAAABZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-13T02:58:39.984Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EditarModal.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\SQLprueba\\Pages\\EditarModal.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\EditarModal.cshtml.cs",
-              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\SQLprueba\\Pages\\EditarModal.cshtml.cs",
-              "RelativeToolTip": "Pages\\EditarModal.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T03:10:04.921Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "MySQLaux.cs",
-              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\SQLprueba\\Pages\\Modelos\\MySQLaux.cs",
-              "RelativeDocumentMoniker": "Pages\\Modelos\\MySQLaux.cs",
-              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\SQLprueba\\Pages\\Modelos\\MySQLaux.cs",
-              "RelativeToolTip": "Pages\\Modelos\\MySQLaux.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAQwGwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T03:25:46.198Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EliminarModal.cshtml",
-              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\SQLprueba\\Pages\\EliminarModal.cshtml",
-              "RelativeDocumentMoniker": "Pages\\EliminarModal.cshtml",
-              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\SQLprueba\\Pages\\EliminarModal.cshtml",
-              "RelativeToolTip": "Pages\\EliminarModal.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-13T18:30:57.28Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EditarModal.cshtml",
-              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\SQLprueba\\Pages\\EditarModal.cshtml",
-              "RelativeDocumentMoniker": "Pages\\EditarModal.cshtml",
-              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\SQLprueba\\Pages\\EditarModal.cshtml",
-              "RelativeToolTip": "Pages\\EditarModal.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-13T03:08:11.091Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\SQLprueba\\Pages\\Error.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Error.cshtml",
-              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\SQLprueba\\Pages\\Error.cshtml",
-              "RelativeToolTip": "Pages\\Error.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-13T04:08:42.485Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AgregarModal.cshtml",
-              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\SQLprueba\\Pages\\AgregarModal.cshtml",
-              "RelativeDocumentMoniker": "Pages\\AgregarModal.cshtml",
-              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\SQLprueba\\Pages\\AgregarModal.cshtml",
-              "RelativeToolTip": "Pages\\AgregarModal.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-13T03:11:05.905Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Editar.cshtml",
-              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\SQLprueba\\Pages\\Editar.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Editar.cshtml",
-              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\SQLprueba\\Pages\\Editar.cshtml",
-              "RelativeToolTip": "Pages\\Editar.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-13T03:08:40.415Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Lista.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\SQLprueba\\Pages\\Lista.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Lista.cshtml.cs",
-              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\SQLprueba\\Pages\\Lista.cshtml.cs",
-              "RelativeToolTip": "Pages\\Lista.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T05:07:11.887Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Agregar.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\SQLprueba\\Pages\\Agregar.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Agregar.cshtml.cs",
-              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\SQLprueba\\Pages\\Agregar.cshtml.cs",
-              "RelativeToolTip": "Pages\\Agregar.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T03:35:56.147Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "Agregar.cshtml",
               "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\SQLprueba\\Pages\\Agregar.cshtml",
               "RelativeDocumentMoniker": "Pages\\Agregar.cshtml",
@@ -244,19 +89,8 @@
               "RelativeToolTip": "Pages\\Agregar.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-13T03:35:48.866Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ProductoLista.cs",
-              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\SQLprueba\\Pages\\Colecciones\\ProductoLista.cs",
-              "RelativeDocumentMoniker": "Pages\\Colecciones\\ProductoLista.cs",
-              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\SQLprueba\\Pages\\Colecciones\\ProductoLista.cs",
-              "RelativeToolTip": "Pages\\Colecciones\\ProductoLista.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T03:09:37.777Z"
+              "WhenOpened": "2025-04-17T15:14:35.734Z",
+              "EditorCaption": ""
             }
           ]
         }

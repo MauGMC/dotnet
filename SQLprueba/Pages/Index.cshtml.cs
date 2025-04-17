@@ -13,7 +13,6 @@ public class IndexModel : PageModel
     public DataTable productos=new DataTable();
     public EditarModal editarModal { get; set; }
     public AgregarModal agregarModal { get; set; }
-    public EliminarModal eliminarModal { get; set; }
     private readonly MySQLaux aux = new MySQLaux("localhost", "3306", "prueba", "root", "admin");
     [BindProperty]
     public Producto Producto { get; set; }
@@ -40,7 +39,6 @@ public class IndexModel : PageModel
         var categorias = ObtenerCategorias();
         agregarModal = new AgregarModal { Producto = new Producto(), CategoriasLista = categorias };
         editarModal = new EditarModal { Producto = new Producto(), CategoriasLista = categorias };
-        eliminarModal = new EliminarModal { Producto = new Producto(), CategoriasLista = categorias };
     }
 
     public void OnGet()
@@ -137,12 +135,11 @@ public class IndexModel : PageModel
         var productoEditar = aux.SeleccionPorID(Producto.ID);
         if (productoEditar == null)
         {
-            return NotFound();  // Retorna una página de error si el producto no existe
+            return NotFound();
         }
 
         try
         {
-            // Actualiza el producto con los valores enviados en el formulario
             aux.EditarProducto(
                 "productos",
                 Producto.ID,
@@ -156,13 +153,15 @@ public class IndexModel : PageModel
         catch (Exception e)
         {
             _logger.LogError(e, "Error al editar producto.");
-            return Page();  // Si ocurre un error, vuelve a cargar la página
+            return Page(); 
         }
 
-        return RedirectToPage("/Index");  // Redirige a la página de índice después de editar
+        return RedirectToPage("/Index"); 
     }
+    [ValidateAntiForgeryToken]
     public IActionResult OnPostEliminarProducto(int id)
     {
+        CargarModales();
         if (id <= 0)
             return BadRequest("ID inválido");
 
@@ -173,22 +172,4 @@ public class IndexModel : PageModel
         aux.EliminarProducto("productos", id);
         return new JsonResult(new { mensaje = "Eliminado correctamente." });
     }
-
-
-
-
-
-
-    public class EliminarRequest
-    {
-        public int Id { get; set; }
-    }
-
-
-
-
-
-
-
-
 }

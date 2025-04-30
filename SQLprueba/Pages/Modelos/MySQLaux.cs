@@ -12,19 +12,19 @@ namespace WebMySqlDemo.Modelos
             this.cnxstr = @$"Server={srvrName};Port={puerto};Database={db};Uid={usr};Pwd={pass}";
         }
         public DataSet SeleccionTodo(string tabla)
-        {   
-            DataSet dst=new DataSet();
+        {
+            DataSet dst = new DataSet();
             try
             {
-                MySqlConnection cnx=new MySqlConnection(this.cnxstr);
-                MySqlDataAdapter adp=new MySqlDataAdapter(string.Format($"select * from {tabla}"),cnx);
+                MySqlConnection cnx = new MySqlConnection(this.cnxstr);
+                MySqlDataAdapter adp = new MySqlDataAdapter(string.Format($"select * from {tabla}"), cnx);
                 adp.Fill(dst);
                 cnx.Close();
                 return dst;
             }
-            catch(Exception e)
+            catch (Exception e)
             {
-                    Console.WriteLine("Error: "+e);
+                Console.WriteLine("Error: " + e);
             }
             return dst;
         }
@@ -46,7 +46,7 @@ namespace WebMySqlDemo.Modelos
 
                     cmd.ExecuteNonQuery();
                 }
-             }
+            }
         }
         public Producto SeleccionPorID(int id)
         {
@@ -107,8 +107,34 @@ namespace WebMySqlDemo.Modelos
             cmd.Parameters.AddWithValue("@id", id);
             cmd.ExecuteNonQuery();
         }
+        public List<Producto> ObtenerProductos()
+        {
+            var productos = new List<Producto>();
+
+            using (var conn = new MySqlConnection(this.cnxstr))
+            {
+                conn.Open();
+                var cmd = new MySqlCommand("SELECT * FROM Productos", conn);
+                using (var reader = cmd.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        productos.Add(new Producto
+                        {
+                            ID = reader.GetInt32("ID_prod"),
+                            Nombre = reader.GetString("Nombre"),
+                            Descripcion = reader.GetString("Descripcion"),
+                            Precio = reader.GetDecimal("Precio"),
+                            Cantidad = reader.GetInt32("Cantidad"),
+                            Categoria = reader.GetInt32("Categorias")
+                        });
+                    }
+                }
+            }
+
+            return productos;
+        }
 
     }
-
 }
 

@@ -96,4 +96,3 @@ c:\Users\Mmaur\dotnet\SQLprueba\obj\Debug\net8.0\refint\SQLprueba.dll
 c:\Users\Mmaur\dotnet\SQLprueba\obj\Debug\net8.0\SQLprueba.pdb
 C:\Users\Mmaur\dotnet\SQLprueba\obj\Debug\net8.0\SQLprueba.genruntimeconfig.cache
 C:\Users\Mmaur\dotnet\SQLprueba\obj\Debug\net8.0\ref\SQLprueba.dll
-C:\Users\Mmaur\dotnet\SQLprueba\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

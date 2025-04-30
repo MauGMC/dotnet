@@ -13,6 +13,7 @@ public class IndexModel : PageModel
     public DataTable productos=new DataTable();
     public EditarModal editarModal { get; set; }
     public AgregarModal agregarModal { get; set; }
+    public List<Producto> Productos { get; set; }
     private readonly MySQLaux aux = new MySQLaux("localhost", "3306", "prueba", "root", "admin");
     [BindProperty]
     public Producto Producto { get; set; }
@@ -45,9 +46,7 @@ public class IndexModel : PageModel
     {
         try
         {
-            DataSet dst=new DataSet();
-            dst= aux.SeleccionTodo("productos");
-            productos=dst.Tables[0];
+            Productos = aux.ObtenerProductos();
             CargarModales();
         }
         catch (Exception e)
@@ -72,59 +71,6 @@ public class IndexModel : PageModel
         aux.AgregarNuevo("productos", Producto.Nombre, Producto.Descripcion, Producto.Precio, Producto.Cantidad, Producto.Categoria);
         return RedirectToPage("/Index");
     }
-    /*
-    public IActionResult OnPost()
-    {
-        CargarCategorias();
-
-        if (!ModelState.IsValid)
-        {
-            return Page();
-        }
-        aux.AgregarNuevo("productos", Producto.Nombre, Producto.Descripcion, Producto.Precio, Producto.Cantidad, Producto.Categoria);
-        return RedirectToPage("/Index");
-    }*/
-    
-    /*
-    public IActionResult OnGetEditarProducto(int id)
-    {
-        var productoEditar = aux.SeleccionPorID(id);
-
-        if (productoEditar == null)
-        {
-            // Manejo del error si no existe el producto
-            Console.WriteLine("Producto no encontrado.");
-            return NotFound(); // Redirige a una página de error o muestra un mensaje apropiado
-        }
-
-        Producto = productoEditar;
-
-        // Asegúrate de que la lista de categorías esté siendo asignada correctamente
-        CategoriasLista = Enum.GetValues(typeof(Categorias))
-            .Cast<Categorias>()
-            .Select(c => new SelectListItem
-            {
-                Value = ((int)c).ToString(),
-                Text = c.ToString()
-            }).ToList();
-
-        // Verifica que las categorías estén correctas
-        if (CategoriasLista == null || !CategoriasLista.Any())
-        {
-            Console.WriteLine("Categorías no encontradas.");
-            return BadRequest("No se encontraron categorías.");
-        }
-
-        editarModal = new EditarModal
-        {
-            Producto = Producto,
-            CategoriasLista = CategoriasLista
-        };
-
-        return Page(); // Asegúrate de que la vista se cargue correctamente
-    }*/
-
-
     public IActionResult OnPostEditarProducto()
     {
         editarModal = new EditarModal

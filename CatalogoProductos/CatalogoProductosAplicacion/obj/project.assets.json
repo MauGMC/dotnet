@@ -27,23 +27,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\52557\\.nuget\\packages\\": {},
+    "C:\\Users\\Mmaur\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\52557\\dotnet\\CatalogoProductos\\CatalogoProductosAplicacion\\CatalogoProductosAplicacion.csproj",
+      "projectUniqueName": "C:\\Users\\Mmaur\\dotnet\\CatalogoProductos\\CatalogoProductosAplicacion\\CatalogoProductosAplicacion.csproj",
       "projectName": "CatalogoProductosAplicacion",
-      "projectPath": "C:\\Users\\52557\\dotnet\\CatalogoProductos\\CatalogoProductosAplicacion\\CatalogoProductosAplicacion.csproj",
-      "packagesPath": "C:\\Users\\52557\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\52557\\dotnet\\CatalogoProductos\\CatalogoProductosAplicacion\\obj\\",
+      "projectPath": "C:\\Users\\Mmaur\\dotnet\\CatalogoProductos\\CatalogoProductosAplicacion\\CatalogoProductosAplicacion.csproj",
+      "packagesPath": "C:\\Users\\Mmaur\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Mmaur\\dotnet\\CatalogoProductos\\CatalogoProductosAplicacion\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\52557\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Mmaur\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -58,8 +58,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\52557\\dotnet\\CatalogoProductos\\CatalogoProductosDominio\\CatalogoProductosDominio.csproj": {
-              "projectPath": "C:\\Users\\52557\\dotnet\\CatalogoProductos\\CatalogoProductosDominio\\CatalogoProductosDominio.csproj"
+            "C:\\Users\\Mmaur\\dotnet\\CatalogoProductos\\CatalogoProductosDominio\\CatalogoProductosDominio.csproj": {
+              "projectPath": "C:\\Users\\Mmaur\\dotnet\\CatalogoProductos\\CatalogoProductosDominio\\CatalogoProductosDominio.csproj"
             }
           }
         }

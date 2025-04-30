@@ -3,36 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\Mmaur\\dotnet\\CatalogoProductos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1EAD0BC8-A117-4F1E-8C62-A8C81685E68C}|CatalogoProductos\\CatalogoProductos.csproj|c:\\users\\mmaur\\dotnet\\catalogoproductos\\catalogoproductos\\components\\pages\\editar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1EAD0BC8-A117-4F1E-8C62-A8C81685E68C}|CatalogoProductos\\CatalogoProductos.csproj|solutionrelative:catalogoproductos\\components\\pages\\editar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EAD0BC8-A117-4F1E-8C62-A8C81685E68C}|CatalogoProductos\\CatalogoProductos.csproj|c:\\users\\mmaur\\dotnet\\catalogoproductos\\catalogoproductos\\components\\pages\\agregarnuevo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1EAD0BC8-A117-4F1E-8C62-A8C81685E68C}|CatalogoProductos\\CatalogoProductos.csproj|solutionrelative:catalogoproductos\\components\\pages\\agregarnuevo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1EAD0BC8-A117-4F1E-8C62-A8C81685E68C}|CatalogoProductos\\CatalogoProductos.csproj|c:\\users\\mmaur\\dotnet\\catalogoproductos\\catalogoproductos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1EAD0BC8-A117-4F1E-8C62-A8C81685E68C}|CatalogoProductos\\CatalogoProductos.csproj|solutionrelative:catalogoproductos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1EAD0BC8-A117-4F1E-8C62-A8C81685E68C}|CatalogoProductos\\CatalogoProductos.csproj|c:\\users\\mmaur\\dotnet\\catalogoproductos\\catalogoproductos\\components\\pages\\listado.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1EAD0BC8-A117-4F1E-8C62-A8C81685E68C}|CatalogoProductos\\CatalogoProductos.csproj|solutionrelative:catalogoproductos\\components\\pages\\listado.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EAD0BC8-A117-4F1E-8C62-A8C81685E68C}|CatalogoProductos\\CatalogoProductos.csproj|c:\\users\\mmaur\\dotnet\\catalogoproductos\\catalogoproductos\\components\\productocard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1EAD0BC8-A117-4F1E-8C62-A8C81685E68C}|CatalogoProductos\\CatalogoProductos.csproj|solutionrelative:catalogoproductos\\components\\productocard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1EAD0BC8-A117-4F1E-8C62-A8C81685E68C}|CatalogoProductos\\CatalogoProductos.csproj|c:\\users\\mmaur\\dotnet\\catalogoproductos\\catalogoproductos\\components\\pages\\listado.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1EAD0BC8-A117-4F1E-8C62-A8C81685E68C}|CatalogoProductos\\CatalogoProductos.csproj|solutionrelative:catalogoproductos\\components\\pages\\listado.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EAD0BC8-A117-4F1E-8C62-A8C81685E68C}|CatalogoProductos\\CatalogoProductos.csproj|c:\\users\\mmaur\\dotnet\\catalogoproductos\\catalogoproductos\\components\\productocard.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{1EAD0BC8-A117-4F1E-8C62-A8C81685E68C}|CatalogoProductos\\CatalogoProductos.csproj|solutionrelative:catalogoproductos\\components\\productocard.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{787A7489-A516-49DA-A5BC-378403073CFC}|CatalogoProductosDominio\\CatalogoProductosDominio.csproj|c:\\users\\mmaur\\dotnet\\catalogoproductos\\catalogoproductosdominio\\entidades\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{787A7489-A516-49DA-A5BC-378403073CFC}|CatalogoProductosDominio\\CatalogoProductosDominio.csproj|solutionrelative:catalogoproductosdominio\\entidades\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5C89C7E7-DB13-4812-B287-74636DF2FC7D}|CatalogoProductosInfraestructura\\CatalogoProductosInfraestructura.csproj|c:\\users\\mmaur\\dotnet\\catalogoproductos\\catalogoproductosinfraestructura\\repositorios\\productosrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C89C7E7-DB13-4812-B287-74636DF2FC7D}|CatalogoProductosInfraestructura\\CatalogoProductosInfraestructura.csproj|solutionrelative:catalogoproductosinfraestructura\\repositorios\\productosrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5C89C7E7-DB13-4812-B287-74636DF2FC7D}|CatalogoProductosInfraestructura\\CatalogoProductosInfraestructura.csproj|c:\\users\\mmaur\\dotnet\\catalogoproductos\\catalogoproductosinfraestructura\\contexto\\catalogoproductosdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C89C7E7-DB13-4812-B287-74636DF2FC7D}|CatalogoProductosInfraestructura\\CatalogoProductosInfraestructura.csproj|solutionrelative:catalogoproductosinfraestructura\\contexto\\catalogoproductosdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C16BE9FC-69A6-461C-9F2D-03F560E11D4B}|CatalogoProductosAplicacion\\CatalogoProductosAplicacion.csproj|c:\\users\\mmaur\\dotnet\\catalogoproductos\\catalogoproductosaplicacion\\interfaces\\iproductosrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C16BE9FC-69A6-461C-9F2D-03F560E11D4B}|CatalogoProductosAplicacion\\CatalogoProductosAplicacion.csproj|solutionrelative:catalogoproductosaplicacion\\interfaces\\iproductosrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EAD0BC8-A117-4F1E-8C62-A8C81685E68C}|CatalogoProductos\\CatalogoProductos.csproj|c:\\users\\mmaur\\dotnet\\catalogoproductos\\catalogoproductos\\components\\pages\\listado.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{1EAD0BC8-A117-4F1E-8C62-A8C81685E68C}|CatalogoProductos\\CatalogoProductos.csproj|solutionrelative:catalogoproductos\\components\\pages\\listado.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{787A7489-A516-49DA-A5BC-378403073CFC}|CatalogoProductosDominio\\CatalogoProductosDominio.csproj|c:\\users\\mmaur\\dotnet\\catalogoproductos\\catalogoproductosdominio\\catalogoproductosdominio.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{787A7489-A516-49DA-A5BC-378403073CFC}|CatalogoProductosDominio\\CatalogoProductosDominio.csproj|solutionrelative:catalogoproductosdominio\\catalogoproductosdominio.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EAD0BC8-A117-4F1E-8C62-A8C81685E68C}|CatalogoProductos\\CatalogoProductos.csproj|c:\\users\\mmaur\\dotnet\\catalogoproductos\\catalogoproductos\\components\\pages\\editar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EAD0BC8-A117-4F1E-8C62-A8C81685E68C}|CatalogoProductos\\CatalogoProductos.csproj|solutionrelative:catalogoproductos\\components\\pages\\editar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EAD0BC8-A117-4F1E-8C62-A8C81685E68C}|CatalogoProductos\\CatalogoProductos.csproj|c:\\users\\mmaur\\dotnet\\catalogoproductos\\catalogoproductos\\components\\productocard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EAD0BC8-A117-4F1E-8C62-A8C81685E68C}|CatalogoProductos\\CatalogoProductos.csproj|solutionrelative:catalogoproductos\\components\\productocard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EAD0BC8-A117-4F1E-8C62-A8C81685E68C}|CatalogoProductos\\CatalogoProductos.csproj|c:\\users\\mmaur\\dotnet\\catalogoproductos\\catalogoproductos\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EAD0BC8-A117-4F1E-8C62-A8C81685E68C}|CatalogoProductos\\CatalogoProductos.csproj|solutionrelative:catalogoproductos\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EAD0BC8-A117-4F1E-8C62-A8C81685E68C}|CatalogoProductos\\CatalogoProductos.csproj|c:\\users\\mmaur\\dotnet\\catalogoproductos\\catalogoproductos\\components\\pages\\agregarnuevo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EAD0BC8-A117-4F1E-8C62-A8C81685E68C}|CatalogoProductos\\CatalogoProductos.csproj|solutionrelative:catalogoproductos\\components\\pages\\agregarnuevo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EAD0BC8-A117-4F1E-8C62-A8C81685E68C}|CatalogoProductos\\CatalogoProductos.csproj|c:\\users\\mmaur\\dotnet\\catalogoproductos\\catalogoproductos\\components\\productocard.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1EAD0BC8-A117-4F1E-8C62-A8C81685E68C}|CatalogoProductos\\CatalogoProductos.csproj|solutionrelative:catalogoproductos\\components\\productocard.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1EAD0BC8-A117-4F1E-8C62-A8C81685E68C}|CatalogoProductos\\CatalogoProductos.csproj|c:\\users\\mmaur\\dotnet\\catalogoproductos\\catalogoproductos\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -43,24 +63,8 @@
       "RelativeMoniker": "D:0:0:{1EAD0BC8-A117-4F1E-8C62-A8C81685E68C}|CatalogoProductos\\CatalogoProductos.csproj|solutionrelative:catalogoproductos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EAD0BC8-A117-4F1E-8C62-A8C81685E68C}|CatalogoProductos\\CatalogoProductos.csproj|c:\\users\\mmaur\\dotnet\\catalogoproductos\\catalogoproductos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1EAD0BC8-A117-4F1E-8C62-A8C81685E68C}|CatalogoProductos\\CatalogoProductos.csproj|solutionrelative:catalogoproductos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EAD0BC8-A117-4F1E-8C62-A8C81685E68C}|CatalogoProductos\\CatalogoProductos.csproj|c:\\users\\mmaur\\dotnet\\catalogoproductos\\catalogoproductos\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1EAD0BC8-A117-4F1E-8C62-A8C81685E68C}|CatalogoProductos\\CatalogoProductos.csproj|solutionrelative:catalogoproductos\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{787A7489-A516-49DA-A5BC-378403073CFC}|CatalogoProductosDominio\\CatalogoProductosDominio.csproj|c:\\users\\mmaur\\dotnet\\catalogoproductos\\catalogoproductosdominio\\entidades\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{787A7489-A516-49DA-A5BC-378403073CFC}|CatalogoProductosDominio\\CatalogoProductosDominio.csproj|solutionrelative:catalogoproductosdominio\\entidades\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C16BE9FC-69A6-461C-9F2D-03F560E11D4B}|CatalogoProductosAplicacion\\CatalogoProductosAplicacion.csproj|c:\\users\\mmaur\\dotnet\\catalogoproductos\\catalogoproductosaplicacion\\catalogoproductosaplicacion.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{C16BE9FC-69A6-461C-9F2D-03F560E11D4B}|CatalogoProductosAplicacion\\CatalogoProductosAplicacion.csproj|solutionrelative:catalogoproductosaplicacion\\catalogoproductosaplicacion.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{787A7489-A516-49DA-A5BC-378403073CFC}|CatalogoProductosDominio\\CatalogoProductosDominio.csproj|c:\\users\\mmaur\\dotnet\\catalogoproductos\\catalogoproductosdominio\\catalogoproductosdominio.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{787A7489-A516-49DA-A5BC-378403073CFC}|CatalogoProductosDominio\\CatalogoProductosDominio.csproj|solutionrelative:catalogoproductosdominio\\catalogoproductosdominio.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5C89C7E7-DB13-4812-B287-74636DF2FC7D}|CatalogoProductosInfraestructura\\CatalogoProductosInfraestructura.csproj|c:\\users\\mmaur\\dotnet\\catalogoproductos\\catalogoproductosinfraestructura\\migrations\\20250404002436_inicial2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -77,10 +81,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5C89C7E7-DB13-4812-B287-74636DF2FC7D}|CatalogoProductosInfraestructura\\CatalogoProductosInfraestructura.csproj|c:\\users\\mmaur\\dotnet\\catalogoproductos\\catalogoproductosinfraestructura\\catalogoproductosinfraestructura.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{5C89C7E7-DB13-4812-B287-74636DF2FC7D}|CatalogoProductosInfraestructura\\CatalogoProductosInfraestructura.csproj|solutionrelative:catalogoproductosinfraestructura\\catalogoproductosinfraestructura.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C89C7E7-DB13-4812-B287-74636DF2FC7D}|CatalogoProductosInfraestructura\\CatalogoProductosInfraestructura.csproj|c:\\users\\mmaur\\dotnet\\catalogoproductos\\catalogoproductosinfraestructura\\contexto\\catalogoproductosdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C89C7E7-DB13-4812-B287-74636DF2FC7D}|CatalogoProductosInfraestructura\\CatalogoProductosInfraestructura.csproj|solutionrelative:catalogoproductosinfraestructura\\contexto\\catalogoproductosdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -90,7 +90,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -106,91 +106,38 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Editar.razor",
-              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\CatalogoProductos\\CatalogoProductos\\Components\\Pages\\Editar.razor",
-              "RelativeDocumentMoniker": "CatalogoProductos\\Components\\Pages\\Editar.razor",
-              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\CatalogoProductos\\CatalogoProductos\\Components\\Pages\\Editar.razor",
-              "RelativeToolTip": "CatalogoProductos\\Components\\Pages\\Editar.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-04T03:13:59.469Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductoCard.razor",
-              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\CatalogoProductos\\CatalogoProductos\\Components\\ProductoCard.razor",
-              "RelativeDocumentMoniker": "CatalogoProductos\\Components\\ProductoCard.razor",
-              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\CatalogoProductos\\CatalogoProductos\\Components\\ProductoCard.razor",
-              "RelativeToolTip": "CatalogoProductos\\Components\\ProductoCard.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-04T02:36:54.218Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Listado.razor.css",
-              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\CatalogoProductos\\CatalogoProductos\\Components\\Pages\\Listado.razor.css",
-              "RelativeDocumentMoniker": "CatalogoProductos\\Components\\Pages\\Listado.razor.css",
-              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\CatalogoProductos\\CatalogoProductos\\Components\\Pages\\Listado.razor.css",
-              "RelativeToolTip": "CatalogoProductos\\Components\\Pages\\Listado.razor.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-04T02:52:59.315Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductoCard.razor.css",
-              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\CatalogoProductos\\CatalogoProductos\\Components\\ProductoCard.razor.css",
-              "RelativeDocumentMoniker": "CatalogoProductos\\Components\\ProductoCard.razor.css",
-              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\CatalogoProductos\\CatalogoProductos\\Components\\ProductoCard.razor.css",
-              "RelativeToolTip": "CatalogoProductos\\Components\\ProductoCard.razor.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-04T03:11:44.81Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Listado.razor",
               "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\CatalogoProductos\\CatalogoProductos\\Components\\Pages\\Listado.razor",
               "RelativeDocumentMoniker": "CatalogoProductos\\Components\\Pages\\Listado.razor",
               "ToolTip": "C:\\Users\\Mmaur\\dotnet\\CatalogoProductos\\CatalogoProductos\\Components\\Pages\\Listado.razor",
               "RelativeToolTip": "CatalogoProductos\\Components\\Pages\\Listado.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-04T02:11:41.98Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "AgregarNuevo.razor",
               "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\CatalogoProductos\\CatalogoProductos\\Components\\Pages\\AgregarNuevo.razor",
               "RelativeDocumentMoniker": "CatalogoProductos\\Components\\Pages\\AgregarNuevo.razor",
               "ToolTip": "C:\\Users\\Mmaur\\dotnet\\CatalogoProductos\\CatalogoProductos\\Components\\Pages\\AgregarNuevo.razor",
               "RelativeToolTip": "CatalogoProductos\\Components\\Pages\\AgregarNuevo.razor",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAEAAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-03T23:25:57.97Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T23:25:57.97Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "ProductosRepo.cs",
               "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\CatalogoProductos\\CatalogoProductosInfraestructura\\Repositorios\\ProductosRepo.cs",
               "RelativeDocumentMoniker": "CatalogoProductosInfraestructura\\Repositorios\\ProductosRepo.cs",
               "ToolTip": "C:\\Users\\Mmaur\\dotnet\\CatalogoProductos\\CatalogoProductosInfraestructura\\Repositorios\\ProductosRepo.cs",
               "RelativeToolTip": "CatalogoProductosInfraestructura\\Repositorios\\ProductosRepo.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCAAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-03T21:58:37.515Z",
               "EditorCaption": ""
@@ -205,12 +152,11 @@
               "RelativeToolTip": "CatalogoProductosAplicacion\\Interfaces\\IProductosRepo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T21:56:38.632Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T21:56:38.632Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\CatalogoProductos\\CatalogoProductos\\Components\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "CatalogoProductos\\Components\\Layout\\MainLayout.razor",
@@ -218,12 +164,11 @@
               "RelativeToolTip": "CatalogoProductos\\Components\\Layout\\MainLayout.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-03T23:23:54.106Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T23:23:54.106Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\CatalogoProductos\\CatalogoProductos\\Program.cs",
               "RelativeDocumentMoniker": "CatalogoProductos\\Program.cs",
@@ -231,25 +176,24 @@
               "RelativeToolTip": "CatalogoProductos\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T22:34:57.153Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T22:34:57.153Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\CatalogoProductos\\CatalogoProductos\\appsettings.json",
               "RelativeDocumentMoniker": "CatalogoProductos\\appsettings.json",
               "ToolTip": "C:\\Users\\Mmaur\\dotnet\\CatalogoProductos\\CatalogoProductos\\appsettings.json",
               "RelativeToolTip": "CatalogoProductos\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-04-03T22:39:12.522Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "_Imports.razor",
               "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\CatalogoProductos\\CatalogoProductos\\Components\\_Imports.razor",
               "RelativeDocumentMoniker": "CatalogoProductos\\Components\\_Imports.razor",
@@ -257,25 +201,49 @@
               "RelativeToolTip": "CatalogoProductos\\Components\\_Imports.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-03T23:35:57.381Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T23:35:57.381Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CatalogoProductosDominio",
+              "DocumentIndex": 7,
+              "Title": "CatalogoProductosDominio.csproj",
               "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\CatalogoProductos\\CatalogoProductosDominio\\CatalogoProductosDominio.csproj",
               "RelativeDocumentMoniker": "CatalogoProductosDominio\\CatalogoProductosDominio.csproj",
               "ToolTip": "C:\\Users\\Mmaur\\dotnet\\CatalogoProductos\\CatalogoProductosDominio\\CatalogoProductosDominio.csproj",
               "RelativeToolTip": "CatalogoProductosDominio\\CatalogoProductosDominio.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-03T21:52:50.494Z",
+              "WhenOpened": "2025-04-03T21:52:50.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Listado.razor.css",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\CatalogoProductos\\CatalogoProductos\\Components\\Pages\\Listado.razor.css",
+              "RelativeDocumentMoniker": "CatalogoProductos\\Components\\Pages\\Listado.razor.css",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\CatalogoProductos\\CatalogoProductos\\Components\\Pages\\Listado.razor.css",
+              "RelativeToolTip": "CatalogoProductos\\Components\\Pages\\Listado.razor.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-04T02:52:59.315Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 5,
+              "Title": "CatalogoProductosDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\CatalogoProductos\\CatalogoProductosInfraestructura\\Contexto\\CatalogoProductosDbContext.cs",
+              "RelativeDocumentMoniker": "CatalogoProductosInfraestructura\\Contexto\\CatalogoProductosDbContext.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\CatalogoProductos\\CatalogoProductosInfraestructura\\Contexto\\CatalogoProductosDbContext.cs",
+              "RelativeToolTip": "CatalogoProductosInfraestructura\\Contexto\\CatalogoProductosDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T22:01:49.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Productos.cs",
               "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\CatalogoProductos\\CatalogoProductosDominio\\Entidades\\Productos.cs",
               "RelativeDocumentMoniker": "CatalogoProductosDominio\\Entidades\\Productos.cs",
@@ -288,20 +256,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CatalogoProductosAplicacion",
+              "DocumentIndex": 12,
+              "Title": "ProductoCard.razor.css",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\CatalogoProductos\\CatalogoProductos\\Components\\ProductoCard.razor.css",
+              "RelativeDocumentMoniker": "CatalogoProductos\\Components\\ProductoCard.razor.css",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\CatalogoProductos\\CatalogoProductos\\Components\\ProductoCard.razor.css",
+              "RelativeToolTip": "CatalogoProductos\\Components\\ProductoCard.razor.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-04T03:11:44.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductoCard.razor",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\CatalogoProductos\\CatalogoProductos\\Components\\ProductoCard.razor",
+              "RelativeDocumentMoniker": "CatalogoProductos\\Components\\ProductoCard.razor",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\CatalogoProductos\\CatalogoProductos\\Components\\ProductoCard.razor",
+              "RelativeToolTip": "CatalogoProductos\\Components\\ProductoCard.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T02:36:54.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Editar.razor",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\CatalogoProductos\\CatalogoProductos\\Components\\Pages\\Editar.razor",
+              "RelativeDocumentMoniker": "CatalogoProductos\\Components\\Pages\\Editar.razor",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\CatalogoProductos\\CatalogoProductos\\Components\\Pages\\Editar.razor",
+              "RelativeToolTip": "CatalogoProductos\\Components\\Pages\\Editar.razor",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAABEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T03:13:59.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CatalogoProductosAplicacion.csproj",
               "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\CatalogoProductos\\CatalogoProductosAplicacion\\CatalogoProductosAplicacion.csproj",
               "RelativeDocumentMoniker": "CatalogoProductosAplicacion\\CatalogoProductosAplicacion.csproj",
               "ToolTip": "C:\\Users\\Mmaur\\dotnet\\CatalogoProductos\\CatalogoProductosAplicacion\\CatalogoProductosAplicacion.csproj",
               "RelativeToolTip": "CatalogoProductosAplicacion\\CatalogoProductosAplicacion.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-03T21:55:56.024Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T21:55:56.024Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "20250404002436_inicial2.cs",
               "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\CatalogoProductos\\CatalogoProductosInfraestructura\\Migrations\\20250404002436_inicial2.cs",
               "RelativeDocumentMoniker": "CatalogoProductosInfraestructura\\Migrations\\20250404002436_inicial2.cs",
@@ -309,12 +312,11 @@
               "RelativeToolTip": "CatalogoProductosInfraestructura\\Migrations\\20250404002436_inicial2.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T00:24:37.355Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T00:24:37.355Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "20250403231649_initial.cs",
               "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\CatalogoProductos\\CatalogoProductosInfraestructura\\Migrations\\20250403231649_initial.cs",
               "RelativeDocumentMoniker": "CatalogoProductosInfraestructura\\Migrations\\20250403231649_initial.cs",
@@ -322,12 +324,11 @@
               "RelativeToolTip": "CatalogoProductosInfraestructura\\Migrations\\20250403231649_initial.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T23:16:49.506Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T23:16:49.506Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Categorias.cs",
               "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\CatalogoProductos\\CatalogoProductosDominio\\Enums\\Categorias.cs",
               "RelativeDocumentMoniker": "CatalogoProductosDominio\\Enums\\Categorias.cs",
@@ -335,34 +336,19 @@
               "RelativeToolTip": "CatalogoProductosDominio\\Enums\\Categorias.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T21:53:23.861Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T21:53:23.861Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "CatalogoProductosInfraestructura",
+              "DocumentIndex": 19,
+              "Title": "CatalogoProductosInfraestructura.csproj",
               "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\CatalogoProductos\\CatalogoProductosInfraestructura\\CatalogoProductosInfraestructura.csproj",
               "RelativeDocumentMoniker": "CatalogoProductosInfraestructura\\CatalogoProductosInfraestructura.csproj",
               "ToolTip": "C:\\Users\\Mmaur\\dotnet\\CatalogoProductos\\CatalogoProductosInfraestructura\\CatalogoProductosInfraestructura.csproj",
               "RelativeToolTip": "CatalogoProductosInfraestructura\\CatalogoProductosInfraestructura.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-03T21:58:07.713Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "CatalogoProductosDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\CatalogoProductos\\CatalogoProductosInfraestructura\\Contexto\\CatalogoProductosDbContext.cs",
-              "RelativeDocumentMoniker": "CatalogoProductosInfraestructura\\Contexto\\CatalogoProductosDbContext.cs",
-              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\CatalogoProductos\\CatalogoProductosInfraestructura\\Contexto\\CatalogoProductosDbContext.cs",
-              "RelativeToolTip": "CatalogoProductosInfraestructura\\Contexto\\CatalogoProductosDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T22:01:49.049Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T21:58:07.713Z"
             }
           ]
         }

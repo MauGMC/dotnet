@@ -28,24 +28,24 @@
             </tr>
         </thead>
         <tbody>
-            @if (Model.productos != null && Model.productos.Rows.Count > 0)
+            @if (Model.Productos != null && Model.Productos.Count > 0)
             {
-                @for (int i = 0; i < Model.productos.Rows.Count; i++)
+                foreach (var producto in Model.Productos)
                 {
                     <tr>
-                        @for (int j = 0; j < Model.productos.Columns.Count; j++)
-                        {
-                            <td>@Model.productos.Rows[i][j]</td>
-                        }
+                        <td>@producto.ID</td>
+                        <td>@producto.Nombre</td>
+                        <td>@producto.Descripcion</td>
+                        <td>$@producto.Precio</td>
+                        <td>@producto.Cantidad</td>
+                        <td>@((Categorias)producto.Categoria)</td>
                     </tr>
                 }
-            }
-            else
-            {
-                <tr>
-                    <td colspan="6">No hay productos disponibles.</td>
-                </tr>
-            }
+             }
+             else
+             {
+                <tr><td colspan="7">No hay productos registrados.</td></tr>
+             }
         </tbody>
     </table>
 </div>
@@ -152,7 +152,7 @@
                 $('#editar-descripcion').val(data[2]);
                 $('#editar-precio').val(data[3]); 
                 $('#editar-cantidad').val(data[4]); 
-                $('#editar-categoria').val(data[5]);
+                $('#editar-categoria').val(valorCategoria(data[5]));
             }
         });
     //Habilitar botones por selección
@@ -161,7 +161,17 @@
         tabla.button(1).enable(selected); // Editar
         tabla.button(2).enable(selected); // Eliminar
     });
-    
+        function valorCategoria(texto) {
+        const mapa = {
+            "Limpieza": "1",
+            "Comida": "2",
+            "Tecnologia": "3",
+            "Juegos": "4",
+            "Juguetes": "5"
+        };
+        return mapa[texto] || "1"; 
+    }
+
 </script>
 
 

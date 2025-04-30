@@ -9,6 +9,7 @@ namespace SQLprueba.Pages
     {
         public Producto Producto { get; set; } = new Producto();
         public List<SelectListItem> CategoriasLista { get; set; } = new List<SelectListItem>();
+        public EditarModal editarModal { get; set; }
 
     }
 }

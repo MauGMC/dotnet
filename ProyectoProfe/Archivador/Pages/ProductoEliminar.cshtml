@@ -1,0 +1,70 @@
+@page
+@model ProductoEliminarModel
+@{
+    ViewData["Title"] = (Model.Producto.Id == -1 ? "Nuevo" : "Editar") + " Producto";
+}
+<form id="formulario" method="post" onsubmit="form_submit(event)">
+    @Html.AntiForgeryToken()
+    <div class="form-group">
+        <label for="Id">Id:</label>
+        <input class="form-control" type="text" id="Id" name="Id" value="@(Model.Producto.Id == -1 ? "-1" : Model.Producto.Id.ToString())" readonly/><br/>
+    </div>
+    <div class="form-group">   
+        <label for="Nombre">Nombre:</label>
+        <input class="form-control" type="text" id="Nombre" name="Nombre" value="@Model.Producto.Nombre" /><br />    
+    </div>
+    <div class="form-group"> 
+        <label for="Precio">Precio:</label>
+        <input class="form-control" type="text" id="Precio" name="Precio" value="@Model.Producto.Precio" /><br />
+    </div>
+    <div class="form-group">  
+        <label for="Descripcion">Descripción:</label>
+        <input class="form-control" type="text" id="Descripcion" name="Descripcion" value="@Model.Producto.Descripcion" /><br />
+    </div>
+    <div class="form-group"> 
+        <a class="btn btn-secondary" asp-page="/ProductoLista">Cancelar</a>
+        <button class="btn btn-danger" type="button" onclick="eliminarProducto(@Model.Producto.Id)">Eliminar Producto</button>
+    </div>
+</form>
+
+<script>
+   async function eliminarProducto(id) {
+    const confirmed = await Swal.fire({
+        title: '¿Seguro?',
+        text: 'Esto eliminará el producto permanentemente.',
+        icon: 'warning',
+        showCancelButton: true,
+        confirmButtonText: 'Sí, eliminar',
+        cancelButtonText: 'Cancelar'
+    });
+
+    if (!confirmed.isConfirmed) return;
+
+    const token = document.querySelector('input[name="__RequestVerificationToken"]').value;
+
+    try {
+        const response = await fetch("/ProductoProcesarAsync?handler=Eliminar", {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                "RequestVerificationToken": token
+            },
+            body: JSON.stringify(id)
+        });
+
+        if (!response.ok) throw new Error("Error en la solicitud.");
+
+        const result = await response.json();
+
+        if (result.success) {
+            await Swal.fire("Eliminado", result.message, "success");
+            window.location.href = "/ProductoLista";
+        } else {
+            throw new Error(result.message);
+        }
+    } catch (err) {
+        Swal.fire("Error", err.message, "error");
+    }
+}
+
+</script>

@@ -1,0 +1,85 @@
+﻿@page
+@using Entities
+@model ProductoMtoModel
+@{
+    ViewData["Title"] = (Model.Producto.Id == -1 ? "Nuevo" : "Editar") + " Producto";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form id="formulario" method="post" onsubmit="form_submit(event)">
+    @Html.AntiForgeryToken()
+    
+    <div class="form-group">
+        <label for="Id">Id:</label>
+        <input class="form-control" type="text" id="Id" name="Id" value="@(Model.Producto.Id == -1 ? "-1" : Model.Producto.Id.ToString())" readonly/><br/>
+    </div>
+    <div class="form-group">   
+        <label for="Nombre">Nombre:</label>
+        <input class="form-control" type="text" id="Nombre" name="Nombre" value="@Model.Producto.Nombre" /><br />    
+    </div>
+    <div class="form-group"> 
+        <label for="Precio">Precio:</label>
+        <input class="form-control" type="text" id="Precio" name="Precio" value="@Model.Producto.Precio" /><br />
+    </div>
+    <div class="form-group">  
+        <label for="Descripcion">Descripción:</label>
+        <input class="form-control" type="text" id="Descripcion" name="Descripcion" value="@Model.Producto.Descripcion" /><br />
+    </div>
+    <div class="form-group"> 
+        <a class="btn btn-secondary" asp-page="/ProductoLista">Cancelar</a>
+        <button class="btn btn-success" type="submit">Guardar</button>
+    </div>
+</form>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script>
+        async function form_submit(event) {
+            event.preventDefault();
+
+            const token = document.querySelector('input[name="__RequestVerificationToken"]').value;
+            const form = document.getElementById("formulario");
+            const formData = new FormData(form);
+            const json = Object.fromEntries(formData.entries());
+
+            const confirmed = await Swal.fire({
+                title: '¿Está seguro de proceder?',
+                text: "Confirme la inserción de datos",
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#28a745',
+                cancelButtonColor: '#d33',
+                confirmButtonText: 'Sí, guardar'
+            });
+
+            if (confirmed.isConfirmed) {
+                try {
+                    const response = await fetch("/ProductoProcesarAsync", {
+                        method: "POST",
+                        headers: {
+                            "Content-Type": "application/json",
+                            "RequestVerificationToken": token 
+                        },
+                        body: JSON.stringify(json) 
+                    });
+
+                    const result = await response.json();
+
+                    if (result.success) {
+                        await Swal.fire("¡Éxito!", result.message, "success");
+                        window.location.href = "/ProductoLista"; 
+                    } else {
+                        console.log("JSON enviado:", JSON.stringify(json, null, 2));
+                        throw new Error(result.message || "Error desconocido");
+                    }
+
+                } catch (err) {
+                    Swal.fire("Error", err.message, "error");
+                }
+            }
+        }
+    </script>
+}
+

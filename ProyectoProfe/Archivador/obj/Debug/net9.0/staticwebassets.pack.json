@@ -1,0 +1,89 @@
+{
+  "Files": [
+    {
+      "Id": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/scopedcss/projectbundle/WebAppCRUDMySQL.bundle.scp.css",
+      "PackagePath": "staticwebassets/WebAppCRUDMySQL.btxfezbv74.bundle.scp.css"
+    },
+    {
+      "Id": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/bootstrap5/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap5/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/bootstrap5/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap5/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/bootstrap5/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap5/bootstrap.min.css"
+    },
+    {
+      "Id": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/bootstrap5/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap5/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/datatables_v2.0.8/datatables.css",
+      "PackagePath": "staticwebassets/lib/datatables_v2.0.8/datatables.css"
+    },
+    {
+      "Id": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/datatables_v2.0.8/datatables.js",
+      "PackagePath": "staticwebassets/lib/datatables_v2.0.8/datatables.js"
+    },
+    {
+      "Id": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/datatables_v2.0.8/datatables.min.css",
+      "PackagePath": "staticwebassets/lib/datatables_v2.0.8/datatables.min.css"
+    },
+    {
+      "Id": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/datatables_v2.0.8/datatables.min.js",
+      "PackagePath": "staticwebassets/lib/datatables_v2.0.8/datatables.min.js"
+    },
+    {
+      "Id": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/jquery_v3.7.1/jquery-3.7.1.min.js",
+      "PackagePath": "staticwebassets/lib/jquery_v3.7.1/jquery-3.7.1.min.js"
+    },
+    {
+      "Id": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/sweetalert2_v11.11/LICENSE",
+      "PackagePath": "staticwebassets/lib/sweetalert2_v11.11"
+    },
+    {
+      "Id": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/sweetalert2_v11.11/sweetalert2.min.css",
+      "PackagePath": "staticwebassets/lib/sweetalert2_v11.11/sweetalert2.min.css"
+    },
+    {
+      "Id": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/sweetalert2_v11.11/sweetalert2.min.js",
+      "PackagePath": "staticwebassets/lib/sweetalert2_v11.11/sweetalert2.min.js"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.WebAppCRUDMySQL.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.WebAppCRUDMySQL.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.build.WebAppCRUDMySQL.props",
+      "PackagePath": "build\\WebAppCRUDMySQL.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.WebAppCRUDMySQL.props",
+      "PackagePath": "buildMultiTargeting\\WebAppCRUDMySQL.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.WebAppCRUDMySQL.props",
+      "PackagePath": "buildTransitive\\WebAppCRUDMySQL.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

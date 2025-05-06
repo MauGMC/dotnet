@@ -1,0 +1,60 @@
+﻿@model SQLprueba.Pages.Forgot
+<form id="formOlvide" class="p-4 shadow rounded bg-light mx-auto" style="max-width: 400px;">
+    <div class="modal-header justify-content-center">
+        <h5 class="modal-title text-center w-100">Olvidé mi contraseña</h5>
+    </div>
+
+    <div class="modal-body text-center">
+        <div class="mb-3">
+            <label for="usuarioInput" class="form-label fw-bold">Ingrese su usuario</label>
+            <input type="text" name="usuario" class="form-control text-center" id="usuarioInput"/>
+            <span asp-validation-for="Usuarios.usuario" class="text-danger small"></span>
+
+        </div>
+    </div>
+
+    <div class="modal-footer d-flex justify-content-center gap-2">
+        <button id="enviar" type="button" class="btn btn-success">Mostrar contraseña</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+    </div>
+</form>
+
+<link rel="stylesheet" href="~/css/sweetalert2.css" />
+<script src="~/js/sweetalert2.all.min.js"></script>
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+<script>
+        $('#enviar').click(function () {
+           
+        const usuario = $('#usuarioInput').val();
+        $.ajax({
+            url: '/Login?handler=Olvide',
+            method: 'POST',
+            contentType: 'application/json',
+            headers: {
+                'RequestVerificationToken': $('input[name="__RequestVerificationToken"]').val() // Importante: no __RequestVerificationToken en body
+            },
+            data: JSON.stringify({ usuario: usuario }),
+            success: function (response) {
+                if (response.password) {
+                    Swal.fire({
+                        title: 'Tu contraseña',
+                        text: 'Contraseña: ' + response.password,
+                        icon: 'info'
+                    });
+                } else {
+                    Swal.fire({
+                        title: 'Error',
+                        text: response.error || 'Usuario no encontrado',
+                        icon: 'error'
+                    });
+                }
+            },
+            error: function () {
+                Swal.fire('Error', 'No se pudo procesar la solicitud.', 'error');
+            }
+        });
+    });
+
+</script>

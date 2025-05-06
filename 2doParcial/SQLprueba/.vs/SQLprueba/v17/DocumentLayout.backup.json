@@ -1,0 +1,482 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|c:\\users\\mmaur\\dotnet\\2doparcial\\sqlprueba\\pages\\entidades\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|solutionrelative:pages\\entidades\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|c:\\users\\mmaur\\dotnet\\2doparcial\\sqlprueba\\pages\\mtolista.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|solutionrelative:pages\\mtolista.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|c:\\users\\mmaur\\dotnet\\2doparcial\\sqlprueba\\pages\\mtolista.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|solutionrelative:pages\\mtolista.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|c:\\users\\mmaur\\dotnet\\2doparcial\\sqlprueba\\pages\\forgot.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|solutionrelative:pages\\forgot.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|c:\\users\\mmaur\\dotnet\\2doparcial\\sqlprueba\\pages\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|solutionrelative:pages\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|c:\\users\\mmaur\\dotnet\\2doparcial\\sqlprueba\\pages\\lista.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|solutionrelative:pages\\lista.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|c:\\users\\mmaur\\dotnet\\2doparcial\\sqlprueba\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|solutionrelative:pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|c:\\users\\mmaur\\dotnet\\2doparcial\\sqlprueba\\pages\\editarmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|solutionrelative:pages\\editarmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|c:\\users\\mmaur\\dotnet\\2doparcial\\sqlprueba\\pages\\agregarmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|solutionrelative:pages\\agregarmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|c:\\users\\mmaur\\dotnet\\2doparcial\\sqlprueba\\pages\\entidades\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|solutionrelative:pages\\entidades\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|c:\\users\\mmaur\\dotnet\\2doparcial\\sqlprueba\\pages\\forgot.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|solutionrelative:pages\\forgot.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|c:\\users\\mmaur\\dotnet\\2doparcial\\sqlprueba\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|c:\\users\\mmaur\\dotnet\\2doparcial\\sqlprueba\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|solutionrelative:pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|c:\\users\\mmaur\\dotnet\\2doparcial\\sqlprueba\\pages\\procesarcrud.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|solutionrelative:pages\\procesarcrud.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|c:\\users\\mmaur\\dotnet\\2doparcial\\sqlprueba\\pages\\procesarcrud.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|solutionrelative:pages\\procesarcrud.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|c:\\users\\mmaur\\dotnet\\2doparcial\\sqlprueba\\pages\\lista.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|solutionrelative:pages\\lista.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|c:\\users\\mmaur\\dotnet\\2doparcial\\sqlprueba\\pages\\tabla.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|solutionrelative:pages\\tabla.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|c:\\users\\mmaur\\dotnet\\2doparcial\\sqlprueba\\pages\\modelos\\mysqlaux.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|solutionrelative:pages\\modelos\\mysqlaux.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|c:\\users\\mmaur\\dotnet\\2doparcial\\sqlprueba\\pages\\signup.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|solutionrelative:pages\\signup.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|c:\\users\\mmaur\\dotnet\\2doparcial\\sqlprueba\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|solutionrelative:pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|c:\\users\\mmaur\\dotnet\\2doparcial\\sqlprueba\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|solutionrelative:pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|c:\\users\\mmaur\\dotnet\\2doparcial\\sqlprueba\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|c:\\users\\mmaur\\dotnet\\2doparcial\\sqlprueba\\pages\\tabla.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|solutionrelative:pages\\tabla.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|c:\\users\\mmaur\\dotnet\\2doparcial\\sqlprueba\\pages\\editarmodal.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|solutionrelative:pages\\editarmodal.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|c:\\users\\mmaur\\dotnet\\2doparcial\\sqlprueba\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|c:\\users\\mmaur\\dotnet\\2doparcial\\sqlprueba\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|solutionrelative:pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|c:\\users\\mmaur\\dotnet\\2doparcial\\sqlprueba\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5C5ADDED-5590-5B39-963C-B9A8B078E34C}|SQLprueba.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\Pages\\Entidades\\Producto.cs",
+              "RelativeDocumentMoniker": "Pages\\Entidades\\Producto.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\Pages\\Entidades\\Producto.cs",
+              "RelativeToolTip": "Pages\\Entidades\\Producto.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAYwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T02:28:01.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MtoLista.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\Pages\\MtoLista.cshtml",
+              "RelativeDocumentMoniker": "Pages\\MtoLista.cshtml",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\Pages\\MtoLista.cshtml",
+              "RelativeToolTip": "Pages\\MtoLista.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T15:14:35.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\Pages\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\Pages\\Login.cshtml.cs",
+              "RelativeToolTip": "Pages\\Login.cshtml.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAQwFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T02:43:16.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MySQLaux.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\Pages\\Modelos\\MySQLaux.cs",
+              "RelativeDocumentMoniker": "Pages\\Modelos\\MySQLaux.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\Pages\\Modelos\\MySQLaux.cs",
+              "RelativeToolTip": "Pages\\Modelos\\MySQLaux.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAIwDkAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T15:21:24.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Usuarios.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\Pages\\Entidades\\Usuarios.cs",
+              "RelativeDocumentMoniker": "Pages\\Entidades\\Usuarios.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\Pages\\Entidades\\Usuarios.cs",
+              "RelativeToolTip": "Pages\\Entidades\\Usuarios.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T03:58:59.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\Pages\\Login.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\Pages\\Login.cshtml",
+              "RelativeToolTip": "Pages\\Login.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAswEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T01:31:54.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MtoLista.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\Pages\\MtoLista.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\MtoLista.cshtml.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\Pages\\MtoLista.cshtml.cs",
+              "RelativeToolTip": "Pages\\MtoLista.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T15:14:34.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T16:02:20.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Tabla.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\Pages\\Tabla.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Tabla.cshtml.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\Pages\\Tabla.cshtml.cs",
+              "RelativeToolTip": "Pages\\Tabla.cshtml.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAcwDQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T01:28:05.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Signup.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\Pages\\Signup.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Signup.cshtml",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\Pages\\Signup.cshtml",
+              "RelativeToolTip": "Pages\\Signup.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T04:07:19.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Forgot.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\Pages\\Forgot.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Forgot.cshtml",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\Pages\\Forgot.cshtml",
+              "RelativeToolTip": "Pages\\Forgot.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T05:25:02.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EditarModal.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\Pages\\EditarModal.cshtml",
+              "RelativeDocumentMoniker": "Pages\\EditarModal.cshtml",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\Pages\\EditarModal.cshtml",
+              "RelativeToolTip": "Pages\\EditarModal.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADEAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T17:43:27.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProcesarCRUD.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\Pages\\ProcesarCRUD.cshtml",
+              "RelativeDocumentMoniker": "Pages\\ProcesarCRUD.cshtml",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\Pages\\ProcesarCRUD.cshtml",
+              "RelativeToolTip": "Pages\\ProcesarCRUD.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-06T02:54:28.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Lista.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\Pages\\Lista.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Lista.cshtml",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\Pages\\Lista.cshtml",
+              "RelativeToolTip": "Pages\\Lista.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAB4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T15:14:41.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AgregarModal.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\Pages\\AgregarModal.cshtml",
+              "RelativeDocumentMoniker": "Pages\\AgregarModal.cshtml",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\Pages\\AgregarModal.cshtml",
+              "RelativeToolTip": "Pages\\AgregarModal.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADEAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-06T04:19:49.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Tabla.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\Pages\\Tabla.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Tabla.cshtml",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\Pages\\Tabla.cshtml",
+              "RelativeToolTip": "Pages\\Tabla.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAIIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T01:27:22.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Forgot.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\Pages\\Forgot.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Forgot.cshtml.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\Pages\\Forgot.cshtml.cs",
+              "RelativeToolTip": "Pages\\Forgot.cshtml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T05:25:41.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProcesarCRUD.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\Pages\\ProcesarCRUD.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\ProcesarCRUD.cshtml.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\Pages\\ProcesarCRUD.cshtml.cs",
+              "RelativeToolTip": "Pages\\ProcesarCRUD.cshtml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T02:54:44.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Lista.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\Pages\\Lista.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Lista.cshtml.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\Pages\\Lista.cshtml.cs",
+              "RelativeToolTip": "Pages\\Lista.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T15:14:44.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\Pages\\Error.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\Pages\\Error.cshtml",
+              "RelativeToolTip": "Pages\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T01:39:12.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Signup.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\Pages\\Signup.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Signup.cshtml.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\Pages\\Signup.cshtml.cs",
+              "RelativeToolTip": "Pages\\Signup.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T04:51:23.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\Pages\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\Pages\\Privacy.cshtml",
+              "RelativeToolTip": "Pages\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T01:39:15.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "EditarModal.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\Pages\\EditarModal.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\EditarModal.cshtml.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\Pages\\EditarModal.cshtml.cs",
+              "RelativeToolTip": "Pages\\EditarModal.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T17:43:25.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAADwvxsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T01:37:00.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T03:53:46.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T17:29:58.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-05T03:57:14.932Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

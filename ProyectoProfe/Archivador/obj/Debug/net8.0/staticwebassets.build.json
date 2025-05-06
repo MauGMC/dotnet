@@ -1,0 +1,1773 @@
+{
+  "Version": 1,
+  "Hash": "kYVa0wklLZn6jhUuyTS5u2fX0fQtEEEiIMpSy4Sfvi0=",
+  "Source": "WebAppCRUDMySQL",
+  "BasePath": "_content/WebAppCRUDMySQL",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebAppCRUDMySQL\\wwwroot",
+      "Source": "WebAppCRUDMySQL",
+      "ContentRoot": "C:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\",
+      "BasePath": "_content/WebAppCRUDMySQL",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "c:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebAppCRUDMySQL.styles.css",
+      "SourceId": "WebAppCRUDMySQL",
+      "SourceType": "Computed",
+      "ContentRoot": "c:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/WebAppCRUDMySQL",
+      "RelativePath": "WebAppCRUDMySQL#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "t1lr82qfkl",
+      "Integrity": "UVNrAE32QDAopojn+Ps2FpWV4u75q2foRgpV4PX6tmQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "c:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebAppCRUDMySQL.styles.css"
+    },
+    {
+      "Identity": "c:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebAppCRUDMySQL.bundle.scp.css",
+      "SourceId": "WebAppCRUDMySQL",
+      "SourceType": "Computed",
+      "ContentRoot": "c:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/WebAppCRUDMySQL",
+      "RelativePath": "WebAppCRUDMySQL#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "t1lr82qfkl",
+      "Integrity": "UVNrAE32QDAopojn+Ps2FpWV4u75q2foRgpV4PX6tmQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "c:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebAppCRUDMySQL.bundle.scp.css"
+    },
+    {
+      "Identity": "c:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\css\\site.css",
+      "SourceId": "WebAppCRUDMySQL",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\",
+      "BasePath": "_content/WebAppCRUDMySQL",
+      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "c2tiyv64ts",
+      "Integrity": "pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "c:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\favicon.ico",
+      "SourceId": "WebAppCRUDMySQL",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\",
+      "BasePath": "_content/WebAppCRUDMySQL",
+      "RelativePath": "favicon#[.{fingerprint}]?.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "61n19gt1b8",
+      "Integrity": "Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "c:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\js\\site.js",
+      "SourceId": "WebAppCRUDMySQL",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\",
+      "BasePath": "_content/WebAppCRUDMySQL",
+      "RelativePath": "js/site#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "v0iv3nffmz",
+      "Integrity": "AURu/R8XjIvMoH+kctd8eLG+18YmbXDR0UBU4aS8TBQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "c:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\lib\\bootstrap5\\bootstrap.bundle.min.js",
+      "SourceId": "WebAppCRUDMySQL",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\",
+      "BasePath": "_content/WebAppCRUDMySQL",
+      "RelativePath": "lib/bootstrap5/bootstrap.bundle.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bfevd61e0d",
+      "Integrity": "ORBCb//WwUWwNh+EjsvO97snO3mAJ1+jhMzrlPBTYSQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap5\\bootstrap.bundle.min.js"
+    },
+    {
+      "Identity": "c:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\lib\\bootstrap5\\bootstrap.bundle.min.js.map",
+      "SourceId": "WebAppCRUDMySQL",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\",
+      "BasePath": "_content/WebAppCRUDMySQL",
+      "RelativePath": "lib/bootstrap5/bootstrap.bundle.min.js#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7g010t2zdz",
+      "Integrity": "edPQ7BeYucniO6//2HhRgG/MDudyk2f6JPuDOItsanQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap5\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Identity": "c:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\lib\\bootstrap5\\bootstrap.min.css",
+      "SourceId": "WebAppCRUDMySQL",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\",
+      "BasePath": "_content/WebAppCRUDMySQL",
+      "RelativePath": "lib/bootstrap5/bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "n2fyjk766i",
+      "Integrity": "zzPh8NflvEInFbVSzLYGVMLOn0j0kfsjq/UlNeMBRYw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap5\\bootstrap.min.css"
+    },
+    {
+      "Identity": "c:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\lib\\bootstrap5\\bootstrap.min.css.map",
+      "SourceId": "WebAppCRUDMySQL",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\",
+      "BasePath": "_content/WebAppCRUDMySQL",
+      "RelativePath": "lib/bootstrap5/bootstrap.min.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hy1c2auhqz",
+      "Integrity": "6V4ilQ0Hy45mqA89dEbzxeQcuTG7beY0qqO4tnKqd44=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap5\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "c:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\lib\\datatables_v2.0.8\\datatables.css",
+      "SourceId": "WebAppCRUDMySQL",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\",
+      "BasePath": "_content/WebAppCRUDMySQL",
+      "RelativePath": "lib/datatables_v2.0.8/datatables#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qj9ty2cff7",
+      "Integrity": "lv8mP7EqTiY0292KQHO1IyMkpXghCcbLxry0Fz0PyUo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\datatables_v2.0.8\\datatables.css"
+    },
+    {
+      "Identity": "c:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\lib\\datatables_v2.0.8\\datatables.js",
+      "SourceId": "WebAppCRUDMySQL",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\",
+      "BasePath": "_content/WebAppCRUDMySQL",
+      "RelativePath": "lib/datatables_v2.0.8/datatables#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6g3iwxgh5e",
+      "Integrity": "9mXw2CZyysR7AaFU/drTdxDPyET5YykkJyKO3Um12S0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\datatables_v2.0.8\\datatables.js"
+    },
+    {
+      "Identity": "c:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\lib\\datatables_v2.0.8\\datatables.min.css",
+      "SourceId": "WebAppCRUDMySQL",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\",
+      "BasePath": "_content/WebAppCRUDMySQL",
+      "RelativePath": "lib/datatables_v2.0.8/datatables.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "q1m0a7ypz3",
+      "Integrity": "YmrhyNpm/ISm2tyjRfwMosFjUk+M+uOs7fPwz8y1/Ow=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\datatables_v2.0.8\\datatables.min.css"
+    },
+    {
+      "Identity": "c:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\lib\\datatables_v2.0.8\\datatables.min.js",
+      "SourceId": "WebAppCRUDMySQL",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\",
+      "BasePath": "_content/WebAppCRUDMySQL",
+      "RelativePath": "lib/datatables_v2.0.8/datatables.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jxbgwoqglh",
+      "Integrity": "mT9MFeOdq/OAdQ0Sp1Cr1MiDnjNxvNCWuJUFk3QOWr8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\datatables_v2.0.8\\datatables.min.js"
+    },
+    {
+      "Identity": "c:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\lib\\jquery_v3.7.1\\jquery-3.7.1.min.js",
+      "SourceId": "WebAppCRUDMySQL",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\",
+      "BasePath": "_content/WebAppCRUDMySQL",
+      "RelativePath": "lib/jquery_v3.7.1/jquery-3.7.1.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o1o13a6vjx",
+      "Integrity": "/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery_v3.7.1\\jquery-3.7.1.min.js"
+    },
+    {
+      "Identity": "c:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\lib\\sweetalert2_v11.11\\LICENSE",
+      "SourceId": "WebAppCRUDMySQL",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\",
+      "BasePath": "_content/WebAppCRUDMySQL",
+      "RelativePath": "lib/sweetalert2_v11.11/LICENSE#[.{fingerprint}]?",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "74foo8sdjh",
+      "Integrity": "h5qjP+ujWzQoxkhfwXzd2Mgg16h4AoGqlF5gWCooxLQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\sweetalert2_v11.11\\LICENSE"
+    },
+    {
+      "Identity": "c:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\lib\\sweetalert2_v11.11\\sweetalert2.min.css",
+      "SourceId": "WebAppCRUDMySQL",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\",
+      "BasePath": "_content/WebAppCRUDMySQL",
+      "RelativePath": "lib/sweetalert2_v11.11/sweetalert2.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lljtqz1ndt",
+      "Integrity": "h2Gkn+H33lnKlQTNntQyLXMWq7/9XI2rlPCsLsVcUBs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\sweetalert2_v11.11\\sweetalert2.min.css"
+    },
+    {
+      "Identity": "c:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\lib\\sweetalert2_v11.11\\sweetalert2.min.js",
+      "SourceId": "WebAppCRUDMySQL",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\",
+      "BasePath": "_content/WebAppCRUDMySQL",
+      "RelativePath": "lib/sweetalert2_v11.11/sweetalert2.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ybzhhr8puh",
+      "Integrity": "4nXBX2Jhg039XMML+MeA9JJOIhxNwTSOPrKz8p2tm6E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\sweetalert2_v11.11\\sweetalert2.min.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/site.c2tiyv64ts.css",
+      "AssetFile": "c:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "362"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 15:06:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c2tiyv64ts"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "c:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "362"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 15:06:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.61n19gt1b8.ico",
+      "AssetFile": "c:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5430"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 15:06:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "61n19gt1b8"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.ico"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ico",
+      "AssetFile": "c:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5430"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 15:06:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js",
+      "AssetFile": "c:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3141"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AURu/R8XjIvMoH+kctd8eLG+18YmbXDR0UBU4aS8TBQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 20:57:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AURu/R8XjIvMoH+kctd8eLG+18YmbXDR0UBU4aS8TBQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.v0iv3nffmz.js",
+      "AssetFile": "c:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3141"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AURu/R8XjIvMoH+kctd8eLG+18YmbXDR0UBU4aS8TBQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 20:57:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v0iv3nffmz"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AURu/R8XjIvMoH+kctd8eLG+18YmbXDR0UBU4aS8TBQ="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap5/bootstrap.bundle.min.bfevd61e0d.js",
+      "AssetFile": "c:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\lib\\bootstrap5\\bootstrap.bundle.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "80721"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ORBCb//WwUWwNh+EjsvO97snO3mAJ1+jhMzrlPBTYSQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 17:20:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bfevd61e0d"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap5/bootstrap.bundle.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ORBCb//WwUWwNh+EjsvO97snO3mAJ1+jhMzrlPBTYSQ="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap5/bootstrap.bundle.min.js",
+      "AssetFile": "c:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\lib\\bootstrap5\\bootstrap.bundle.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "80721"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ORBCb//WwUWwNh+EjsvO97snO3mAJ1+jhMzrlPBTYSQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 17:20:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ORBCb//WwUWwNh+EjsvO97snO3mAJ1+jhMzrlPBTYSQ="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap5/bootstrap.bundle.min.js.7g010t2zdz.map",
+      "AssetFile": "c:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\lib\\bootstrap5\\bootstrap.bundle.min.js.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "332229"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"edPQ7BeYucniO6//2HhRgG/MDudyk2f6JPuDOItsanQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 17:20:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7g010t2zdz"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap5/bootstrap.bundle.min.js.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-edPQ7BeYucniO6//2HhRgG/MDudyk2f6JPuDOItsanQ="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap5/bootstrap.bundle.min.js.map",
+      "AssetFile": "c:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\lib\\bootstrap5\\bootstrap.bundle.min.js.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "332229"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"edPQ7BeYucniO6//2HhRgG/MDudyk2f6JPuDOItsanQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 17:20:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-edPQ7BeYucniO6//2HhRgG/MDudyk2f6JPuDOItsanQ="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap5/bootstrap.min.css",
+      "AssetFile": "c:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\lib\\bootstrap5\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "231913"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zzPh8NflvEInFbVSzLYGVMLOn0j0kfsjq/UlNeMBRYw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 17:20:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zzPh8NflvEInFbVSzLYGVMLOn0j0kfsjq/UlNeMBRYw="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap5/bootstrap.min.css.hy1c2auhqz.map",
+      "AssetFile": "c:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\lib\\bootstrap5\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "589407"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6V4ilQ0Hy45mqA89dEbzxeQcuTG7beY0qqO4tnKqd44=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 17:20:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hy1c2auhqz"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap5/bootstrap.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6V4ilQ0Hy45mqA89dEbzxeQcuTG7beY0qqO4tnKqd44="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap5/bootstrap.min.css.map",
+      "AssetFile": "c:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\lib\\bootstrap5\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "589407"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6V4ilQ0Hy45mqA89dEbzxeQcuTG7beY0qqO4tnKqd44=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 17:20:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6V4ilQ0Hy45mqA89dEbzxeQcuTG7beY0qqO4tnKqd44="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap5/bootstrap.min.n2fyjk766i.css",
+      "AssetFile": "c:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\lib\\bootstrap5\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "231913"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zzPh8NflvEInFbVSzLYGVMLOn0j0kfsjq/UlNeMBRYw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 17:20:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "n2fyjk766i"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap5/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zzPh8NflvEInFbVSzLYGVMLOn0j0kfsjq/UlNeMBRYw="
+        }
+      ]
+    },
+    {
+      "Route": "lib/datatables_v2.0.8/datatables.6g3iwxgh5e.js",
+      "AssetFile": "c:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\lib\\datatables_v2.0.8\\datatables.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "412303"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9mXw2CZyysR7AaFU/drTdxDPyET5YykkJyKO3Um12S0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Jun 2024 04:20:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6g3iwxgh5e"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/datatables_v2.0.8/datatables.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9mXw2CZyysR7AaFU/drTdxDPyET5YykkJyKO3Um12S0="
+        }
+      ]
+    },
+    {
+      "Route": "lib/datatables_v2.0.8/datatables.css",
+      "AssetFile": "c:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\lib\\datatables_v2.0.8\\datatables.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19115"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lv8mP7EqTiY0292KQHO1IyMkpXghCcbLxry0Fz0PyUo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Jun 2024 04:20:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lv8mP7EqTiY0292KQHO1IyMkpXghCcbLxry0Fz0PyUo="
+        }
+      ]
+    },
+    {
+      "Route": "lib/datatables_v2.0.8/datatables.js",
+      "AssetFile": "c:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\lib\\datatables_v2.0.8\\datatables.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "412303"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9mXw2CZyysR7AaFU/drTdxDPyET5YykkJyKO3Um12S0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Jun 2024 04:20:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9mXw2CZyysR7AaFU/drTdxDPyET5YykkJyKO3Um12S0="
+        }
+      ]
+    },
+    {
+      "Route": "lib/datatables_v2.0.8/datatables.min.css",
+      "AssetFile": "c:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\lib\\datatables_v2.0.8\\datatables.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16927"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YmrhyNpm/ISm2tyjRfwMosFjUk+M+uOs7fPwz8y1/Ow=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Jun 2024 04:20:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YmrhyNpm/ISm2tyjRfwMosFjUk+M+uOs7fPwz8y1/Ow="
+        }
+      ]
+    },
+    {
+      "Route": "lib/datatables_v2.0.8/datatables.min.js",
+      "AssetFile": "c:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\lib\\datatables_v2.0.8\\datatables.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "109119"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mT9MFeOdq/OAdQ0Sp1Cr1MiDnjNxvNCWuJUFk3QOWr8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Jun 2024 04:20:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mT9MFeOdq/OAdQ0Sp1Cr1MiDnjNxvNCWuJUFk3QOWr8="
+        }
+      ]
+    },
+    {
+      "Route": "lib/datatables_v2.0.8/datatables.min.jxbgwoqglh.js",
+      "AssetFile": "c:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\lib\\datatables_v2.0.8\\datatables.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "109119"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mT9MFeOdq/OAdQ0Sp1Cr1MiDnjNxvNCWuJUFk3QOWr8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Jun 2024 04:20:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jxbgwoqglh"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/datatables_v2.0.8/datatables.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mT9MFeOdq/OAdQ0Sp1Cr1MiDnjNxvNCWuJUFk3QOWr8="
+        }
+      ]
+    },
+    {
+      "Route": "lib/datatables_v2.0.8/datatables.min.q1m0a7ypz3.css",
+      "AssetFile": "c:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\lib\\datatables_v2.0.8\\datatables.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16927"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YmrhyNpm/ISm2tyjRfwMosFjUk+M+uOs7fPwz8y1/Ow=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Jun 2024 04:20:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q1m0a7ypz3"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/datatables_v2.0.8/datatables.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YmrhyNpm/ISm2tyjRfwMosFjUk+M+uOs7fPwz8y1/Ow="
+        }
+      ]
+    },
+    {
+      "Route": "lib/datatables_v2.0.8/datatables.qj9ty2cff7.css",
+      "AssetFile": "c:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\lib\\datatables_v2.0.8\\datatables.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19115"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lv8mP7EqTiY0292KQHO1IyMkpXghCcbLxry0Fz0PyUo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Jun 2024 04:20:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qj9ty2cff7"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/datatables_v2.0.8/datatables.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lv8mP7EqTiY0292KQHO1IyMkpXghCcbLxry0Fz0PyUo="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery_v3.7.1/jquery-3.7.1.min.js",
+      "AssetFile": "c:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\lib\\jquery_v3.7.1\\jquery-3.7.1.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87533"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 22 Nov 2024 19:51:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery_v3.7.1/jquery-3.7.1.min.o1o13a6vjx.js",
+      "AssetFile": "c:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\lib\\jquery_v3.7.1\\jquery-3.7.1.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87533"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 22 Nov 2024 19:51:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o1o13a6vjx"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery_v3.7.1/jquery-3.7.1.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+        }
+      ]
+    },
+    {
+      "Route": "lib/sweetalert2_v11.11/LICENSE",
+      "AssetFile": "c:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\lib\\sweetalert2_v11.11\\LICENSE",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1097"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h5qjP+ujWzQoxkhfwXzd2Mgg16h4AoGqlF5gWCooxLQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Jun 2024 15:34:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-h5qjP+ujWzQoxkhfwXzd2Mgg16h4AoGqlF5gWCooxLQ="
+        }
+      ]
+    },
+    {
+      "Route": "lib/sweetalert2_v11.11/LICENSE.74foo8sdjh",
+      "AssetFile": "c:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\lib\\sweetalert2_v11.11\\LICENSE",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1097"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h5qjP+ujWzQoxkhfwXzd2Mgg16h4AoGqlF5gWCooxLQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Jun 2024 15:34:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "74foo8sdjh"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/sweetalert2_v11.11/LICENSE"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-h5qjP+ujWzQoxkhfwXzd2Mgg16h4AoGqlF5gWCooxLQ="
+        }
+      ]
+    },
+    {
+      "Route": "lib/sweetalert2_v11.11/sweetalert2.min.css",
+      "AssetFile": "c:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\lib\\sweetalert2_v11.11\\sweetalert2.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h2Gkn+H33lnKlQTNntQyLXMWq7/9XI2rlPCsLsVcUBs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Jun 2024 15:34:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-h2Gkn+H33lnKlQTNntQyLXMWq7/9XI2rlPCsLsVcUBs="
+        }
+      ]
+    },
+    {
+      "Route": "lib/sweetalert2_v11.11/sweetalert2.min.js",
+      "AssetFile": "c:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\lib\\sweetalert2_v11.11\\sweetalert2.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52126"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4nXBX2Jhg039XMML+MeA9JJOIhxNwTSOPrKz8p2tm6E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Jun 2024 15:34:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4nXBX2Jhg039XMML+MeA9JJOIhxNwTSOPrKz8p2tm6E="
+        }
+      ]
+    },
+    {
+      "Route": "lib/sweetalert2_v11.11/sweetalert2.min.lljtqz1ndt.css",
+      "AssetFile": "c:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\lib\\sweetalert2_v11.11\\sweetalert2.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h2Gkn+H33lnKlQTNntQyLXMWq7/9XI2rlPCsLsVcUBs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Jun 2024 15:34:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lljtqz1ndt"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/sweetalert2_v11.11/sweetalert2.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-h2Gkn+H33lnKlQTNntQyLXMWq7/9XI2rlPCsLsVcUBs="
+        }
+      ]
+    },
+    {
+      "Route": "lib/sweetalert2_v11.11/sweetalert2.min.ybzhhr8puh.js",
+      "AssetFile": "c:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\wwwroot\\lib\\sweetalert2_v11.11\\sweetalert2.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52126"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4nXBX2Jhg039XMML+MeA9JJOIhxNwTSOPrKz8p2tm6E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Jun 2024 15:34:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ybzhhr8puh"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/sweetalert2_v11.11/sweetalert2.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4nXBX2Jhg039XMML+MeA9JJOIhxNwTSOPrKz8p2tm6E="
+        }
+      ]
+    },
+    {
+      "Route": "WebAppCRUDMySQL.bundle.scp.css",
+      "AssetFile": "c:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebAppCRUDMySQL.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1133"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UVNrAE32QDAopojn+Ps2FpWV4u75q2foRgpV4PX6tmQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 03:39:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UVNrAE32QDAopojn+Ps2FpWV4u75q2foRgpV4PX6tmQ="
+        }
+      ]
+    },
+    {
+      "Route": "WebAppCRUDMySQL.styles.css",
+      "AssetFile": "c:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebAppCRUDMySQL.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1133"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UVNrAE32QDAopojn+Ps2FpWV4u75q2foRgpV4PX6tmQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 03:39:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UVNrAE32QDAopojn+Ps2FpWV4u75q2foRgpV4PX6tmQ="
+        }
+      ]
+    },
+    {
+      "Route": "WebAppCRUDMySQL.t1lr82qfkl.bundle.scp.css",
+      "AssetFile": "c:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebAppCRUDMySQL.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1133"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UVNrAE32QDAopojn+Ps2FpWV4u75q2foRgpV4PX6tmQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 03:39:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t1lr82qfkl"
+        },
+        {
+          "Name": "label",
+          "Value": "WebAppCRUDMySQL.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UVNrAE32QDAopojn+Ps2FpWV4u75q2foRgpV4PX6tmQ="
+        }
+      ]
+    },
+    {
+      "Route": "WebAppCRUDMySQL.t1lr82qfkl.styles.css",
+      "AssetFile": "c:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebAppCRUDMySQL.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1133"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UVNrAE32QDAopojn+Ps2FpWV4u75q2foRgpV4PX6tmQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 03:39:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t1lr82qfkl"
+        },
+        {
+          "Name": "label",
+          "Value": "WebAppCRUDMySQL.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UVNrAE32QDAopojn+Ps2FpWV4u75q2foRgpV4PX6tmQ="
+        }
+      ]
+    }
+  ]
+}

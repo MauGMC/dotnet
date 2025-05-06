@@ -71,7 +71,7 @@ public class IndexModel : PageModel
         aux.AgregarNuevo("productos", Producto.Nombre, Producto.Descripcion, Producto.Precio, Producto.Cantidad, Producto.Categoria);
         return RedirectToPage("/Index");
     }
-    public IActionResult OnPostEditarProducto()
+    public IActionResult OnPostEditarProducto(int id)
     {
         editarModal = new EditarModal
         {

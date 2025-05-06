@@ -1,0 +1,5565 @@
+{
+  "Version": 1,
+  "Hash": "30pufXkgb6Z7s01H2R3MKi4w/cv9F56GUEKGNKu+T00=",
+  "Source": "WebAppCRUDMySQL",
+  "BasePath": "_content/WebAppCRUDMySQL",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebAppCRUDMySQL/wwwroot",
+      "Source": "WebAppCRUDMySQL",
+      "ContentRoot": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/",
+      "BasePath": "_content/WebAppCRUDMySQL",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/62q4htzy1p-bfevd61e0d.gz",
+      "SourceId": "WebAppCRUDMySQL",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/WebAppCRUDMySQL",
+      "RelativePath": "lib/bootstrap5/bootstrap.bundle.min#[.{fingerprint=bfevd61e0d}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/bootstrap5/bootstrap.bundle.min.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "db2ree6qbh",
+      "Integrity": "hxUVoRcF8nXu7q77X0eeLggN2ypMsv6Rd8oxidVx75M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/bootstrap5/bootstrap.bundle.min.js"
+    },
+    {
+      "Identity": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/754qad5j95-btxfezbv74.gz",
+      "SourceId": "WebAppCRUDMySQL",
+      "SourceType": "Computed",
+      "ContentRoot": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/WebAppCRUDMySQL",
+      "RelativePath": "WebAppCRUDMySQL#[.{fingerprint=btxfezbv74}]!.bundle.scp.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/scopedcss/projectbundle/WebAppCRUDMySQL.bundle.scp.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "90q1bbzu5z",
+      "Integrity": "Fx+0wK0eKDyduZDtaWbPWXgKcbDnK+Bj/47b04K3O1s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/scopedcss/projectbundle/WebAppCRUDMySQL.bundle.scp.css"
+    },
+    {
+      "Identity": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/7pxgifgbzx-n2fyjk766i.gz",
+      "SourceId": "WebAppCRUDMySQL",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/WebAppCRUDMySQL",
+      "RelativePath": "lib/bootstrap5/bootstrap.min#[.{fingerprint=n2fyjk766i}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/bootstrap5/bootstrap.min.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "nqj4k1bset",
+      "Integrity": "7yQVwji7rLBzOsQEKoXs6F7eM2XJgmE4JdJvJNYvjgI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/bootstrap5/bootstrap.min.css"
+    },
+    {
+      "Identity": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/8g08wd89rm-c2tiyv64ts.gz",
+      "SourceId": "WebAppCRUDMySQL",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/WebAppCRUDMySQL",
+      "RelativePath": "css/site#[.{fingerprint=c2tiyv64ts}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/css/site.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "fgevlo98rf",
+      "Integrity": "73/w2QcTrfRLmDNRmWTEEqx080BqbxWUK0UJi0qJnDs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/css/site.css"
+    },
+    {
+      "Identity": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/8hpcdd3mib-lljtqz1ndt.gz",
+      "SourceId": "WebAppCRUDMySQL",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/WebAppCRUDMySQL",
+      "RelativePath": "lib/sweetalert2_v11.11/sweetalert2.min#[.{fingerprint=lljtqz1ndt}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/sweetalert2_v11.11/sweetalert2.min.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "ee9crcltoh",
+      "Integrity": "agpePKJgprCzIwBOaMOhRIRUyY6VsewWoJ0OjJscBXY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/sweetalert2_v11.11/sweetalert2.min.css"
+    },
+    {
+      "Identity": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/dqpru09efd-q1m0a7ypz3.gz",
+      "SourceId": "WebAppCRUDMySQL",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/WebAppCRUDMySQL",
+      "RelativePath": "lib/datatables_v2.0.8/datatables.min#[.{fingerprint=q1m0a7ypz3}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/datatables_v2.0.8/datatables.min.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "pjfxig1nep",
+      "Integrity": "C9G3BxhmtZauFEEajfSSHAAj+p5G/PmOCCZWCoi45K0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/datatables_v2.0.8/datatables.min.css"
+    },
+    {
+      "Identity": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/iiow93cb98-61n19gt1b8.gz",
+      "SourceId": "WebAppCRUDMySQL",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/WebAppCRUDMySQL",
+      "RelativePath": "favicon#[.{fingerprint=61n19gt1b8}]?.ico.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/favicon.ico",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "gjtj35e07v",
+      "Integrity": "tOy5kS1PTkjkEg7bjV8bJa0VpoEZJUHnbqYmm1YyhMg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/kbrqyghgd3-7g010t2zdz.gz",
+      "SourceId": "WebAppCRUDMySQL",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/WebAppCRUDMySQL",
+      "RelativePath": "lib/bootstrap5/bootstrap.bundle.min.js#[.{fingerprint=7g010t2zdz}]?.map.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/bootstrap5/bootstrap.bundle.min.js.map",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "dkk5r4niez",
+      "Integrity": "o43I1qQ0j7qfNffpZtqL9d1LnP/sFpYR0iWiJqRIazo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/bootstrap5/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Identity": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/p324xcz68c-6g3iwxgh5e.gz",
+      "SourceId": "WebAppCRUDMySQL",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/WebAppCRUDMySQL",
+      "RelativePath": "lib/datatables_v2.0.8/datatables#[.{fingerprint=6g3iwxgh5e}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/datatables_v2.0.8/datatables.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "3ez1hudbt3",
+      "Integrity": "a+LdtJUTSwpdQpAP6rBGwwk+bFPm5sPCTlYSWnzHFwY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/datatables_v2.0.8/datatables.js"
+    },
+    {
+      "Identity": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/qwnrvc3k2t-qj9ty2cff7.gz",
+      "SourceId": "WebAppCRUDMySQL",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/WebAppCRUDMySQL",
+      "RelativePath": "lib/datatables_v2.0.8/datatables#[.{fingerprint=qj9ty2cff7}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/datatables_v2.0.8/datatables.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "s3ezw72j6c",
+      "Integrity": "2FFV1Gup+qz36dpvkEZ63vA1xW5dVwvK5Gpd6Jq8R0Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/datatables_v2.0.8/datatables.css"
+    },
+    {
+      "Identity": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/sgx4zl1p1r-hy1c2auhqz.gz",
+      "SourceId": "WebAppCRUDMySQL",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/WebAppCRUDMySQL",
+      "RelativePath": "lib/bootstrap5/bootstrap.min.css#[.{fingerprint=hy1c2auhqz}]?.map.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/bootstrap5/bootstrap.min.css.map",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "wfmqh0snti",
+      "Integrity": "5Npmq0WG1eLPkANVjuTjnZIU6JIBzktFZqXaDG4a/XM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/bootstrap5/bootstrap.min.css.map"
+    },
+    {
+      "Identity": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/x9igjcjqco-btxfezbv74.gz",
+      "SourceId": "WebAppCRUDMySQL",
+      "SourceType": "Computed",
+      "ContentRoot": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/WebAppCRUDMySQL",
+      "RelativePath": "WebAppCRUDMySQL#[.{fingerprint=btxfezbv74}]?.styles.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/scopedcss/bundle/WebAppCRUDMySQL.styles.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "90q1bbzu5z",
+      "Integrity": "Fx+0wK0eKDyduZDtaWbPWXgKcbDnK+Bj/47b04K3O1s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/scopedcss/bundle/WebAppCRUDMySQL.styles.css"
+    },
+    {
+      "Identity": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/xs8xln5n5s-jxbgwoqglh.gz",
+      "SourceId": "WebAppCRUDMySQL",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/WebAppCRUDMySQL",
+      "RelativePath": "lib/datatables_v2.0.8/datatables.min#[.{fingerprint=jxbgwoqglh}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/datatables_v2.0.8/datatables.min.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "i6pnk63t92",
+      "Integrity": "OrvcTYvp38QF74k7qVcCXk9MjXmVgDwm8uidr84uZY4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/datatables_v2.0.8/datatables.min.js"
+    },
+    {
+      "Identity": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/ybxlxgeuio-o1o13a6vjx.gz",
+      "SourceId": "WebAppCRUDMySQL",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/WebAppCRUDMySQL",
+      "RelativePath": "lib/jquery_v3.7.1/jquery-3.7.1.min#[.{fingerprint=o1o13a6vjx}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/jquery_v3.7.1/jquery-3.7.1.min.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "pjwk5xzizl",
+      "Integrity": "OyU7TDIA0tTFKi3MRwhEaOd0kz4cUNzCtNouAea7Wq0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/jquery_v3.7.1/jquery-3.7.1.min.js"
+    },
+    {
+      "Identity": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/yw7lr1mqhg-2960r4r1a1.gz",
+      "SourceId": "WebAppCRUDMySQL",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/WebAppCRUDMySQL",
+      "RelativePath": "js/site#[.{fingerprint=2960r4r1a1}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/js/site.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "zlwb0iukng",
+      "Integrity": "KR7AlPP9iKTHITwXCxqAzMzFQ/rfDuHXIslEuFZkFCM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/js/site.js"
+    },
+    {
+      "Identity": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/zkpxb9zbqo-ybzhhr8puh.gz",
+      "SourceId": "WebAppCRUDMySQL",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/WebAppCRUDMySQL",
+      "RelativePath": "lib/sweetalert2_v11.11/sweetalert2.min#[.{fingerprint=ybzhhr8puh}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/sweetalert2_v11.11/sweetalert2.min.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "nchl5x7rd9",
+      "Integrity": "F8TZJOdJgCB9rRMsVRChxUR6SgJJIYylYRWjSkrzfbw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/sweetalert2_v11.11/sweetalert2.min.js"
+    },
+    {
+      "Identity": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/scopedcss/bundle/WebAppCRUDMySQL.styles.css",
+      "SourceId": "WebAppCRUDMySQL",
+      "SourceType": "Computed",
+      "ContentRoot": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/scopedcss/bundle/",
+      "BasePath": "_content/WebAppCRUDMySQL",
+      "RelativePath": "WebAppCRUDMySQL#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "btxfezbv74",
+      "Integrity": "Ef3Sf3Ya4761+e3Xt2Y+hOj5CesvamIwjVH+eXMuXEg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/scopedcss/bundle/WebAppCRUDMySQL.styles.css"
+    },
+    {
+      "Identity": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/scopedcss/projectbundle/WebAppCRUDMySQL.bundle.scp.css",
+      "SourceId": "WebAppCRUDMySQL",
+      "SourceType": "Computed",
+      "ContentRoot": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/scopedcss/projectbundle/",
+      "BasePath": "_content/WebAppCRUDMySQL",
+      "RelativePath": "WebAppCRUDMySQL#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "btxfezbv74",
+      "Integrity": "Ef3Sf3Ya4761+e3Xt2Y+hOj5CesvamIwjVH+eXMuXEg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/scopedcss/projectbundle/WebAppCRUDMySQL.bundle.scp.css"
+    },
+    {
+      "Identity": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/css/site.css",
+      "SourceId": "WebAppCRUDMySQL",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/",
+      "BasePath": "_content/WebAppCRUDMySQL",
+      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "c2tiyv64ts",
+      "Integrity": "pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/site.css"
+    },
+    {
+      "Identity": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/favicon.ico",
+      "SourceId": "WebAppCRUDMySQL",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/",
+      "BasePath": "_content/WebAppCRUDMySQL",
+      "RelativePath": "favicon#[.{fingerprint}]?.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "61n19gt1b8",
+      "Integrity": "Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/js/site.js",
+      "SourceId": "WebAppCRUDMySQL",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/",
+      "BasePath": "_content/WebAppCRUDMySQL",
+      "RelativePath": "js/site#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2960r4r1a1",
+      "Integrity": "pprRZWEh4vFuEJ02PW6UfF+06i0nYKjT2XJ/mOIcBmQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/site.js"
+    },
+    {
+      "Identity": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/bootstrap5/bootstrap.bundle.min.js",
+      "SourceId": "WebAppCRUDMySQL",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/",
+      "BasePath": "_content/WebAppCRUDMySQL",
+      "RelativePath": "lib/bootstrap5/bootstrap.bundle.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bfevd61e0d",
+      "Integrity": "ORBCb//WwUWwNh+EjsvO97snO3mAJ1+jhMzrlPBTYSQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap5/bootstrap.bundle.min.js"
+    },
+    {
+      "Identity": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/bootstrap5/bootstrap.bundle.min.js.map",
+      "SourceId": "WebAppCRUDMySQL",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/",
+      "BasePath": "_content/WebAppCRUDMySQL",
+      "RelativePath": "lib/bootstrap5/bootstrap.bundle.min.js#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7g010t2zdz",
+      "Integrity": "edPQ7BeYucniO6//2HhRgG/MDudyk2f6JPuDOItsanQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap5/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Identity": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/bootstrap5/bootstrap.min.css",
+      "SourceId": "WebAppCRUDMySQL",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/",
+      "BasePath": "_content/WebAppCRUDMySQL",
+      "RelativePath": "lib/bootstrap5/bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "n2fyjk766i",
+      "Integrity": "zzPh8NflvEInFbVSzLYGVMLOn0j0kfsjq/UlNeMBRYw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap5/bootstrap.min.css"
+    },
+    {
+      "Identity": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/bootstrap5/bootstrap.min.css.map",
+      "SourceId": "WebAppCRUDMySQL",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/",
+      "BasePath": "_content/WebAppCRUDMySQL",
+      "RelativePath": "lib/bootstrap5/bootstrap.min.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hy1c2auhqz",
+      "Integrity": "6V4ilQ0Hy45mqA89dEbzxeQcuTG7beY0qqO4tnKqd44=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap5/bootstrap.min.css.map"
+    },
+    {
+      "Identity": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/datatables_v2.0.8/datatables.css",
+      "SourceId": "WebAppCRUDMySQL",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/",
+      "BasePath": "_content/WebAppCRUDMySQL",
+      "RelativePath": "lib/datatables_v2.0.8/datatables#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qj9ty2cff7",
+      "Integrity": "lv8mP7EqTiY0292KQHO1IyMkpXghCcbLxry0Fz0PyUo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/datatables_v2.0.8/datatables.css"
+    },
+    {
+      "Identity": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/datatables_v2.0.8/datatables.js",
+      "SourceId": "WebAppCRUDMySQL",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/",
+      "BasePath": "_content/WebAppCRUDMySQL",
+      "RelativePath": "lib/datatables_v2.0.8/datatables#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6g3iwxgh5e",
+      "Integrity": "9mXw2CZyysR7AaFU/drTdxDPyET5YykkJyKO3Um12S0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/datatables_v2.0.8/datatables.js"
+    },
+    {
+      "Identity": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/datatables_v2.0.8/datatables.min.css",
+      "SourceId": "WebAppCRUDMySQL",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/",
+      "BasePath": "_content/WebAppCRUDMySQL",
+      "RelativePath": "lib/datatables_v2.0.8/datatables.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "q1m0a7ypz3",
+      "Integrity": "YmrhyNpm/ISm2tyjRfwMosFjUk+M+uOs7fPwz8y1/Ow=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/datatables_v2.0.8/datatables.min.css"
+    },
+    {
+      "Identity": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/datatables_v2.0.8/datatables.min.js",
+      "SourceId": "WebAppCRUDMySQL",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/",
+      "BasePath": "_content/WebAppCRUDMySQL",
+      "RelativePath": "lib/datatables_v2.0.8/datatables.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jxbgwoqglh",
+      "Integrity": "mT9MFeOdq/OAdQ0Sp1Cr1MiDnjNxvNCWuJUFk3QOWr8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/datatables_v2.0.8/datatables.min.js"
+    },
+    {
+      "Identity": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/jquery_v3.7.1/jquery-3.7.1.min.js",
+      "SourceId": "WebAppCRUDMySQL",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/",
+      "BasePath": "_content/WebAppCRUDMySQL",
+      "RelativePath": "lib/jquery_v3.7.1/jquery-3.7.1.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o1o13a6vjx",
+      "Integrity": "/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/jquery_v3.7.1/jquery-3.7.1.min.js"
+    },
+    {
+      "Identity": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/sweetalert2_v11.11/LICENSE",
+      "SourceId": "WebAppCRUDMySQL",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/",
+      "BasePath": "_content/WebAppCRUDMySQL",
+      "RelativePath": "lib/sweetalert2_v11.11/LICENSE#[.{fingerprint}]?",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "74foo8sdjh",
+      "Integrity": "h5qjP+ujWzQoxkhfwXzd2Mgg16h4AoGqlF5gWCooxLQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/sweetalert2_v11.11/LICENSE"
+    },
+    {
+      "Identity": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/sweetalert2_v11.11/sweetalert2.min.css",
+      "SourceId": "WebAppCRUDMySQL",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/",
+      "BasePath": "_content/WebAppCRUDMySQL",
+      "RelativePath": "lib/sweetalert2_v11.11/sweetalert2.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lljtqz1ndt",
+      "Integrity": "h2Gkn+H33lnKlQTNntQyLXMWq7/9XI2rlPCsLsVcUBs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/sweetalert2_v11.11/sweetalert2.min.css"
+    },
+    {
+      "Identity": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/sweetalert2_v11.11/sweetalert2.min.js",
+      "SourceId": "WebAppCRUDMySQL",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/",
+      "BasePath": "_content/WebAppCRUDMySQL",
+      "RelativePath": "lib/sweetalert2_v11.11/sweetalert2.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ybzhhr8puh",
+      "Integrity": "4nXBX2Jhg039XMML+MeA9JJOIhxNwTSOPrKz8p2tm6E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/sweetalert2_v11.11/sweetalert2.min.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/site.c2tiyv64ts.css",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/8g08wd89rm-c2tiyv64ts.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.004273504274"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "233"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"73/w2QcTrfRLmDNRmWTEEqx080BqbxWUK0UJi0qJnDs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 15:06:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c2tiyv64ts"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.c2tiyv64ts.css",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/css/site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "362"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 15:06:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c2tiyv64ts"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.c2tiyv64ts.css.gz",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/8g08wd89rm-c2tiyv64ts.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "233"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"73/w2QcTrfRLmDNRmWTEEqx080BqbxWUK0UJi0qJnDs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 15:06:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c2tiyv64ts"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-73/w2QcTrfRLmDNRmWTEEqx080BqbxWUK0UJi0qJnDs="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/8g08wd89rm-c2tiyv64ts.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.004273504274"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "233"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"73/w2QcTrfRLmDNRmWTEEqx080BqbxWUK0UJi0qJnDs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 15:06:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/css/site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "362"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 15:06:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/8g08wd89rm-c2tiyv64ts.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "233"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"73/w2QcTrfRLmDNRmWTEEqx080BqbxWUK0UJi0qJnDs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 15:06:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-73/w2QcTrfRLmDNRmWTEEqx080BqbxWUK0UJi0qJnDs="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.61n19gt1b8.ico",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/iiow93cb98-61n19gt1b8.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000405022276"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2468"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tOy5kS1PTkjkEg7bjV8bJa0VpoEZJUHnbqYmm1YyhMg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 15:06:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "61n19gt1b8"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.ico"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.61n19gt1b8.ico",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5430"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 15:06:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "61n19gt1b8"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.ico"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.61n19gt1b8.ico.gz",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/iiow93cb98-61n19gt1b8.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2468"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tOy5kS1PTkjkEg7bjV8bJa0VpoEZJUHnbqYmm1YyhMg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 15:06:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "61n19gt1b8"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.ico.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tOy5kS1PTkjkEg7bjV8bJa0VpoEZJUHnbqYmm1YyhMg="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ico",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/iiow93cb98-61n19gt1b8.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000405022276"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2468"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tOy5kS1PTkjkEg7bjV8bJa0VpoEZJUHnbqYmm1YyhMg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 15:06:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ico",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5430"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 15:06:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ico.gz",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/iiow93cb98-61n19gt1b8.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2468"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tOy5kS1PTkjkEg7bjV8bJa0VpoEZJUHnbqYmm1YyhMg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 15:06:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tOy5kS1PTkjkEg7bjV8bJa0VpoEZJUHnbqYmm1YyhMg="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.2960r4r1a1.js",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/yw7lr1mqhg-2960r4r1a1.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001052631579"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "949"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KR7AlPP9iKTHITwXCxqAzMzFQ/rfDuHXIslEuFZkFCM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 16:29:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"pprRZWEh4vFuEJ02PW6UfF+06i0nYKjT2XJ/mOIcBmQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2960r4r1a1"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pprRZWEh4vFuEJ02PW6UfF+06i0nYKjT2XJ/mOIcBmQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.2960r4r1a1.js",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/js/site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1903"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pprRZWEh4vFuEJ02PW6UfF+06i0nYKjT2XJ/mOIcBmQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 16:29:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2960r4r1a1"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pprRZWEh4vFuEJ02PW6UfF+06i0nYKjT2XJ/mOIcBmQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.2960r4r1a1.js.gz",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/yw7lr1mqhg-2960r4r1a1.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "949"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KR7AlPP9iKTHITwXCxqAzMzFQ/rfDuHXIslEuFZkFCM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 16:29:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2960r4r1a1"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KR7AlPP9iKTHITwXCxqAzMzFQ/rfDuHXIslEuFZkFCM="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/yw7lr1mqhg-2960r4r1a1.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001052631579"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "949"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KR7AlPP9iKTHITwXCxqAzMzFQ/rfDuHXIslEuFZkFCM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 16:29:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"pprRZWEh4vFuEJ02PW6UfF+06i0nYKjT2XJ/mOIcBmQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pprRZWEh4vFuEJ02PW6UfF+06i0nYKjT2XJ/mOIcBmQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/js/site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1903"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pprRZWEh4vFuEJ02PW6UfF+06i0nYKjT2XJ/mOIcBmQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 16:29:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pprRZWEh4vFuEJ02PW6UfF+06i0nYKjT2XJ/mOIcBmQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js.gz",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/yw7lr1mqhg-2960r4r1a1.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "949"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KR7AlPP9iKTHITwXCxqAzMzFQ/rfDuHXIslEuFZkFCM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 16:29:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KR7AlPP9iKTHITwXCxqAzMzFQ/rfDuHXIslEuFZkFCM="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap5/bootstrap.bundle.min.bfevd61e0d.js",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/62q4htzy1p-bfevd61e0d.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000041600799"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24037"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hxUVoRcF8nXu7q77X0eeLggN2ypMsv6Rd8oxidVx75M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 17:20:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ORBCb//WwUWwNh+EjsvO97snO3mAJ1+jhMzrlPBTYSQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bfevd61e0d"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap5/bootstrap.bundle.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ORBCb//WwUWwNh+EjsvO97snO3mAJ1+jhMzrlPBTYSQ="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap5/bootstrap.bundle.min.bfevd61e0d.js",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/bootstrap5/bootstrap.bundle.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "80721"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ORBCb//WwUWwNh+EjsvO97snO3mAJ1+jhMzrlPBTYSQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 17:20:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bfevd61e0d"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap5/bootstrap.bundle.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ORBCb//WwUWwNh+EjsvO97snO3mAJ1+jhMzrlPBTYSQ="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap5/bootstrap.bundle.min.bfevd61e0d.js.gz",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/62q4htzy1p-bfevd61e0d.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24037"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hxUVoRcF8nXu7q77X0eeLggN2ypMsv6Rd8oxidVx75M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 17:20:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bfevd61e0d"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap5/bootstrap.bundle.min.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hxUVoRcF8nXu7q77X0eeLggN2ypMsv6Rd8oxidVx75M="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap5/bootstrap.bundle.min.js",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/62q4htzy1p-bfevd61e0d.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000041600799"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24037"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hxUVoRcF8nXu7q77X0eeLggN2ypMsv6Rd8oxidVx75M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 17:20:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ORBCb//WwUWwNh+EjsvO97snO3mAJ1+jhMzrlPBTYSQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ORBCb//WwUWwNh+EjsvO97snO3mAJ1+jhMzrlPBTYSQ="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap5/bootstrap.bundle.min.js",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/bootstrap5/bootstrap.bundle.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "80721"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ORBCb//WwUWwNh+EjsvO97snO3mAJ1+jhMzrlPBTYSQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 17:20:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ORBCb//WwUWwNh+EjsvO97snO3mAJ1+jhMzrlPBTYSQ="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap5/bootstrap.bundle.min.js.7g010t2zdz.map",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/kbrqyghgd3-7g010t2zdz.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000011500598"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "86951"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o43I1qQ0j7qfNffpZtqL9d1LnP/sFpYR0iWiJqRIazo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 17:20:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"edPQ7BeYucniO6//2HhRgG/MDudyk2f6JPuDOItsanQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7g010t2zdz"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap5/bootstrap.bundle.min.js.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-edPQ7BeYucniO6//2HhRgG/MDudyk2f6JPuDOItsanQ="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap5/bootstrap.bundle.min.js.7g010t2zdz.map",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/bootstrap5/bootstrap.bundle.min.js.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "332229"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"edPQ7BeYucniO6//2HhRgG/MDudyk2f6JPuDOItsanQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 17:20:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7g010t2zdz"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap5/bootstrap.bundle.min.js.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-edPQ7BeYucniO6//2HhRgG/MDudyk2f6JPuDOItsanQ="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap5/bootstrap.bundle.min.js.7g010t2zdz.map.gz",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/kbrqyghgd3-7g010t2zdz.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "86951"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o43I1qQ0j7qfNffpZtqL9d1LnP/sFpYR0iWiJqRIazo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 17:20:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7g010t2zdz"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap5/bootstrap.bundle.min.js.map.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-o43I1qQ0j7qfNffpZtqL9d1LnP/sFpYR0iWiJqRIazo="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap5/bootstrap.bundle.min.js.gz",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/62q4htzy1p-bfevd61e0d.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24037"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hxUVoRcF8nXu7q77X0eeLggN2ypMsv6Rd8oxidVx75M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 17:20:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hxUVoRcF8nXu7q77X0eeLggN2ypMsv6Rd8oxidVx75M="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap5/bootstrap.bundle.min.js.map",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/kbrqyghgd3-7g010t2zdz.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000011500598"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "86951"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o43I1qQ0j7qfNffpZtqL9d1LnP/sFpYR0iWiJqRIazo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 17:20:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"edPQ7BeYucniO6//2HhRgG/MDudyk2f6JPuDOItsanQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-edPQ7BeYucniO6//2HhRgG/MDudyk2f6JPuDOItsanQ="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap5/bootstrap.bundle.min.js.map",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/bootstrap5/bootstrap.bundle.min.js.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "332229"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"edPQ7BeYucniO6//2HhRgG/MDudyk2f6JPuDOItsanQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 17:20:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-edPQ7BeYucniO6//2HhRgG/MDudyk2f6JPuDOItsanQ="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap5/bootstrap.bundle.min.js.map.gz",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/kbrqyghgd3-7g010t2zdz.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "86951"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o43I1qQ0j7qfNffpZtqL9d1LnP/sFpYR0iWiJqRIazo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 17:20:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-o43I1qQ0j7qfNffpZtqL9d1LnP/sFpYR0iWiJqRIazo="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap5/bootstrap.min.css",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/7pxgifgbzx-n2fyjk766i.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000032331070"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30929"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7yQVwji7rLBzOsQEKoXs6F7eM2XJgmE4JdJvJNYvjgI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 17:20:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"zzPh8NflvEInFbVSzLYGVMLOn0j0kfsjq/UlNeMBRYw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zzPh8NflvEInFbVSzLYGVMLOn0j0kfsjq/UlNeMBRYw="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap5/bootstrap.min.css",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/bootstrap5/bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "231913"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zzPh8NflvEInFbVSzLYGVMLOn0j0kfsjq/UlNeMBRYw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 17:20:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zzPh8NflvEInFbVSzLYGVMLOn0j0kfsjq/UlNeMBRYw="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap5/bootstrap.min.css.gz",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/7pxgifgbzx-n2fyjk766i.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30929"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7yQVwji7rLBzOsQEKoXs6F7eM2XJgmE4JdJvJNYvjgI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 17:20:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7yQVwji7rLBzOsQEKoXs6F7eM2XJgmE4JdJvJNYvjgI="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap5/bootstrap.min.css.hy1c2auhqz.map",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/sgx4zl1p1r-hy1c2auhqz.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000010904888"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "91701"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5Npmq0WG1eLPkANVjuTjnZIU6JIBzktFZqXaDG4a/XM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 17:20:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"6V4ilQ0Hy45mqA89dEbzxeQcuTG7beY0qqO4tnKqd44=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hy1c2auhqz"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap5/bootstrap.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6V4ilQ0Hy45mqA89dEbzxeQcuTG7beY0qqO4tnKqd44="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap5/bootstrap.min.css.hy1c2auhqz.map",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/bootstrap5/bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "589407"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6V4ilQ0Hy45mqA89dEbzxeQcuTG7beY0qqO4tnKqd44=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 17:20:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hy1c2auhqz"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap5/bootstrap.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6V4ilQ0Hy45mqA89dEbzxeQcuTG7beY0qqO4tnKqd44="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap5/bootstrap.min.css.hy1c2auhqz.map.gz",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/sgx4zl1p1r-hy1c2auhqz.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "91701"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5Npmq0WG1eLPkANVjuTjnZIU6JIBzktFZqXaDG4a/XM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 17:20:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hy1c2auhqz"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap5/bootstrap.min.css.map.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5Npmq0WG1eLPkANVjuTjnZIU6JIBzktFZqXaDG4a/XM="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap5/bootstrap.min.css.map",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/sgx4zl1p1r-hy1c2auhqz.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000010904888"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "91701"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5Npmq0WG1eLPkANVjuTjnZIU6JIBzktFZqXaDG4a/XM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 17:20:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"6V4ilQ0Hy45mqA89dEbzxeQcuTG7beY0qqO4tnKqd44=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6V4ilQ0Hy45mqA89dEbzxeQcuTG7beY0qqO4tnKqd44="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap5/bootstrap.min.css.map",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/bootstrap5/bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "589407"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6V4ilQ0Hy45mqA89dEbzxeQcuTG7beY0qqO4tnKqd44=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 17:20:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6V4ilQ0Hy45mqA89dEbzxeQcuTG7beY0qqO4tnKqd44="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap5/bootstrap.min.css.map.gz",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/sgx4zl1p1r-hy1c2auhqz.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "91701"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5Npmq0WG1eLPkANVjuTjnZIU6JIBzktFZqXaDG4a/XM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 17:20:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5Npmq0WG1eLPkANVjuTjnZIU6JIBzktFZqXaDG4a/XM="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap5/bootstrap.min.n2fyjk766i.css",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/7pxgifgbzx-n2fyjk766i.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000032331070"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30929"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7yQVwji7rLBzOsQEKoXs6F7eM2XJgmE4JdJvJNYvjgI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 17:20:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"zzPh8NflvEInFbVSzLYGVMLOn0j0kfsjq/UlNeMBRYw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "n2fyjk766i"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap5/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zzPh8NflvEInFbVSzLYGVMLOn0j0kfsjq/UlNeMBRYw="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap5/bootstrap.min.n2fyjk766i.css",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/bootstrap5/bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "231913"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zzPh8NflvEInFbVSzLYGVMLOn0j0kfsjq/UlNeMBRYw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 17:20:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "n2fyjk766i"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap5/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zzPh8NflvEInFbVSzLYGVMLOn0j0kfsjq/UlNeMBRYw="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap5/bootstrap.min.n2fyjk766i.css.gz",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/7pxgifgbzx-n2fyjk766i.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30929"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7yQVwji7rLBzOsQEKoXs6F7eM2XJgmE4JdJvJNYvjgI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 17:20:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "n2fyjk766i"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap5/bootstrap.min.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7yQVwji7rLBzOsQEKoXs6F7eM2XJgmE4JdJvJNYvjgI="
+        }
+      ]
+    },
+    {
+      "Route": "lib/datatables_v2.0.8/datatables.6g3iwxgh5e.js",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/p324xcz68c-6g3iwxgh5e.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000008743781"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "114366"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"a+LdtJUTSwpdQpAP6rBGwwk+bFPm5sPCTlYSWnzHFwY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Jun 2024 04:20:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"9mXw2CZyysR7AaFU/drTdxDPyET5YykkJyKO3Um12S0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6g3iwxgh5e"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/datatables_v2.0.8/datatables.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9mXw2CZyysR7AaFU/drTdxDPyET5YykkJyKO3Um12S0="
+        }
+      ]
+    },
+    {
+      "Route": "lib/datatables_v2.0.8/datatables.6g3iwxgh5e.js",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/datatables_v2.0.8/datatables.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "412303"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9mXw2CZyysR7AaFU/drTdxDPyET5YykkJyKO3Um12S0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Jun 2024 04:20:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6g3iwxgh5e"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/datatables_v2.0.8/datatables.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9mXw2CZyysR7AaFU/drTdxDPyET5YykkJyKO3Um12S0="
+        }
+      ]
+    },
+    {
+      "Route": "lib/datatables_v2.0.8/datatables.6g3iwxgh5e.js.gz",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/p324xcz68c-6g3iwxgh5e.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "114366"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"a+LdtJUTSwpdQpAP6rBGwwk+bFPm5sPCTlYSWnzHFwY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Jun 2024 04:20:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6g3iwxgh5e"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/datatables_v2.0.8/datatables.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-a+LdtJUTSwpdQpAP6rBGwwk+bFPm5sPCTlYSWnzHFwY="
+        }
+      ]
+    },
+    {
+      "Route": "lib/datatables_v2.0.8/datatables.css",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/qwnrvc3k2t-qj9ty2cff7.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000322476620"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3100"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2FFV1Gup+qz36dpvkEZ63vA1xW5dVwvK5Gpd6Jq8R0Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Jun 2024 04:20:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"lv8mP7EqTiY0292KQHO1IyMkpXghCcbLxry0Fz0PyUo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lv8mP7EqTiY0292KQHO1IyMkpXghCcbLxry0Fz0PyUo="
+        }
+      ]
+    },
+    {
+      "Route": "lib/datatables_v2.0.8/datatables.css",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/datatables_v2.0.8/datatables.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19115"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lv8mP7EqTiY0292KQHO1IyMkpXghCcbLxry0Fz0PyUo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Jun 2024 04:20:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lv8mP7EqTiY0292KQHO1IyMkpXghCcbLxry0Fz0PyUo="
+        }
+      ]
+    },
+    {
+      "Route": "lib/datatables_v2.0.8/datatables.css.gz",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/qwnrvc3k2t-qj9ty2cff7.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3100"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2FFV1Gup+qz36dpvkEZ63vA1xW5dVwvK5Gpd6Jq8R0Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Jun 2024 04:20:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2FFV1Gup+qz36dpvkEZ63vA1xW5dVwvK5Gpd6Jq8R0Q="
+        }
+      ]
+    },
+    {
+      "Route": "lib/datatables_v2.0.8/datatables.js",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/p324xcz68c-6g3iwxgh5e.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000008743781"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "114366"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"a+LdtJUTSwpdQpAP6rBGwwk+bFPm5sPCTlYSWnzHFwY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Jun 2024 04:20:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"9mXw2CZyysR7AaFU/drTdxDPyET5YykkJyKO3Um12S0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9mXw2CZyysR7AaFU/drTdxDPyET5YykkJyKO3Um12S0="
+        }
+      ]
+    },
+    {
+      "Route": "lib/datatables_v2.0.8/datatables.js",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/datatables_v2.0.8/datatables.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "412303"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9mXw2CZyysR7AaFU/drTdxDPyET5YykkJyKO3Um12S0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Jun 2024 04:20:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9mXw2CZyysR7AaFU/drTdxDPyET5YykkJyKO3Um12S0="
+        }
+      ]
+    },
+    {
+      "Route": "lib/datatables_v2.0.8/datatables.js.gz",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/p324xcz68c-6g3iwxgh5e.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "114366"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"a+LdtJUTSwpdQpAP6rBGwwk+bFPm5sPCTlYSWnzHFwY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Jun 2024 04:20:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-a+LdtJUTSwpdQpAP6rBGwwk+bFPm5sPCTlYSWnzHFwY="
+        }
+      ]
+    },
+    {
+      "Route": "lib/datatables_v2.0.8/datatables.min.css",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/dqpru09efd-q1m0a7ypz3.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000338638673"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2952"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C9G3BxhmtZauFEEajfSSHAAj+p5G/PmOCCZWCoi45K0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Jun 2024 04:20:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"YmrhyNpm/ISm2tyjRfwMosFjUk+M+uOs7fPwz8y1/Ow=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YmrhyNpm/ISm2tyjRfwMosFjUk+M+uOs7fPwz8y1/Ow="
+        }
+      ]
+    },
+    {
+      "Route": "lib/datatables_v2.0.8/datatables.min.css",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/datatables_v2.0.8/datatables.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16927"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YmrhyNpm/ISm2tyjRfwMosFjUk+M+uOs7fPwz8y1/Ow=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Jun 2024 04:20:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YmrhyNpm/ISm2tyjRfwMosFjUk+M+uOs7fPwz8y1/Ow="
+        }
+      ]
+    },
+    {
+      "Route": "lib/datatables_v2.0.8/datatables.min.css.gz",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/dqpru09efd-q1m0a7ypz3.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2952"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C9G3BxhmtZauFEEajfSSHAAj+p5G/PmOCCZWCoi45K0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Jun 2024 04:20:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-C9G3BxhmtZauFEEajfSSHAAj+p5G/PmOCCZWCoi45K0="
+        }
+      ]
+    },
+    {
+      "Route": "lib/datatables_v2.0.8/datatables.min.js",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/xs8xln5n5s-jxbgwoqglh.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000027496700"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36367"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OrvcTYvp38QF74k7qVcCXk9MjXmVgDwm8uidr84uZY4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Jun 2024 04:20:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"mT9MFeOdq/OAdQ0Sp1Cr1MiDnjNxvNCWuJUFk3QOWr8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mT9MFeOdq/OAdQ0Sp1Cr1MiDnjNxvNCWuJUFk3QOWr8="
+        }
+      ]
+    },
+    {
+      "Route": "lib/datatables_v2.0.8/datatables.min.js",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/datatables_v2.0.8/datatables.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "109119"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mT9MFeOdq/OAdQ0Sp1Cr1MiDnjNxvNCWuJUFk3QOWr8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Jun 2024 04:20:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mT9MFeOdq/OAdQ0Sp1Cr1MiDnjNxvNCWuJUFk3QOWr8="
+        }
+      ]
+    },
+    {
+      "Route": "lib/datatables_v2.0.8/datatables.min.js.gz",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/xs8xln5n5s-jxbgwoqglh.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36367"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OrvcTYvp38QF74k7qVcCXk9MjXmVgDwm8uidr84uZY4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Jun 2024 04:20:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OrvcTYvp38QF74k7qVcCXk9MjXmVgDwm8uidr84uZY4="
+        }
+      ]
+    },
+    {
+      "Route": "lib/datatables_v2.0.8/datatables.min.jxbgwoqglh.js",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/xs8xln5n5s-jxbgwoqglh.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000027496700"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36367"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OrvcTYvp38QF74k7qVcCXk9MjXmVgDwm8uidr84uZY4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Jun 2024 04:20:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"mT9MFeOdq/OAdQ0Sp1Cr1MiDnjNxvNCWuJUFk3QOWr8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jxbgwoqglh"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/datatables_v2.0.8/datatables.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mT9MFeOdq/OAdQ0Sp1Cr1MiDnjNxvNCWuJUFk3QOWr8="
+        }
+      ]
+    },
+    {
+      "Route": "lib/datatables_v2.0.8/datatables.min.jxbgwoqglh.js",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/datatables_v2.0.8/datatables.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "109119"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mT9MFeOdq/OAdQ0Sp1Cr1MiDnjNxvNCWuJUFk3QOWr8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Jun 2024 04:20:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jxbgwoqglh"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/datatables_v2.0.8/datatables.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mT9MFeOdq/OAdQ0Sp1Cr1MiDnjNxvNCWuJUFk3QOWr8="
+        }
+      ]
+    },
+    {
+      "Route": "lib/datatables_v2.0.8/datatables.min.jxbgwoqglh.js.gz",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/xs8xln5n5s-jxbgwoqglh.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36367"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OrvcTYvp38QF74k7qVcCXk9MjXmVgDwm8uidr84uZY4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Jun 2024 04:20:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jxbgwoqglh"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/datatables_v2.0.8/datatables.min.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OrvcTYvp38QF74k7qVcCXk9MjXmVgDwm8uidr84uZY4="
+        }
+      ]
+    },
+    {
+      "Route": "lib/datatables_v2.0.8/datatables.min.q1m0a7ypz3.css",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/dqpru09efd-q1m0a7ypz3.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000338638673"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2952"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C9G3BxhmtZauFEEajfSSHAAj+p5G/PmOCCZWCoi45K0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Jun 2024 04:20:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"YmrhyNpm/ISm2tyjRfwMosFjUk+M+uOs7fPwz8y1/Ow=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q1m0a7ypz3"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/datatables_v2.0.8/datatables.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YmrhyNpm/ISm2tyjRfwMosFjUk+M+uOs7fPwz8y1/Ow="
+        }
+      ]
+    },
+    {
+      "Route": "lib/datatables_v2.0.8/datatables.min.q1m0a7ypz3.css",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/datatables_v2.0.8/datatables.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16927"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YmrhyNpm/ISm2tyjRfwMosFjUk+M+uOs7fPwz8y1/Ow=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Jun 2024 04:20:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q1m0a7ypz3"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/datatables_v2.0.8/datatables.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YmrhyNpm/ISm2tyjRfwMosFjUk+M+uOs7fPwz8y1/Ow="
+        }
+      ]
+    },
+    {
+      "Route": "lib/datatables_v2.0.8/datatables.min.q1m0a7ypz3.css.gz",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/dqpru09efd-q1m0a7ypz3.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2952"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C9G3BxhmtZauFEEajfSSHAAj+p5G/PmOCCZWCoi45K0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Jun 2024 04:20:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q1m0a7ypz3"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/datatables_v2.0.8/datatables.min.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-C9G3BxhmtZauFEEajfSSHAAj+p5G/PmOCCZWCoi45K0="
+        }
+      ]
+    },
+    {
+      "Route": "lib/datatables_v2.0.8/datatables.qj9ty2cff7.css",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/qwnrvc3k2t-qj9ty2cff7.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000322476620"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3100"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2FFV1Gup+qz36dpvkEZ63vA1xW5dVwvK5Gpd6Jq8R0Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Jun 2024 04:20:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"lv8mP7EqTiY0292KQHO1IyMkpXghCcbLxry0Fz0PyUo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qj9ty2cff7"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/datatables_v2.0.8/datatables.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lv8mP7EqTiY0292KQHO1IyMkpXghCcbLxry0Fz0PyUo="
+        }
+      ]
+    },
+    {
+      "Route": "lib/datatables_v2.0.8/datatables.qj9ty2cff7.css",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/datatables_v2.0.8/datatables.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19115"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lv8mP7EqTiY0292KQHO1IyMkpXghCcbLxry0Fz0PyUo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Jun 2024 04:20:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qj9ty2cff7"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/datatables_v2.0.8/datatables.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lv8mP7EqTiY0292KQHO1IyMkpXghCcbLxry0Fz0PyUo="
+        }
+      ]
+    },
+    {
+      "Route": "lib/datatables_v2.0.8/datatables.qj9ty2cff7.css.gz",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/qwnrvc3k2t-qj9ty2cff7.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3100"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2FFV1Gup+qz36dpvkEZ63vA1xW5dVwvK5Gpd6Jq8R0Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Jun 2024 04:20:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qj9ty2cff7"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/datatables_v2.0.8/datatables.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2FFV1Gup+qz36dpvkEZ63vA1xW5dVwvK5Gpd6Jq8R0Q="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery_v3.7.1/jquery-3.7.1.min.js",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/ybxlxgeuio-o1o13a6vjx.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000032590275"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30683"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OyU7TDIA0tTFKi3MRwhEaOd0kz4cUNzCtNouAea7Wq0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 22 Nov 2024 19:51:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery_v3.7.1/jquery-3.7.1.min.js",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/jquery_v3.7.1/jquery-3.7.1.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87533"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 22 Nov 2024 19:51:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery_v3.7.1/jquery-3.7.1.min.js.gz",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/ybxlxgeuio-o1o13a6vjx.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30683"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OyU7TDIA0tTFKi3MRwhEaOd0kz4cUNzCtNouAea7Wq0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 22 Nov 2024 19:51:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OyU7TDIA0tTFKi3MRwhEaOd0kz4cUNzCtNouAea7Wq0="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery_v3.7.1/jquery-3.7.1.min.o1o13a6vjx.js",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/ybxlxgeuio-o1o13a6vjx.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000032590275"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30683"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OyU7TDIA0tTFKi3MRwhEaOd0kz4cUNzCtNouAea7Wq0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 22 Nov 2024 19:51:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o1o13a6vjx"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery_v3.7.1/jquery-3.7.1.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery_v3.7.1/jquery-3.7.1.min.o1o13a6vjx.js",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/jquery_v3.7.1/jquery-3.7.1.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87533"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 22 Nov 2024 19:51:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o1o13a6vjx"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery_v3.7.1/jquery-3.7.1.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery_v3.7.1/jquery-3.7.1.min.o1o13a6vjx.js.gz",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/ybxlxgeuio-o1o13a6vjx.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30683"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OyU7TDIA0tTFKi3MRwhEaOd0kz4cUNzCtNouAea7Wq0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 22 Nov 2024 19:51:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o1o13a6vjx"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery_v3.7.1/jquery-3.7.1.min.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OyU7TDIA0tTFKi3MRwhEaOd0kz4cUNzCtNouAea7Wq0="
+        }
+      ]
+    },
+    {
+      "Route": "lib/sweetalert2_v11.11/LICENSE",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/sweetalert2_v11.11/LICENSE",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1097"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h5qjP+ujWzQoxkhfwXzd2Mgg16h4AoGqlF5gWCooxLQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Jun 2024 15:34:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-h5qjP+ujWzQoxkhfwXzd2Mgg16h4AoGqlF5gWCooxLQ="
+        }
+      ]
+    },
+    {
+      "Route": "lib/sweetalert2_v11.11/LICENSE.74foo8sdjh",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/sweetalert2_v11.11/LICENSE",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1097"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h5qjP+ujWzQoxkhfwXzd2Mgg16h4AoGqlF5gWCooxLQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Jun 2024 15:34:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "74foo8sdjh"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/sweetalert2_v11.11/LICENSE"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-h5qjP+ujWzQoxkhfwXzd2Mgg16h4AoGqlF5gWCooxLQ="
+        }
+      ]
+    },
+    {
+      "Route": "lib/sweetalert2_v11.11/sweetalert2.min.css",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/8hpcdd3mib-lljtqz1ndt.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000239291697"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4178"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"agpePKJgprCzIwBOaMOhRIRUyY6VsewWoJ0OjJscBXY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Jun 2024 15:34:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"h2Gkn+H33lnKlQTNntQyLXMWq7/9XI2rlPCsLsVcUBs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-h2Gkn+H33lnKlQTNntQyLXMWq7/9XI2rlPCsLsVcUBs="
+        }
+      ]
+    },
+    {
+      "Route": "lib/sweetalert2_v11.11/sweetalert2.min.css",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/sweetalert2_v11.11/sweetalert2.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h2Gkn+H33lnKlQTNntQyLXMWq7/9XI2rlPCsLsVcUBs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Jun 2024 15:34:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-h2Gkn+H33lnKlQTNntQyLXMWq7/9XI2rlPCsLsVcUBs="
+        }
+      ]
+    },
+    {
+      "Route": "lib/sweetalert2_v11.11/sweetalert2.min.css.gz",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/8hpcdd3mib-lljtqz1ndt.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4178"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"agpePKJgprCzIwBOaMOhRIRUyY6VsewWoJ0OjJscBXY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Jun 2024 15:34:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-agpePKJgprCzIwBOaMOhRIRUyY6VsewWoJ0OjJscBXY="
+        }
+      ]
+    },
+    {
+      "Route": "lib/sweetalert2_v11.11/sweetalert2.min.js",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/zkpxb9zbqo-ybzhhr8puh.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000062617408"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15969"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F8TZJOdJgCB9rRMsVRChxUR6SgJJIYylYRWjSkrzfbw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Jun 2024 15:34:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"4nXBX2Jhg039XMML+MeA9JJOIhxNwTSOPrKz8p2tm6E=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4nXBX2Jhg039XMML+MeA9JJOIhxNwTSOPrKz8p2tm6E="
+        }
+      ]
+    },
+    {
+      "Route": "lib/sweetalert2_v11.11/sweetalert2.min.js",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/sweetalert2_v11.11/sweetalert2.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52126"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4nXBX2Jhg039XMML+MeA9JJOIhxNwTSOPrKz8p2tm6E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Jun 2024 15:34:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4nXBX2Jhg039XMML+MeA9JJOIhxNwTSOPrKz8p2tm6E="
+        }
+      ]
+    },
+    {
+      "Route": "lib/sweetalert2_v11.11/sweetalert2.min.js.gz",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/zkpxb9zbqo-ybzhhr8puh.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15969"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F8TZJOdJgCB9rRMsVRChxUR6SgJJIYylYRWjSkrzfbw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Jun 2024 15:34:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-F8TZJOdJgCB9rRMsVRChxUR6SgJJIYylYRWjSkrzfbw="
+        }
+      ]
+    },
+    {
+      "Route": "lib/sweetalert2_v11.11/sweetalert2.min.lljtqz1ndt.css",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/8hpcdd3mib-lljtqz1ndt.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000239291697"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4178"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"agpePKJgprCzIwBOaMOhRIRUyY6VsewWoJ0OjJscBXY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Jun 2024 15:34:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"h2Gkn+H33lnKlQTNntQyLXMWq7/9XI2rlPCsLsVcUBs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lljtqz1ndt"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/sweetalert2_v11.11/sweetalert2.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-h2Gkn+H33lnKlQTNntQyLXMWq7/9XI2rlPCsLsVcUBs="
+        }
+      ]
+    },
+    {
+      "Route": "lib/sweetalert2_v11.11/sweetalert2.min.lljtqz1ndt.css",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/sweetalert2_v11.11/sweetalert2.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h2Gkn+H33lnKlQTNntQyLXMWq7/9XI2rlPCsLsVcUBs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Jun 2024 15:34:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lljtqz1ndt"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/sweetalert2_v11.11/sweetalert2.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-h2Gkn+H33lnKlQTNntQyLXMWq7/9XI2rlPCsLsVcUBs="
+        }
+      ]
+    },
+    {
+      "Route": "lib/sweetalert2_v11.11/sweetalert2.min.lljtqz1ndt.css.gz",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/8hpcdd3mib-lljtqz1ndt.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4178"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"agpePKJgprCzIwBOaMOhRIRUyY6VsewWoJ0OjJscBXY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Jun 2024 15:34:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lljtqz1ndt"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/sweetalert2_v11.11/sweetalert2.min.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-agpePKJgprCzIwBOaMOhRIRUyY6VsewWoJ0OjJscBXY="
+        }
+      ]
+    },
+    {
+      "Route": "lib/sweetalert2_v11.11/sweetalert2.min.ybzhhr8puh.js",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/zkpxb9zbqo-ybzhhr8puh.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000062617408"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15969"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F8TZJOdJgCB9rRMsVRChxUR6SgJJIYylYRWjSkrzfbw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Jun 2024 15:34:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"4nXBX2Jhg039XMML+MeA9JJOIhxNwTSOPrKz8p2tm6E=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ybzhhr8puh"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/sweetalert2_v11.11/sweetalert2.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4nXBX2Jhg039XMML+MeA9JJOIhxNwTSOPrKz8p2tm6E="
+        }
+      ]
+    },
+    {
+      "Route": "lib/sweetalert2_v11.11/sweetalert2.min.ybzhhr8puh.js",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/wwwroot/lib/sweetalert2_v11.11/sweetalert2.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52126"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4nXBX2Jhg039XMML+MeA9JJOIhxNwTSOPrKz8p2tm6E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Jun 2024 15:34:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ybzhhr8puh"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/sweetalert2_v11.11/sweetalert2.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4nXBX2Jhg039XMML+MeA9JJOIhxNwTSOPrKz8p2tm6E="
+        }
+      ]
+    },
+    {
+      "Route": "lib/sweetalert2_v11.11/sweetalert2.min.ybzhhr8puh.js.gz",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/zkpxb9zbqo-ybzhhr8puh.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15969"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F8TZJOdJgCB9rRMsVRChxUR6SgJJIYylYRWjSkrzfbw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Jun 2024 15:34:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ybzhhr8puh"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/sweetalert2_v11.11/sweetalert2.min.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-F8TZJOdJgCB9rRMsVRChxUR6SgJJIYylYRWjSkrzfbw="
+        }
+      ]
+    },
+    {
+      "Route": "WebAppCRUDMySQL.btxfezbv74.bundle.scp.css",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/754qad5j95-btxfezbv74.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001834862385"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "544"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Fx+0wK0eKDyduZDtaWbPWXgKcbDnK+Bj/47b04K3O1s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 01:29:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Ef3Sf3Ya4761+e3Xt2Y+hOj5CesvamIwjVH+eXMuXEg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "btxfezbv74"
+        },
+        {
+          "Name": "label",
+          "Value": "WebAppCRUDMySQL.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ef3Sf3Ya4761+e3Xt2Y+hOj5CesvamIwjVH+eXMuXEg="
+        }
+      ]
+    },
+    {
+      "Route": "WebAppCRUDMySQL.btxfezbv74.bundle.scp.css",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/scopedcss/projectbundle/WebAppCRUDMySQL.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1084"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ef3Sf3Ya4761+e3Xt2Y+hOj5CesvamIwjVH+eXMuXEg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 01:29:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "btxfezbv74"
+        },
+        {
+          "Name": "label",
+          "Value": "WebAppCRUDMySQL.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ef3Sf3Ya4761+e3Xt2Y+hOj5CesvamIwjVH+eXMuXEg="
+        }
+      ]
+    },
+    {
+      "Route": "WebAppCRUDMySQL.btxfezbv74.bundle.scp.css.gz",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/754qad5j95-btxfezbv74.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "544"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Fx+0wK0eKDyduZDtaWbPWXgKcbDnK+Bj/47b04K3O1s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 01:29:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "btxfezbv74"
+        },
+        {
+          "Name": "label",
+          "Value": "WebAppCRUDMySQL.bundle.scp.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Fx+0wK0eKDyduZDtaWbPWXgKcbDnK+Bj/47b04K3O1s="
+        }
+      ]
+    },
+    {
+      "Route": "WebAppCRUDMySQL.btxfezbv74.styles.css",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/x9igjcjqco-btxfezbv74.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001834862385"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "544"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Fx+0wK0eKDyduZDtaWbPWXgKcbDnK+Bj/47b04K3O1s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 01:29:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Ef3Sf3Ya4761+e3Xt2Y+hOj5CesvamIwjVH+eXMuXEg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "btxfezbv74"
+        },
+        {
+          "Name": "label",
+          "Value": "WebAppCRUDMySQL.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ef3Sf3Ya4761+e3Xt2Y+hOj5CesvamIwjVH+eXMuXEg="
+        }
+      ]
+    },
+    {
+      "Route": "WebAppCRUDMySQL.btxfezbv74.styles.css",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/scopedcss/bundle/WebAppCRUDMySQL.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1084"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ef3Sf3Ya4761+e3Xt2Y+hOj5CesvamIwjVH+eXMuXEg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 01:29:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "btxfezbv74"
+        },
+        {
+          "Name": "label",
+          "Value": "WebAppCRUDMySQL.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ef3Sf3Ya4761+e3Xt2Y+hOj5CesvamIwjVH+eXMuXEg="
+        }
+      ]
+    },
+    {
+      "Route": "WebAppCRUDMySQL.btxfezbv74.styles.css.gz",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/x9igjcjqco-btxfezbv74.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "544"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Fx+0wK0eKDyduZDtaWbPWXgKcbDnK+Bj/47b04K3O1s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 01:29:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "btxfezbv74"
+        },
+        {
+          "Name": "label",
+          "Value": "WebAppCRUDMySQL.styles.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Fx+0wK0eKDyduZDtaWbPWXgKcbDnK+Bj/47b04K3O1s="
+        }
+      ]
+    },
+    {
+      "Route": "WebAppCRUDMySQL.bundle.scp.css",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/754qad5j95-btxfezbv74.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001834862385"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "544"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Fx+0wK0eKDyduZDtaWbPWXgKcbDnK+Bj/47b04K3O1s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 01:29:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Ef3Sf3Ya4761+e3Xt2Y+hOj5CesvamIwjVH+eXMuXEg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ef3Sf3Ya4761+e3Xt2Y+hOj5CesvamIwjVH+eXMuXEg="
+        }
+      ]
+    },
+    {
+      "Route": "WebAppCRUDMySQL.bundle.scp.css",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/scopedcss/projectbundle/WebAppCRUDMySQL.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1084"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ef3Sf3Ya4761+e3Xt2Y+hOj5CesvamIwjVH+eXMuXEg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 01:29:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ef3Sf3Ya4761+e3Xt2Y+hOj5CesvamIwjVH+eXMuXEg="
+        }
+      ]
+    },
+    {
+      "Route": "WebAppCRUDMySQL.bundle.scp.css.gz",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/754qad5j95-btxfezbv74.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "544"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Fx+0wK0eKDyduZDtaWbPWXgKcbDnK+Bj/47b04K3O1s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 01:29:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Fx+0wK0eKDyduZDtaWbPWXgKcbDnK+Bj/47b04K3O1s="
+        }
+      ]
+    },
+    {
+      "Route": "WebAppCRUDMySQL.styles.css",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/x9igjcjqco-btxfezbv74.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001834862385"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "544"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Fx+0wK0eKDyduZDtaWbPWXgKcbDnK+Bj/47b04K3O1s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 01:29:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Ef3Sf3Ya4761+e3Xt2Y+hOj5CesvamIwjVH+eXMuXEg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ef3Sf3Ya4761+e3Xt2Y+hOj5CesvamIwjVH+eXMuXEg="
+        }
+      ]
+    },
+    {
+      "Route": "WebAppCRUDMySQL.styles.css",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/scopedcss/bundle/WebAppCRUDMySQL.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1084"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ef3Sf3Ya4761+e3Xt2Y+hOj5CesvamIwjVH+eXMuXEg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 01:29:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ef3Sf3Ya4761+e3Xt2Y+hOj5CesvamIwjVH+eXMuXEg="
+        }
+      ]
+    },
+    {
+      "Route": "WebAppCRUDMySQL.styles.css.gz",
+      "AssetFile": "/home/erick/Workspace/dotnet/WebAppCRUDMySQL/obj/Debug/net9.0/compressed/x9igjcjqco-btxfezbv74.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "544"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Fx+0wK0eKDyduZDtaWbPWXgKcbDnK+Bj/47b04K3O1s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 01:29:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Fx+0wK0eKDyduZDtaWbPWXgKcbDnK+Bj/47b04K3O1s="
+        }
+      ]
+    }
+  ]
+}

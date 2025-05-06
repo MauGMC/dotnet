@@ -1,0 +1,108 @@
+@page
+@model SQLprueba.Pages.MtoListaModel
+@{
+    ViewData["Title"] = (Model.Producto.ID == -1 ? "Nuevo" : "Editar") + " Producto";
+}
+
+<h2>Agregar un producto</h2>
+
+<form method="post" onsubmit="form_submit(event)" autocomplete="off" id="form">
+    @Html.AntiForgeryToken()
+    <div class="mb-3">
+        <label asp-for="Producto.ID">ID:</label>
+        <input class="form-control" type="text" id="Id" name="Id" value="@(Model.Producto.ID == -1 ? "-1" : Model.Producto.ID.ToString())" readonly /><br />
+    </div>
+    <div class="mb-3">
+        <label asp-for="Producto.Nombre" class="form-label"></label>
+        <input asp-for="Producto.Nombre" class="form-control" id="Nombre" name="Nombre"/>
+        <span asp-validation-for="Producto.Nombre" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Producto.Descripcion" class="form-label"></label>
+        <input asp-for="Producto.Descripcion" class="form-control" id="Descripcion" name="Descripcion" />
+        <span asp-validation-for="Producto.Descripcion" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Producto.Precio" class="form-label"></label>
+        <input asp-for="Producto.Precio" class="form-control" id="Precio" name="Precio" />
+        <span asp-validation-for="Producto.Precio" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Producto.Cantidad" class="form-label"></label>
+        <input asp-for="Producto.Cantidad" class="form-control" id="Cantidad" name="Cantidad" />
+        <span asp-validation-for="Producto.Cantidad" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Producto.Categoria" class="form-label"></label>
+        <select asp-for="Producto.Categoria" asp-items="Model.CategoriasLista" class="form-control" id="Categoria" name="Categoria">
+            <option value="">Seleccionar categoría...</option>
+        </select>
+        <span asp-validation-for="Producto.Categoria" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Guardar</button>
+    <a asp-page="/Lista" class="btn btn-secondary">Cancelar</a>
+</form>
+@section Scripts {
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+    <script src="~/js/sweetalert2.all.min.js"></script>
+    <script>
+        async function form_submit(event){
+            event.preventDefault();
+            const token = document.querySelector('input[name="__RequestVerificationToken"]').value;
+            const form = document.getElementById('form');
+            if (!$(form).valid()) return;
+            const formData = new FormData(form);
+            const json = Object.fromEntries(formData.entries());
+
+            const confirmed = await Swal.fire({
+                title: '¿Estás seguro?',
+                text: '¿Quieres guardar los cambios?',
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#3085d6',
+                cancelButtonColor: '#d33',
+                confirmButtonText: 'Sí, guardar'
+            });
+
+            if (confirmed.isConfirmed) {
+                try {
+                    const response = await fetch("/ProcesarCRUD", {
+                        method: "POST",
+                        headers: {
+                            "Content-Type": "application/json",
+                            "RequestVerificationToken": token
+                        },
+                        body: JSON.stringify(json)
+                    });
+
+                    const result = await response.json();
+
+                    if (result.success) {
+                        await Swal.fire({
+                            icon: "success",
+                            title: "¡Éxito!",
+                            text: result.message
+                        });
+                        window.location.href = "/Lista";
+                    } else {
+                        console.log("JSON enviado:", JSON.stringify(json, null, 2));
+                        throw new Error(result.message || "Error desconocido");
+                        window.location.href="/Lista";
+                    }
+                } catch (err) {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Error',
+                        text: err.message,
+                    });
+                }
+            }
+        }
+    </script>
+}

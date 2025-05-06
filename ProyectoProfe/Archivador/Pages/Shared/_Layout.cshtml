@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - WebAppCRUDMySQL</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="~/lib/bootstrap5/bootstrap.min.css" rel="stylesheet">
+    <!-- SweetAlert2 CSS -->
+    <link href="~/lib/sweetalert2_v11.11/sweetalert2.min.css" rel="stylesheet">
+    <!-- DataTables CSS -->
+    <link href="~/lib/datatables_v2.0.8/datatables.min.css" rel="stylesheet">
+    <!-- SITE CSS -->
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/WebAppCRUDMySQL.styles.css" asp-append-version="true" />
+    
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-page="/Index">WebAppCRUDMySQL</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
+                        </li>
+                        <li class="nav-item"></li>
+                            <a class="nav-link text-dark" asp-area="" asp-page="/ProductoLista">Producto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2025 - WebAppCRUDMySQL - <a asp-area="" asp-page="/Privacy">Privacy</a>
+        </div>
+    </footer>
+
+	 <!-- JQuery JS -->
+    <script src="~/lib/jquery_v3.7.1/jquery-3.7.1.min.js"></script>
+    <!-- Bootstrap5 JS -->
+    <script src="~/lib/bootstrap5/bootstrap.bundle.min.js"></script>
+    <!-- DataTables JS -->
+    <script src="~/lib/datatables_v2.0.8/datatables.min.js"></script>
+    <!-- SweetAlert2 JS -->
+    <script src="~/lib/sweetalert2_v11.11/sweetalert2.min.js"></script>
+	<!-- SITE JS -->
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    <!-- Si quiero ejecutar scripts de mis vistas, debo usar la sección "Scripts" dentro ellas -->
+    @await RenderSectionAsync("Scripts", required: false) 
+</body>
+</html>

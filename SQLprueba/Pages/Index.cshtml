@@ -150,7 +150,7 @@
                 $('#editar-id').val(data[0]); 
                 $('#editar-nombre').val(data[1]); 
                 $('#editar-descripcion').val(data[2]);
-                $('#editar-precio').val(data[3]); 
+                $('#editar-precio').val(data[3].replace(/[^0-9.]/g, ''));
                 $('#editar-cantidad').val(data[4]); 
                 $('#editar-categoria').val(valorCategoria(data[5]));
             }

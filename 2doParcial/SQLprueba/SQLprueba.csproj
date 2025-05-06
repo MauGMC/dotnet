@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="jquery" Version="3.7.1" />
+    <PackageReference Include="MySqlConnector" Version="2.4.0" />
+    <PackageReference Include="System.Diagnostics.PerformanceCounter" Version="9.0.3" />
+    <PackageReference Include="System.Security.Permissions" Version="9.0.3" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "wLzzCsFJw7g=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\SQLprueba.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mmaur\\.nuget\\packages\\jquery\\3.7.1\\jquery.3.7.1.nupkg.sha512",
+    "C:\\Users\\Mmaur\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\Mmaur\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\Mmaur\\.nuget\\packages\\mysqlconnector\\2.4.0\\mysqlconnector.2.4.0.nupkg.sha512",
+    "C:\\Users\\Mmaur\\.nuget\\packages\\system.configuration.configurationmanager\\9.0.3\\system.configuration.configurationmanager.9.0.3.nupkg.sha512",
+    "C:\\Users\\Mmaur\\.nuget\\packages\\system.diagnostics.eventlog\\9.0.3\\system.diagnostics.eventlog.9.0.3.nupkg.sha512",
+    "C:\\Users\\Mmaur\\.nuget\\packages\\system.diagnostics.performancecounter\\9.0.3\\system.diagnostics.performancecounter.9.0.3.nupkg.sha512",
+    "C:\\Users\\Mmaur\\.nuget\\packages\\system.security.cryptography.protecteddata\\9.0.3\\system.security.cryptography.protecteddata.9.0.3.nupkg.sha512",
+    "C:\\Users\\Mmaur\\.nuget\\packages\\system.security.permissions\\9.0.3\\system.security.permissions.9.0.3.nupkg.sha512",
+    "C:\\Users\\Mmaur\\.nuget\\packages\\system.windows.extensions\\9.0.3\\system.windows.extensions.9.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

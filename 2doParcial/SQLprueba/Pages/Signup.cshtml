@@ -1,0 +1,82 @@
+﻿@model SQLprueba.Pages.Signup
+<form method="post" asp-page="Login" asp-page-handler="Registro" autocomplete="off" class="p-4 shadow rounded bg-light" style="max-width: 400px;">
+    <div class="modal-header">
+        <h5 class="modal-title" id="SignupLabel">Registrarme</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+        <div class="mb-3">
+            <label asp-for="Usuarios.usuario" class="form-label fw-bold">Usuario</label>
+            <input asp-for="Usuarios.usuario" class="form-control"/>
+            <span asp-validation-for="Usuarios.usuario" class="text-danger small"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Usuarios.password" class="form-label fw-bold">Contraseña</label>
+            <input asp-for="Usuarios.password" type="password" class="form-control"/>
+            <span asp-validation-for="Usuarios.password" class="text-danger small"></span>
+        </div>
+        <div class="mb-3">
+            <label for="Usuarios.confirmacion" class="form-label fw-bold">Confirmar contraseña</label>
+            <input asp-for="Usuarios.confirmacion" type="password" class="form-control" placeholder="Repite la contraseña" />
+            <span class="text-danger small" asp-validation-for="Usuarios.confirmacion"></span>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <div class="d-flex justify-content-between">
+            <button type="submit" class="btn btn-success">Registrarme</button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+        </div>
+    </div>
+</form>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <link rel="stylesheet" href="~/css/sweetalert2.css" />
+    <script src="~/js/sweetalert2.all.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const form = document.querySelector('form');
+            form.addEventListener('submit', function (e) {
+                const password = document.querySelector('input[name="Usuarios.password"]').value;
+                const confirm = document.querySelector('input[name="confirmacion"]').value; // Cambié aquí a confirmacion
+
+                if (password !== confirm) {
+                    e.preventDefault(); // Previene el envío del formulario
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Contraseñas no coinciden',
+                        text: 'Verifica que las contraseñas sean iguales'
+                    });
+                }
+            });
+        });
+    </script>
+
+    <script>
+        @if (TempData["RegistroExitoso"] != null)
+        {
+            <text>
+                    Swal.fire({
+                        icon: 'success',
+                        title: '¡Éxito!',
+                        text: '@TempData["RegistroExitoso"]'
+                    });
+            </text>
+        }
+        else if (TempData["RegistroFallido"] != null)
+        {
+            <text>
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Error',
+                        text: '@TempData["RegistroFallido"]'
+                    });
+            </text>
+        }
+    </script>
+}
+
+

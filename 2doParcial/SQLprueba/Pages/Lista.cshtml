@@ -1,0 +1,79 @@
+@page
+@model ListaModel
+@{
+    ViewData["Title"] = "Lista de productos";
+}
+
+<h2>Lista de productos</h2>
+
+<a class="btn btn-success mb-3" asp-page="/MtoLista" asp-route-id="-1">Agregar nuevo producto</a>
+
+<div class="producto-lista">
+    @foreach (var producto in Model.Productos)
+    {
+        <div style="border-bottom: 1px solid #ccc; padding: 1em 0;">
+            <div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1em;">
+                <div style="flex: 1 1 30%; min-width: 200px;">
+                    <div><strong>ID:</strong> @producto.ID</div>
+                    <div><strong>Nombre:</strong> @producto.Nombre</div>
+                    <div><strong>Categoría:</strong> @((Categorias)producto.Categoria)</div>
+                </div>
+                <div style="flex: 1 1 20%; min-width: 150px; display: flex; flex-direction: column; gap: 0.5em;">
+                    <div><strong>Precio:</strong> $@producto.Precio</div>
+                    <a asp-page="/MtoLista" asp-route-id="@producto.ID" class="btn btn-warning">Editar</a>
+                </div>
+                <div style="flex: 1 1 20%; min-width: 150px; display: flex; flex-direction: column; gap: 0.5em;">
+                    <div><strong>Cantidad:</strong> @producto.Cantidad</div>
+                    <button class="btn btn-danger eliminar-btn" data-id="@producto.ID">Eliminar</button>
+                </div>
+
+            </div>
+        </div>
+    }
+</div>
+<form id="token-form" method="post" style="display:none">
+    @Html.AntiForgeryToken
+</form>
+@section Scripts
+{
+	<script src="~/js/sweetalert2.all.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.eliminar-btn').click(function () {
+                const idProducto = $(this).data('id');
+                const token = $('#token-form input[name="__RequestVerificationToken"]').val();
+
+                if (!idProducto) {
+                    Swal.fire('Error', 'No se pudo obtener el ID del producto.', 'error');
+                    return;
+                }
+
+                Swal.fire({
+                    title: `¿Seguro que deseas eliminar el producto con ID ${idProducto}?`,
+                    icon: 'warning',
+                    showCancelButton: true,
+                    confirmButtonText: 'Sí, eliminar'
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                                $.ajax({
+                                    type: 'POST',
+                                    url: '/ProcesarCRUD?handler=Eliminar',
+                                    contentType: 'application/json',
+                                    data: JSON.stringify(idProducto),
+                                    headers: {
+                                        'RequestVerificationToken': token
+                                    },
+                                    success: function (respuesta) {
+                                        Swal.fire('¡Eliminado!', respuesta.mensaje || 'Producto eliminado correctamente.', 'success')
+                                            .then(() => location.reload());
+                                    },
+                                    error: function (xhr) {
+                                        Swal.fire('Error', xhr.responseText || 'No se pudo eliminar el producto.', 'error');
+                                    }
+                                });
+                    }
+                });
+            });
+        });
+    </script>
+}

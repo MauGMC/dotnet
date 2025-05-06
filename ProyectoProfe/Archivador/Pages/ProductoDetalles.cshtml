@@ -1,0 +1,29 @@
+@page 
+@model ProductoDetallesModel
+@{
+    ViewData["Title"] = (Model.Producto.Id == -1 ? "Nuevo" : "Editar") + " Producto";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form id="formulario" method="post">
+    <div class="form-group">
+        <label for="Id">Id:</label>
+        <input class="form-control" type="text" id="Id" name="Id" value="@(Model.Producto.Id == -1 ? "-1" : Model.Producto.Id.ToString())" readonly/><br/>
+    </div>
+    <div class="form-group">   
+        <label for="Nombre">Nombre:</label>
+        <input class="form-control" type="text" id="Nombre" name="Nombre" value="@Model.Producto.Nombre" readonly/><br />    
+    </div>
+    <div class="form-group"> 
+        <label for="Precio">Precio:</label>
+        <input class="form-control" type="text" id="Precio" name="Precio" value="@Model.Producto.Precio" readonly/><br />
+    </div>
+    <div class="form-group">  
+        <label for="Descripcion">Descripción:</label>
+        <input class="form-control" type="text" id="Descripcion" name="Descripcion" value="@Model.Producto.Descripcion" readonly/><br />
+    </div>
+    <div class="form-group"> 
+        <a class="btn btn-secondary" asp-page="/ProductoLista">Regresar</a>
+    </div>
+</form>

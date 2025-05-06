@@ -1,0 +1,50 @@
+﻿@model SQLprueba.Pages.EditarModal
+
+<form method="post" asp-page="/Tabla" asp-page-handler="EditarProducto" asp-route-id="@Model.Producto.ID">
+    @Html.AntiForgeryToken()
+    <div class="modal-header">
+        <h5 class="modal-title" id="editar-titulo">Editar producto con ID #@Model.Producto.ID</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+    </div>
+
+    <div class="modal-body">
+        <input asp-for="Producto.ID" id="editar-id" type="hidden"/>
+
+        <div class="mb-3">
+            <label asp-for="Producto.Nombre" class="form-label"></label>
+            <input asp-for="Producto.Nombre" class="form-control" id="editar-nombre" />
+            <span asp-validation-for="Producto.Nombre" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Producto.Descripcion" class="form-label"></label>
+            <input asp-for="Producto.Descripcion" class="form-control" id="editar-descripcion" />
+            <span asp-validation-for="Producto.Descripcion" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Producto.Precio" class="form-label"></label>
+            <input asp-for="Producto.Precio" class="form-control" id="editar-precio" />
+            <span asp-validation-for="Producto.Precio" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Producto.Cantidad" class="form-label"></label>
+            <input asp-for="Producto.Cantidad" class="form-control" id="editar-cantidad" />
+            <span asp-validation-for="Producto.Cantidad" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Producto.Categoria" class="form-label">Categoría</label>
+            <select asp-for="Producto.Categoria" asp-items="Model.CategoriasLista" class="form-control" id="editar-categoria" required></select>
+        </div>
+    </div>
+
+    <div class="modal-footer">
+        <button type="submit" class="btn btn-primary">Guardar</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+    </div>
+</form>
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>

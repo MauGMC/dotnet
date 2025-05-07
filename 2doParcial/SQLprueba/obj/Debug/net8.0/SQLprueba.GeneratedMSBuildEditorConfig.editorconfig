@@ -20,66 +20,66 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Mmaur/dotnet/2doParcial/SQLprueba/Pages/AgregarModal.cshtml]
+[c:/Users/Mmaur/dotnet/2doParcial/SQLprueba/Pages/AgregarModal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWdyZWdhck1vZGFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mmaur/dotnet/2doParcial/SQLprueba/Pages/EditarModal.cshtml]
+[c:/Users/Mmaur/dotnet/2doParcial/SQLprueba/Pages/EditarModal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdGFyTW9kYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mmaur/dotnet/2doParcial/SQLprueba/Pages/Error.cshtml]
+[c:/Users/Mmaur/dotnet/2doParcial/SQLprueba/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mmaur/dotnet/2doParcial/SQLprueba/Pages/Forgot.cshtml]
+[c:/Users/Mmaur/dotnet/2doParcial/SQLprueba/Pages/Forgot.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9yZ290LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mmaur/dotnet/2doParcial/SQLprueba/Pages/Index.cshtml]
+[c:/Users/Mmaur/dotnet/2doParcial/SQLprueba/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mmaur/dotnet/2doParcial/SQLprueba/Pages/Lista.cshtml]
+[c:/Users/Mmaur/dotnet/2doParcial/SQLprueba/Pages/Lista.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlzdGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mmaur/dotnet/2doParcial/SQLprueba/Pages/Login.cshtml]
+[c:/Users/Mmaur/dotnet/2doParcial/SQLprueba/Pages/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mmaur/dotnet/2doParcial/SQLprueba/Pages/MtoLista.cshtml]
+[c:/Users/Mmaur/dotnet/2doParcial/SQLprueba/Pages/MtoLista.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXRvTGlzdGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mmaur/dotnet/2doParcial/SQLprueba/Pages/Privacy.cshtml]
+[c:/Users/Mmaur/dotnet/2doParcial/SQLprueba/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mmaur/dotnet/2doParcial/SQLprueba/Pages/ProcesarCRUD.cshtml]
+[c:/Users/Mmaur/dotnet/2doParcial/SQLprueba/Pages/ProcesarCRUD.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvY2VzYXJDUlVELmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mmaur/dotnet/2doParcial/SQLprueba/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/Mmaur/dotnet/2doParcial/SQLprueba/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mmaur/dotnet/2doParcial/SQLprueba/Pages/Signup.cshtml]
+[c:/Users/Mmaur/dotnet/2doParcial/SQLprueba/Pages/Signup.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2lnbnVwLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mmaur/dotnet/2doParcial/SQLprueba/Pages/Tabla.cshtml]
+[c:/Users/Mmaur/dotnet/2doParcial/SQLprueba/Pages/Tabla.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFibGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mmaur/dotnet/2doParcial/SQLprueba/Pages/_ViewImports.cshtml]
+[c:/Users/Mmaur/dotnet/2doParcial/SQLprueba/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mmaur/dotnet/2doParcial/SQLprueba/Pages/_ViewStart.cshtml]
+[c:/Users/Mmaur/dotnet/2doParcial/SQLprueba/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mmaur/dotnet/2doParcial/SQLprueba/Pages/Shared/_Layout.cshtml]
+[c:/Users/Mmaur/dotnet/2doParcial/SQLprueba/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-lpqatiybx0

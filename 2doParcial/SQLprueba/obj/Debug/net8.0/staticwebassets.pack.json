@@ -1,323 +1,323 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SQLprueba.bundle.scp.css",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SQLprueba.bundle.scp.css",
       "PackagePath": "staticwebassets\\SQLprueba.rdywqyts0a.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\css\\buttons.dataTables.css",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\css\\buttons.dataTables.css",
       "PackagePath": "staticwebassets\\css\\buttons.dataTables.css"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\css\\buttons.dataTables.min.css",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\css\\buttons.dataTables.min.css",
       "PackagePath": "staticwebassets\\css\\buttons.dataTables.min.css"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\css\\datatables.css",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\css\\datatables.css",
       "PackagePath": "staticwebassets\\css\\datatables.css"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\css\\datatables.min.css",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\css\\datatables.min.css",
       "PackagePath": "staticwebassets\\css\\datatables.min.css"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\css\\select.dataTables.css",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\css\\select.dataTables.css",
       "PackagePath": "staticwebassets\\css\\select.dataTables.css"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\css\\select.dataTables.min.css",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\css\\select.dataTables.min.css",
       "PackagePath": "staticwebassets\\css\\select.dataTables.min.css"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\css\\site.css",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\css\\sweetalert2.css",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\css\\sweetalert2.css",
       "PackagePath": "staticwebassets\\css\\sweetalert2.css"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\favicon.ico",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\images\\login.jpg",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\images\\login.jpg",
       "PackagePath": "staticwebassets\\images\\login.jpg"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\js\\buttons.dataTables.js",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\js\\buttons.dataTables.js",
       "PackagePath": "staticwebassets\\js\\buttons.dataTables.js"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\js\\buttons.dataTables.min.js",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\js\\buttons.dataTables.min.js",
       "PackagePath": "staticwebassets\\js\\buttons.dataTables.min.js"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\js\\chart.js",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\js\\chart.js",
       "PackagePath": "staticwebassets\\js\\chart.js"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\js\\datatables.js",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\js\\datatables.js",
       "PackagePath": "staticwebassets\\js\\datatables.js"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\js\\datatables.min.css",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\js\\datatables.min.css",
       "PackagePath": "staticwebassets\\js\\datatables.min.css"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\js\\datatables.min.js",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\js\\datatables.min.js",
       "PackagePath": "staticwebassets\\js\\datatables.min.js"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\js\\jquery.dataTables.js",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\js\\jquery.dataTables.js",
       "PackagePath": "staticwebassets\\js\\jquery.dataTables.js"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\js\\jquery.dataTables.min.js",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\js\\jquery.dataTables.min.js",
       "PackagePath": "staticwebassets\\js\\jquery.dataTables.min.js"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\js\\select.dataTables.js",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\js\\select.dataTables.js",
       "PackagePath": "staticwebassets\\js\\select.dataTables.js"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\js\\select.dataTables.min.js",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\js\\select.dataTables.min.js",
       "PackagePath": "staticwebassets\\js\\select.dataTables.min.js"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\js\\site.js",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\js\\sweetalert2.all.min.js",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\js\\sweetalert2.all.min.js",
       "PackagePath": "staticwebassets\\js\\sweetalert2.all.min.js"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "c:\\Users\\Mmaur\\dotnet\\2doParcial\\SQLprueba\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

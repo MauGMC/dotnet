@@ -31,6 +31,31 @@
         </div>
     }
 </div>
+<nav aria-label="Paginación" class="mt-4">
+    <ul class="pagination justify-content-center">
+        @if (Model.PaginaActual > 1)
+        {
+            <li class="page-item">
+                <a class="page-link" asp-route-pagina="@(Model.PaginaActual - 1)">Anterior</a>
+            </li>
+        }
+
+        @for (int i = 1; i <= Model.TotalPaginas; i++)
+        {
+            <li class="page-item @(i == Model.PaginaActual ? "active" : "")">
+                <a class="page-link" asp-route-pagina="@i">@i</a>
+            </li>
+        }
+
+        @if (Model.PaginaActual < Model.TotalPaginas)
+        {
+            <li class="page-item">
+                <a class="page-link" asp-route-pagina="@(Model.PaginaActual + 1)">Siguiente</a>
+            </li>
+        }
+    </ul>
+</nav>
+
 <form id="token-form" method="post" style="display:none">
     @Html.AntiForgeryToken
 </form>

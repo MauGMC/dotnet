@@ -14,15 +14,31 @@ public class ListaModel : PageModel
     public List<Producto> Productos { get; set; }
     [BindProperty]
     public Producto Producto { get; set; }
+    public int PaginaActual{get;set;}
+    public int TotalPaginas{get;set;}
     
-    public IActionResult OnGet()
+    public IActionResult OnGet(int pagina = 1)
     {
         if (string.IsNullOrEmpty(HttpContext.Session.GetString("usuario")))
         {
             return RedirectToPage("/Login");
         }
-        Productos=Producto.ConvierteALista(aux.SeleccionTodo("productos"));   
+
+        int ProductosPorPagina = 5;
+        
+        var todosProductos = Producto.ConvierteALista(aux.SeleccionTodo("productos"));
+        int totalProductos = todosProductos.Count;
+
+        TotalPaginas = (int)Math.Ceiling(totalProductos / (double)ProductosPorPagina);
+        PaginaActual = pagina;
+
+        Productos = todosProductos
+            .Skip((pagina - 1) * ProductosPorPagina)
+            .Take(ProductosPorPagina)
+            .ToList();
+
         return Page();
-    } 
+    }
+
 
 }

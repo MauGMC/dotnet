@@ -2,9 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\Pages",
+    "\\Pages\\Shared",
     "\\Properties",
     "\\Utils"
   ],
-  "SelectedNode": "\\Pages\\ProductoLista.cshtml",
+  "SelectedNode": "\\Pages\\ProductoMto.cshtml",
   "PreviewInSolutionExplorer": false
 }

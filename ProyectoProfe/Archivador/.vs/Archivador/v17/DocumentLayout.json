@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\Pages\\ProductoMto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pages\\ProductoMto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\Pages\\ProductoLista.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pages\\ProductoLista.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\Pages\\ProductoMto.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pages\\ProductoMto.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\Pages\\ProductoMto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pages\\ProductoMto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\Pages\\ProductoEditar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,7 +58,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ProductoMto.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\Pages\\ProductoMto.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\ProductoMto.cshtml.cs",
@@ -66,8 +66,7 @@
               "RelativeToolTip": "Pages\\ProductoMto.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T03:36:30.331Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T03:36:30.331Z"
             },
             {
               "$type": "Document",
@@ -79,38 +78,37 @@
               "RelativeToolTip": "Pages\\ProductoEditar.cshtml",
               "ViewState": "AgIAACcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-06T03:35:23.338Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T03:35:23.338Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "ProductoMto.cshtml",
               "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\Pages\\ProductoMto.cshtml",
               "RelativeDocumentMoniker": "Pages\\ProductoMto.cshtml",
               "ToolTip": "C:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\Pages\\ProductoMto.cshtml",
               "RelativeToolTip": "Pages\\ProductoMto.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-06T03:07:26.206Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ProductoLista.cshtml",
               "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\Pages\\ProductoLista.cshtml",
               "RelativeDocumentMoniker": "Pages\\ProductoLista.cshtml",
               "ToolTip": "C:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\Pages\\ProductoLista.cshtml",
               "RelativeToolTip": "Pages\\ProductoLista.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-06T02:51:07.316Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ProductoLista.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\ProyectoProfe\\Archivador\\Pages\\ProductoLista.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\ProductoLista.cshtml.cs",
@@ -118,8 +116,7 @@
               "RelativeToolTip": "Pages\\ProductoLista.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T02:51:06.535Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T02:51:06.535Z"
             },
             {
               "$type": "Document",
@@ -131,8 +128,7 @@
               "RelativeToolTip": "Pages\\ProductoProcesarAsync.cshtml.cs",
               "ViewState": "AgIAAE4AAAAAAAAAAAAAAF8AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T02:54:40.382Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T02:54:40.382Z"
             },
             {
               "$type": "Document",
@@ -144,8 +140,7 @@
               "RelativeToolTip": "Pages\\ProductoProcesarAsync.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-06T02:54:37.888Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T02:54:37.888Z"
             },
             {
               "$type": "Document",
@@ -157,8 +152,7 @@
               "RelativeToolTip": "Utils\\MySqlAux.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T03:02:08.949Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T03:02:08.949Z"
             }
           ]
         }

@@ -1,0 +1,19 @@
+ProductoID,Nombre,Descripcion,Precio,Cantidad,Categoria,RutaImagen,FechaCreacion
+21,📱 iPhone 15,"Nuevo modelo 128GB",💲1099.99,15,1,,2025-12-25
+22,🍫 Chocolate,"Dark 85% cacao",3.99,-5,3,,2026-01-30
+23,⚽ Balón Adidas,"Talla 5 oficial",29.95,8,8,,2025-11-11
+24,🛠️ Taladro inalámbrico,"20V, kit completo",x89.50,3,11,,2025-10-10
+25,🧴 Shampoo,"Anticaspa 400ml",,0,7,,2025-09-15
+26,📚 Libro IA,"Inteligencia Artificial 2025",39.90,-2,6,,2025-08-08
+29,🎮 PlayStation 6,"Edición especial",799.99,25,99,,2025-12-31
+30,👕 Polo Nike,"Talla M, varios colores",,15,2,,2025-07-04
+31,🍎 Manzanas,"Bolsa 1kg",2.49,30,3,,2025-06-18
+32,🛏️ Sábanas,"Algodón 600 hilos",💲45.75,-3,4,,2025-05-20
+33,🧸 Peluche gigante,"Oso 1.5m",29.99,7,5,,2025-10-01
+34,📖 Diccionario,"Español-Inglés",24.50,12,6,,2025-09-22
+35,💄 Labial,"Rojo mate #45",12.80,22,7,,2025-08-15
+36,🏀 Baloncesto,"Talla oficial NBA",35.00,9,8,,2025-07-30
+37,🔧 Juego llaves,"14 piezas metricas",,5,9,,2025-11-11
+38,🩹 Primeros auxilios,"Kit completo",29.95,4,10,,2025-12-12
+39,🖥️ Monitor curvo,"32\" 4K 144Hz",💵499.99,6,1,,2025-10-10
+40,🥫 Atún,"Lomitos en agua 200g",1.20,-10,3,,2025-09-01

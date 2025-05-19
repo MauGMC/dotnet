@@ -1,0 +1,11 @@
+ProductoID,Nombre,Descripcion,Precio,Cantidad,Categoria,RutaImagen
+1,Manzana,Manzana roja fresca,0.5,100,1,
+2,,Leche entera 1L,1.2,50,2,
+3,Pan,Pan integral 500g,1.5,30,,
+4,"Televisor 55""",Smart TV 4K Ultra HD,,10,3,
+5,Libro Python,Aprende Python en 30 días,x29.99,20,4,
+6,Smartphone,Android 128GB RAM 8GB,299.99,15,3,
+7,Camisa,Manga larga talla M,24.99,,5,
+8,Zapatos,Zapatos deportivos talla 42,49.99,25,5,
+9,Refrigerador,350L No Frost,899.99,5,6,
+10,"Monitor 24""",Full HD 75Hz,129.99,12,3,

@@ -1,0 +1,94 @@
+/* _content/Web/Pages/CsvLogs/Index.cshtml.rz.scp.css */
+#logsTable th[b-j74mzig245],
+#logsTable td[b-j74mzig245] {
+    text-align: center;
+    vertical-align: middle;
+}
+/* Solo para la segunda fila del thead (los sub-headers) */
+#logsTable thead tr:nth-child(2) th:nth-child(1)[b-j74mzig245] {
+    background-color: #d4edda; /* verde */
+    color: #155724;
+    font-weight: bold;
+}
+
+#logsTable thead tr:nth-child(2) th:nth-child(2)[b-j74mzig245] {
+    background-color: #fff3cd; /* amarillo */
+    color: #856404;
+    font-weight: bold;
+}
+
+#logsTable thead tr:nth-child(2) th:nth-child(3)[b-j74mzig245] {
+    background-color: #f8d7da; /* rojo */
+    color: #721c24;
+    font-weight: bold;
+}
+
+/* Para las filas del tbody */
+#logsTable tbody td:nth-child(4)[b-j74mzig245] {
+    background-color: #d4edda;
+    color: #155724;
+    font-weight: bold;
+}
+
+#logsTable tbody td:nth-child(5)[b-j74mzig245] {
+    background-color: #fff3cd;
+    color: #856404;
+    font-weight: bold;
+}
+
+#logsTable tbody td:nth-child(6)[b-j74mzig245] {
+    background-color: #f8d7da;
+    color: #721c24;
+    font-weight: bold;
+}
+
+
+/* _content/Web/Pages/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-esyc55q667] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-esyc55q667] {
+  color: #0077cc;
+}
+
+.btn-primary[b-esyc55q667] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-esyc55q667], .nav-pills .show > .nav-link[b-esyc55q667] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-esyc55q667] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-esyc55q667] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-esyc55q667] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-esyc55q667] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-esyc55q667] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}

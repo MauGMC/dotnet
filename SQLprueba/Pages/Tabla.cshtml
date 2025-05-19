@@ -1,0 +1,196 @@
+﻿@page
+@using Entidades
+@model TablaModel
+@{
+    ViewData["Title"] = "Tabla";
+}
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<link rel="stylesheet" href="~/css/datatables.css" />
+<link rel="stylesheet" href="~/css/buttons.dataTables.css" />
+<link rel="stylesheet" href="~/css/select.dataTables.css" />
+<link rel="stylesheet" href="~/css/sweetalert2.css" />
+<script src="~/js/sweetalert2.all.min.js"></script>
+<script src="~/js/dataTables.js"></script>
+<script src="~/js/buttons.dataTables.js"></script>
+<script src="~/js/select.dataTables.js"></script>
+
+
+<div class="text-center">
+    <table id="Productos" class="display" border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Descripcion</th>
+                <th>Precios</th>
+                <th>Cantidad</th>
+                <th>Categorias</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.Productos != null && Model.Productos.Count > 0)
+            {
+                foreach (var producto in Model.Productos)
+                {
+                    <tr>
+                        <td>@producto.ID</td>
+                        <td>@producto.Nombre</td>
+                        <td>@producto.Descripcion</td>
+                        <td>$@producto.Precio</td>
+                        <td>@producto.Cantidad</td>
+                        <td>@((Categorias)producto.Categoria)</td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr><td colspan="7">No hay productos registrados.</td></tr>
+            }
+        </tbody>
+    </table>
+</div>
+<div class="modal fade" id="AgregarModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            @await Html.PartialAsync("AgregarModal", Model.agregarModal)
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="EditarModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            @await Html.PartialAsync("EditarModal", Model.editarModal)
+        </div>
+    </div>
+</div>
+
+<form id="token-form" method="post" style="display:none">
+    @Html.AntiForgeryToken
+</form>
+<script>
+
+            var tabla = new DataTable("#Productos", {
+        layout: {
+            topStart: {
+                buttons: [
+                    {
+                        text: 'Agregar',
+                        action: function () {
+                            const modal = new bootstrap.Modal(document.getElementById('AgregarModal'));
+                            modal.show();
+                        },
+                        className: 'btn btn-sm btn-success',
+                        enabled: true
+                    },
+                    {
+                        text: 'Editar',
+                        action: function () {
+                            const modal = new bootstrap.Modal(document.getElementById('EditarModal'));
+                            modal.show();
+                        },
+                        className: 'btn btn-sm btn-warning',
+                        enabled: false
+                    },
+                    {
+                        text: 'Eliminar',
+                        action: function (e, dt, node, config) {
+                            const selectedData = tabla.rows({ selected: true }).data()[0];
+                            if (selectedData) {
+                                const idProducto = selectedData["ID producto"] || selectedData[0];
+                                var token = $('#token-form input[name="__RequestVerificationToken"]').val();
+                                Swal.fire({
+                                    title: `¿Seguro que deseas eliminar el item con ID ${idProducto}?`,
+                                    icon: 'warning',
+                                    showCancelButton: true,
+                                    confirmButtonText: 'Sí, eliminar',
+                                }).then((result) => {
+                                    if (result.isConfirmed) {
+                                                       $.ajax({
+                                                            type: 'POST',
+                                                            url: '/Tabla?handler=EliminarProducto',
+                                                            data: {
+                                                                id: idProducto,
+                                                                __RequestVerificationToken: token
+                                                            },
+                                                            success: function (respuesta) {
+                                                                Swal.fire('¡Eliminado!', respuesta.mensaje, 'success')
+                                                                .then(() => {
+                                                                    location.reload();
+                                                                });
+                                                            },
+                                                            error: function (xhr) {
+                                                                Swal.fire('Error', xhr.responseText || 'No se pudo eliminar el producto.', 'error');
+                                                            }
+                                                        });
+                                    }
+                                });
+                            } else {
+                                Swal.fire('Error', 'No se pudo obtener los datos del producto.', 'error');
+                            }
+                        },
+                        className: 'btn btn-sm btn-danger',
+                        enabled: false
+                    }
+                ]
+            }
+        },
+        select: {
+            style: 'single'
+        },
+        paging: true
+    });
+    //Mandar datos a editar
+    $('#Productos tbody').on('click', 'tr', function () {
+            var data = tabla.row(this).data();
+            if (data) {
+                if (data) {
+                    document.getElementById("editar-titulo").textContent = `Editar el producto con ID #${data[0]}`;
+                }
+                $('#editar-id').val(data[0]);
+                $('#editar-nombre').val(data[1]);
+                $('#editar-descripcion').val(data[2]);
+                $('#editar-precio').val(data[3].replace(/[^0-9.]/g, ''));
+                $('#editar-cantidad').val(data[4]);
+                $('#editar-categoria').val(valorCategoria(data[5]));
+            }
+        });
+    //Habilitar botones por selección
+    tabla.on('select deselect', function () {
+        const selected = tabla.rows({ selected: true }).count() === 1;
+        tabla.button(1).enable(selected); // Editar
+        tabla.button(2).enable(selected); // Eliminar
+    });
+        function valorCategoria(texto) {
+        const mapa = {
+            "Limpieza": "1",
+            "Comida": "2",
+            "Tecnologia": "3",
+            "Juegos": "4",
+            "Juguetes": "5"
+        };
+        return mapa[texto] || "1";
+    }
+
+</script>
+<style>
+    .dt-buttons .btn-success {
+        background-color: #198754 !important;
+        border-color: #198754 !important;
+        color: white !important;
+    }
+
+    .dt-buttons .btn-warning {
+        background-color: #ffc107 !important;
+        border-color: #ffc107 !important;
+        color: black !important;
+    }
+
+    .dt-buttons .btn-danger {
+        background-color: #dc3545 !important;
+        border-color: #dc3545 !important;
+        color: white !important;
+    }
+
+</style>
+

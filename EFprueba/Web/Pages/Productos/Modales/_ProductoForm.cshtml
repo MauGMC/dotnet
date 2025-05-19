@@ -1,0 +1,88 @@
+﻿@model Web.ViewModels.ProductoFormViewModel
+
+<div class="modal-body">
+    <form id="producto-form" method="post" enctype="multipart/form-data" autocomplete="off" asp-antiforgery="true">
+        <div class="modal-header">
+            <h5 class="modal-title">@((Model.Producto.ProductoID == 0) ? "Agregar nuevo producto" : "Detalles del producto")</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+            <div class="mb-3">
+                <input asp-for="Producto.Accion" class="form-control" type="text" id="accion" value="@Model.Accion" type="hidden" />
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="@Model.Producto.ProductoID">ID:</label>
+                <input asp-for="Producto.ProductoID" class="form-control" readonly />
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Producto.Nombre" class="form-label"></label>
+                <input asp-for="@Model.Producto.Nombre" class="form-control" />
+                <span asp-validation-for="Producto.Nombre" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Producto.Descripcion" class="form-label"></label>
+                <textarea asp-for="Producto.Descripcion" class="form-control"></textarea>
+                <span asp-validation-for="Producto.Descripcion" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Producto.FechaCreacion" class="form-label"></label>
+				<input asp-for="Producto.FechaCreacion" class="form-control" type="date" />
+				<span asp-validation-for="Producto.FechaCreacion" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Producto.Precio" class="form-label"></label>
+                <input asp-for="Producto.Precio" class="form-control" />
+                <span asp-validation-for="Producto.Precio" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Producto.Cantidad" class="form-label"></label>
+                <input asp-for="Producto.Cantidad" class="form-control" />
+                <span asp-validation-for="Producto.Cantidad" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Producto.Categoria" class="form-label"></label>
+                <select asp-for="Producto.Categoria" asp-items="Model.CategoriasLista" class="form-control">
+                    <option value="">Seleccionar categoría...</option>
+                </select>
+                <span asp-validation-for="Producto.Categoria" class="text-danger"></span>
+            </div>
+            <!-- Mostrar el preview de la imagen solo cuando sea un producto existente (editar) -->
+            @if (!string.IsNullOrEmpty(Model.Producto.RutaImagen))
+            {
+                <div class="mb-3">
+                    <label>Imagen actual:</label>
+                    <div>
+                        <img src="~/@Model.Producto.RutaImagen" alt="Imagen del producto" class="img-thumbnail" style="max-width: 100px;" />
+                    </div>
+                    <button type="button" class="btn btn-danger" id="eliminar-imagen-btn">Eliminar imagen</button>
+                </div>
+            }
+
+
+            <!-- Mostrar un campo para subir una nueva imagen -->
+            <div class="mb-3">
+                <label asp-for="Producto.Imagen" class="form-label">Imagen:</label>
+                <input asp-for="Producto.Imagen" class="form-control" type="file" accept="image/*" />
+                <span asp-validation-for="Producto.Imagen" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="modal-footer">
+            @if (Model.Accion == "detalles")
+            {
+                <a asp-page="/Lista" class="btn btn-secondary">Cerrar</a>
+            }
+            else
+            {
+                <button type="submit" class="btn btn-primary">Guardar</button>
+                <a asp-page="/Lista" class="btn btn-secondary">Cancelar</a>
+            }
+        </div>
+    </form>
+</div>

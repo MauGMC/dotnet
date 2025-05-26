@@ -3,16 +3,35 @@
   "WorkspaceRootPath": "C:\\Users\\Mmaur\\dotnet\\EFprueba\\Web\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{19538F6D-D559-46FF-934F-B2036EC295DF}|Web.csproj|c:\\users\\mmaur\\dotnet\\efprueba\\web\\web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{19538F6D-D559-46FF-934F-B2036EC295DF}|Web.csproj|solutionrelative:web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19538F6D-D559-46FF-934F-B2036EC295DF}|Web.csproj|c:\\users\\mmaur\\dotnet\\efprueba\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19538F6D-D559-46FF-934F-B2036EC295DF}|Web.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{19538F6D-D559-46FF-934F-B2036EC295DF}|Web.csproj|c:\\users\\mmaur\\dotnet\\efprueba\\web\\pages\\productos\\lista.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{19538F6D-D559-46FF-934F-B2036EC295DF}|Web.csproj|solutionrelative:pages\\productos\\lista.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19538F6D-D559-46FF-934F-B2036EC295DF}|Web.csproj|c:\\users\\mmaur\\dotnet\\efprueba\\web\\pages\\productos\\modales\\_productoform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{19538F6D-D559-46FF-934F-B2036EC295DF}|Web.csproj|solutionrelative:pages\\productos\\modales\\_productoform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{19538F6D-D559-46FF-934F-B2036EC295DF}|Web.csproj|c:\\users\\mmaur\\dotnet\\efprueba\\web\\pages\\productos\\lista.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{19538F6D-D559-46FF-934F-B2036EC295DF}|Web.csproj|solutionrelative:pages\\productos\\lista.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBC8316B-08A6-3329-353D-E425D058F2C0}|..\\Infraestructura\\Infraestructura.csproj|c:\\users\\mmaur\\dotnet\\efprueba\\infraestructura\\infraestructura.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19538F6D-D559-46FF-934F-B2036EC295DF}|Web.csproj|c:\\users\\mmaur\\dotnet\\efprueba\\web\\pages\\csvlogs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19538F6D-D559-46FF-934F-B2036EC295DF}|Web.csproj|solutionrelative:pages\\csvlogs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19538F6D-D559-46FF-934F-B2036EC295DF}|Web.csproj|c:\\users\\mmaur\\dotnet\\efprueba\\web\\pages\\csvlogs\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19538F6D-D559-46FF-934F-B2036EC295DF}|Web.csproj|solutionrelative:pages\\csvlogs\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19538F6D-D559-46FF-934F-B2036EC295DF}|Web.csproj|c:\\users\\mmaur\\dotnet\\efprueba\\web\\pages\\productos\\modales\\_productoform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19538F6D-D559-46FF-934F-B2036EC295DF}|Web.csproj|solutionrelative:pages\\productos\\modales\\_productoform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{19538F6D-D559-46FF-934F-B2036EC295DF}|Web.csproj|c:\\users\\mmaur\\dotnet\\efprueba\\web\\viewmodels\\productodetalleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,14 +40,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{19538F6D-D559-46FF-934F-B2036EC295DF}|Web.csproj|c:\\users\\mmaur\\dotnet\\efprueba\\web\\viewmodels\\productoformviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{19538F6D-D559-46FF-934F-B2036EC295DF}|Web.csproj|solutionrelative:viewmodels\\productoformviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19538F6D-D559-46FF-934F-B2036EC295DF}|Web.csproj|c:\\users\\mmaur\\dotnet\\efprueba\\web\\pages\\csvlogs\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19538F6D-D559-46FF-934F-B2036EC295DF}|Web.csproj|solutionrelative:pages\\csvlogs\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19538F6D-D559-46FF-934F-B2036EC295DF}|Web.csproj|c:\\users\\mmaur\\dotnet\\efprueba\\web\\pages\\csvlogs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{19538F6D-D559-46FF-934F-B2036EC295DF}|Web.csproj|solutionrelative:pages\\csvlogs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,11 +49,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Lista.cshtml",
               "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba\\Web\\Pages\\Productos\\Lista.cshtml",
               "RelativeDocumentMoniker": "Pages\\Productos\\Lista.cshtml",
@@ -51,26 +62,24 @@
               "ViewState": "AgIAAPMAAAAAAAAAAADwv00BAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-16T22:45:57.638Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Lista.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba\\Web\\Pages\\Productos\\Lista.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Productos\\Lista.cshtml.cs",
               "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba\\Web\\Pages\\Productos\\Lista.cshtml.cs",
               "RelativeToolTip": "Pages\\Productos\\Lista.cshtml.cs",
-              "ViewState": "AgIAAK8AAAAAAAAAAAAAAIQAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAPIAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-16T22:46:09.467Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba\\Web\\Pages\\CsvLogs\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\CsvLogs\\Index.cshtml.cs",
@@ -79,22 +88,20 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-18T04:35:12.48Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba\\Web\\Pages\\CsvLogs\\Index.cshtml",
               "RelativeDocumentMoniker": "Pages\\CsvLogs\\Index.cshtml",
               "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba\\Web\\Pages\\CsvLogs\\Index.cshtml",
               "RelativeToolTip": "Pages\\CsvLogs\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-18T04:35:23.834Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -110,7 +117,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba\\Web\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba\\Web\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAwwE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T17:26:05.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Infraestructura.csproj",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba\\Infraestructura\\Infraestructura.csproj",
+              "RelativeDocumentMoniker": "..\\Infraestructura\\Infraestructura.csproj",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba\\Infraestructura\\Infraestructura.csproj",
+              "RelativeToolTip": "..\\Infraestructura\\Infraestructura.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-24T07:41:21.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Web.csproj",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba\\Web\\Web.csproj",
+              "RelativeDocumentMoniker": "Web.csproj",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba\\Web\\Web.csproj",
+              "RelativeToolTip": "Web.csproj",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAowBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-24T07:36:27.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "ProductoDetalleViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba\\Web\\ViewModels\\ProductoDetalleViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\ProductoDetalleViewModel.cs",
@@ -118,12 +164,11 @@
               "RelativeToolTip": "ViewModels\\ProductoDetalleViewModel.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAgwCsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T04:56:36.107Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-18T04:56:36.107Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "_ProductoForm.cshtml",
               "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba\\Web\\Pages\\Productos\\Modales\\_ProductoForm.cshtml",
               "RelativeDocumentMoniker": "Pages\\Productos\\Modales\\_ProductoForm.cshtml",
@@ -131,12 +176,11 @@
               "RelativeToolTip": "Pages\\Productos\\Modales\\_ProductoForm.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-18T04:54:45.204Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-18T04:54:45.204Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "ProductoFormViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba\\Web\\ViewModels\\ProductoFormViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\ProductoFormViewModel.cs",
@@ -144,8 +188,7 @@
               "RelativeToolTip": "ViewModels\\ProductoFormViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T04:56:37.932Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-18T04:56:37.932Z"
             }
           ]
         }

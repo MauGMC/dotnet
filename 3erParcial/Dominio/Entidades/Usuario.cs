@@ -19,5 +19,25 @@ namespace Dominio.Entidades
         public Cliente Cliente { get; set; } = new Cliente();
         public ICollection<NotificacionPorUsuario> NotificacionesPorUsuarios { get; set; } = new HashSet<NotificacionPorUsuario>();
         public ICollection<RolDeUsuario> RolesDeUsuarios { get; set; } = new HashSet<RolDeUsuario>();
+        //Constructores
+        public Usuario() { }
+        public Usuario(string usuarioId, string nombreUsuario, Email email, string contrasena,
+            DateTime fechaCreacion, bool activo = true, string? rutaImagenPerfil = null)
+        {
+            if (string.IsNullOrWhiteSpace(usuarioId))
+                throw new ArgumentException("El ID del usuario no puede estar vacío.", nameof(usuarioId));
+            if (string.IsNullOrWhiteSpace(nombreUsuario))
+                throw new ArgumentException("El nombre de usuario no puede estar vacío.", nameof(nombreUsuario));
+           if (string.IsNullOrWhiteSpace(contrasena))
+                throw new ArgumentException("La contraseña no puede estar vacía.", nameof(contrasena));
+            UsuarioID = usuarioId;
+            NombreUsuario = nombreUsuario;
+            Email = email;
+            Contrasena = contrasena;
+            FechaCreacion = fechaCreacion;
+            UltimoAcceso = null; // Por defecto, último acceso es nulo
+            Activo = activo;
+            RutaImagenPerfil = rutaImagenPerfil;
+        }
     }
 }

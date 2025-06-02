@@ -1,0 +1,140 @@
+﻿@model Aplicacion.DTOs.ResultadoImportacionCsvDTO
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Reporte de Importación CSV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            margin: 20px;
+        }
+
+        h1, h2 {
+            color: #2c3e50;
+        }
+
+        .producto {
+            border: 0px solid #ccc;
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 6px;
+			page-break-inside: avoid;
+        }
+
+        .errores {
+            color: #e74c3c;
+        }
+
+        .advertencias {
+            color: #f39c12;
+        }
+
+        .exitos {
+            color: #27ae60;
+        }
+
+        .titulo-producto {
+            font-weight: bold;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        .seccion {
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Resumen de Importación CSV</h1>
+    <p><strong>Fecha:</strong> @DateTime.Now</p>
+    <p><strong>Total registros procesados:</strong> @Model.ProductosImportados.Count</p>
+
+    @if (Model.ErroresGlobales != null && Model.ErroresGlobales.Any())
+    {
+        <div class="seccion errores">
+            <h2>Errores Globales</h2>
+            <ul>
+                @foreach (var error in Model.ErroresGlobales)
+                {
+                    <li>@error</li>
+                }
+            </ul>
+        </div>
+    }
+
+    @foreach (var item in Model.ProductosImportados.Select((r, i) => new { Index = i + 1, Registro = r }))
+    {
+        <div class="producto">
+            <div class="titulo-producto">Registro @item.Index</div>
+
+            @if (item.Registro.Producto != null)
+            {
+                <div><strong>Producto:</strong> @item.Registro.Producto.Nombre</div>
+                <div><strong>Precio:</strong> @item.Registro.Producto.Precio</div>
+                <div><strong>Categoría:</strong> @item.Registro.Producto.Categoria</div>
+            }
+            else
+            {
+                <div><em>Registro no válido</em></div>
+            }
+
+
+            @if (item.Registro.Agregado)
+            {
+                <div class="seccion exitos"><strong>✔ Producto agregado correctamente.</strong></div>
+            }
+            else
+            {
+                <div class="seccion errores"><strong>✖ Producto no agregado.</strong></div>
+            }
+
+            @if (item.Registro.Exitos.Any())
+            {
+                <div class="seccion exitos">
+                    <strong>Mensajes:</strong>
+                    <ul>
+                        @foreach (var ok in item.Registro.Exitos)
+                        {
+                            <li>@ok</li>
+                        }
+                    </ul>
+                </div>
+            }
+            @if (item.Registro.Advertencias.Any())
+            {
+                <div class="seccion advertencias">
+                    <strong>Advertencias:</strong>
+                    <ul>
+                        @foreach (var adv in item.Registro.Advertencias)
+                        {
+                            <li>@adv</li>
+                        }
+                    </ul>
+                </div>
+            }
+
+            @if (item.Registro.Errores.Any())
+            {
+                <div class="seccion errores">
+                    <strong>Errores:</strong>
+                    <ul>
+                        @foreach (var err in item.Registro.Errores)
+                        {
+                            <li>@err</li>
+                        }
+                    </ul>
+                </div>
+            }
+
+            
+
+        </div>
+    }
+</body>
+</html>

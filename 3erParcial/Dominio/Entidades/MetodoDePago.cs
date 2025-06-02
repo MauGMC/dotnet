@@ -22,6 +22,31 @@
         public ICollection<Venta> Ventas { get; set; } = new HashSet<Venta>();
         public ICollection<Compra> Compras { get; set; } = new HashSet<Compra>();
         public ICollection<Pedido> Pedidos { get; set; } = new HashSet<Pedido>();
+        //Constructores
+        public MetodoDePago() { }
+        public MetodoDePago(int metodoDePagoId, int clienteId, string nombre, string? numeroTarjeta,
+            string? nombreTitular, string? fechaExpiracion, string? cvv, string? tipo, string? banco,
+            string? referencia, int estado, bool activo)
+        {
+            if (metodoDePagoId < 0)
+                throw new ArgumentOutOfRangeException("El ID del método de pago no puede ser negativo.");
+            if (clienteId < 0)
+                throw new ArgumentOutOfRangeException("El ID del cliente no puede ser negativo.");
+            if (string.IsNullOrWhiteSpace(nombre))
+                throw new ArgumentException("El nombre del método de pago no puede estar vacío.", nameof(nombre));
+            MetodoDePagoID = metodoDePagoId;
+            ClienteID = clienteId;
+            Nombre = nombre;
+            NumeroTarjeta = numeroTarjeta;
+            NombreTitular = nombreTitular;
+            FechaExpiracion = fechaExpiracion;
+            CVV = cvv;
+            Tipo = tipo;
+            Banco = banco;
+            Referencia = referencia;
+            Estado = estado;
+            Activo = activo;
+        }
 
     }
 }

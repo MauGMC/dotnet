@@ -3,20 +3,176 @@
   "WorkspaceRootPath": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\infraestructura\\repositorios\\detallepedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|solutionrelative:infraestructura\\repositorios\\detallepedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3F70F652-14F9-4F3A-AC98-8D40C3EF149A}|Presentacion\\Presentacion.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\presentacion\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F70F652-14F9-4F3A-AC98-8D40C3EF149A}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\infraestructura\\repositorios\\detallecomprarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|solutionrelative:infraestructura\\repositorios\\detallecomprarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3F70F652-14F9-4F3A-AC98-8D40C3EF149A}|Presentacion\\Presentacion.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\presentacion\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F70F652-14F9-4F3A-AC98-8D40C3EF149A}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\infraestructura\\repositorios\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|solutionrelative:infraestructura\\repositorios\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3F70F652-14F9-4F3A-AC98-8D40C3EF149A}|Presentacion\\Presentacion.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\presentacion\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F70F652-14F9-4F3A-AC98-8D40C3EF149A}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\dominio\\interfaces\\idetallecomprarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|solutionrelative:dominio\\interfaces\\idetallecomprarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3F70F652-14F9-4F3A-AC98-8D40C3EF149A}|Presentacion\\Presentacion.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\presentacion\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F70F652-14F9-4F3A-AC98-8D40C3EF149A}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F70F652-14F9-4F3A-AC98-8D40C3EF149A}|Presentacion\\Presentacion.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\presentacion\\views\\productos\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F70F652-14F9-4F3A-AC98-8D40C3EF149A}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\views\\productos\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F70F652-14F9-4F3A-AC98-8D40C3EF149A}|Presentacion\\Presentacion.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\presentacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F70F652-14F9-4F3A-AC98-8D40C3EF149A}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54D7E773-B5EC-2465-6F17-0048D1E6AE79}|Aplicacion\\Aplicacion.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\aplicacion\\servicios\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54D7E773-B5EC-2465-6F17-0048D1E6AE79}|Aplicacion\\Aplicacion.csproj|solutionrelative:aplicacion\\servicios\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F70F652-14F9-4F3A-AC98-8D40C3EF149A}|Presentacion\\Presentacion.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\presentacion\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3F70F652-14F9-4F3A-AC98-8D40C3EF149A}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\infraestructura\\persistencia\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|solutionrelative:infraestructura\\persistencia\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\infraestructura\\repositorios\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|solutionrelative:infraestructura\\repositorios\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F70F652-14F9-4F3A-AC98-8D40C3EF149A}|Presentacion\\Presentacion.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\presentacion\\views\\productos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F70F652-14F9-4F3A-AC98-8D40C3EF149A}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\views\\productos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\dominio\\entidades\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entidades\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\dominio\\entidades\\inventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entidades\\inventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\dominio\\entidades\\carrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entidades\\carrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54D7E773-B5EC-2465-6F17-0048D1E6AE79}|Aplicacion\\Aplicacion.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\aplicacion\\servicios\\productoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54D7E773-B5EC-2465-6F17-0048D1E6AE79}|Aplicacion\\Aplicacion.csproj|solutionrelative:aplicacion\\servicios\\productoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F70F652-14F9-4F3A-AC98-8D40C3EF149A}|Presentacion\\Presentacion.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\presentacion\\views\\productos\\eliminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F70F652-14F9-4F3A-AC98-8D40C3EF149A}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\views\\productos\\eliminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F70F652-14F9-4F3A-AC98-8D40C3EF149A}|Presentacion\\Presentacion.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\presentacion\\views\\productos\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F70F652-14F9-4F3A-AC98-8D40C3EF149A}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\views\\productos\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F70F652-14F9-4F3A-AC98-8D40C3EF149A}|Presentacion\\Presentacion.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\presentacion\\views\\productos\\detalles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F70F652-14F9-4F3A-AC98-8D40C3EF149A}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\views\\productos\\detalles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54D7E773-B5EC-2465-6F17-0048D1E6AE79}|Aplicacion\\Aplicacion.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\aplicacion\\extensions\\iqueryableextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54D7E773-B5EC-2465-6F17-0048D1E6AE79}|Aplicacion\\Aplicacion.csproj|solutionrelative:aplicacion\\extensions\\iqueryableextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54D7E773-B5EC-2465-6F17-0048D1E6AE79}|Aplicacion\\Aplicacion.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\aplicacion\\enums\\ordenarproductospor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54D7E773-B5EC-2465-6F17-0048D1E6AE79}|Aplicacion\\Aplicacion.csproj|solutionrelative:aplicacion\\enums\\ordenarproductospor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54D7E773-B5EC-2465-6F17-0048D1E6AE79}|Aplicacion\\Aplicacion.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\aplicacion\\aplicacion.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{54D7E773-B5EC-2465-6F17-0048D1E6AE79}|Aplicacion\\Aplicacion.csproj|solutionrelative:aplicacion\\aplicacion.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\infraestructura\\infraestructura.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|solutionrelative:infraestructura\\infraestructura.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\dominio\\interfaces\\iproductorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|solutionrelative:dominio\\interfaces\\iproductorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\infraestructura\\repositorios\\ventarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|solutionrelative:infraestructura\\repositorios\\ventarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\dominio\\interfaces\\iventarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|solutionrelative:dominio\\interfaces\\iventarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54D7E773-B5EC-2465-6F17-0048D1E6AE79}|Aplicacion\\Aplicacion.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\aplicacion\\enums\\ordenarventaspor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54D7E773-B5EC-2465-6F17-0048D1E6AE79}|Aplicacion\\Aplicacion.csproj|solutionrelative:aplicacion\\enums\\ordenarventaspor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\dominio\\entidades\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entidades\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\infraestructura\\repositorios\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|solutionrelative:infraestructura\\repositorios\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\dominio\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|solutionrelative:dominio\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54D7E773-B5EC-2465-6F17-0048D1E6AE79}|Aplicacion\\Aplicacion.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\aplicacion\\enums\\ordenarusuariospor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54D7E773-B5EC-2465-6F17-0048D1E6AE79}|Aplicacion\\Aplicacion.csproj|solutionrelative:aplicacion\\enums\\ordenarusuariospor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\dominio\\entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54D7E773-B5EC-2465-6F17-0048D1E6AE79}|Aplicacion\\Aplicacion.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\aplicacion\\enums\\ordenarclientepor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54D7E773-B5EC-2465-6F17-0048D1E6AE79}|Aplicacion\\Aplicacion.csproj|solutionrelative:aplicacion\\enums\\ordenarclientepor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\dominio\\interfaces\\iroldeusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|solutionrelative:dominio\\interfaces\\iroldeusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\dominio\\interfaces\\irepositoriobase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|solutionrelative:dominio\\interfaces\\irepositoriobase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\dominio\\interfaces\\iproveedorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|solutionrelative:dominio\\interfaces\\iproveedorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\infraestructura\\repositorios\\proveedorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|solutionrelative:infraestructura\\repositorios\\proveedorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54D7E773-B5EC-2465-6F17-0048D1E6AE79}|Aplicacion\\Aplicacion.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\aplicacion\\enums\\ordenarproveedorespor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54D7E773-B5EC-2465-6F17-0048D1E6AE79}|Aplicacion\\Aplicacion.csproj|solutionrelative:aplicacion\\enums\\ordenarproveedorespor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\dominio\\entidades\\proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entidades\\proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\infraestructura\\repositorios\\productoencarritorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|solutionrelative:infraestructura\\repositorios\\productoencarritorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\dominio\\interfaces\\iproductoencarritorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|solutionrelative:dominio\\interfaces\\iproductoencarritorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54D7E773-B5EC-2465-6F17-0048D1E6AE79}|Aplicacion\\Aplicacion.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\aplicacion\\enums\\ordenarproductosencarritopor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54D7E773-B5EC-2465-6F17-0048D1E6AE79}|Aplicacion\\Aplicacion.csproj|solutionrelative:aplicacion\\enums\\ordenarproductosencarritopor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\dominio\\entidades\\productoencarrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entidades\\productoencarrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\infraestructura\\repositorios\\empleadorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|solutionrelative:infraestructura\\repositorios\\empleadorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\infraestructura\\repositorios\\comprarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,16 +183,192 @@
       "RelativeMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|solutionrelative:infraestructura\\repositorios\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\infraestructura\\repositorios\\carritorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|solutionrelative:infraestructura\\repositorios\\carritorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\infraestructura\\repositorios\\pedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|solutionrelative:infraestructura\\repositorios\\pedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\dominio\\interfaces\\ipedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|solutionrelative:dominio\\interfaces\\ipedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54D7E773-B5EC-2465-6F17-0048D1E6AE79}|Aplicacion\\Aplicacion.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\aplicacion\\enums\\ordenarpedidopor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54D7E773-B5EC-2465-6F17-0048D1E6AE79}|Aplicacion\\Aplicacion.csproj|solutionrelative:aplicacion\\enums\\ordenarpedidopor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54D7E773-B5EC-2465-6F17-0048D1E6AE79}|Aplicacion\\Aplicacion.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\aplicacion\\enums\\ordenarcomprapor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54D7E773-B5EC-2465-6F17-0048D1E6AE79}|Aplicacion\\Aplicacion.csproj|solutionrelative:aplicacion\\enums\\ordenarcomprapor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\dominio\\entidades\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entidades\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54D7E773-B5EC-2465-6F17-0048D1E6AE79}|Aplicacion\\Aplicacion.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\aplicacion\\enums\\ordenarempleadopor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54D7E773-B5EC-2465-6F17-0048D1E6AE79}|Aplicacion\\Aplicacion.csproj|solutionrelative:aplicacion\\enums\\ordenarempleadopor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\dominio\\entidades\\permiso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entidades\\permiso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\dominio\\entidades\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entidades\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\dominio\\interfaces\\inotificacionporusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|solutionrelative:dominio\\interfaces\\inotificacionporusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\dominio\\interfaces\\iimagenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|solutionrelative:dominio\\interfaces\\iimagenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\dominio\\interfaces\\iempleadorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|solutionrelative:dominio\\interfaces\\iempleadorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\dominio\\entidades\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entidades\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\dominio\\interfaces\\idetallepedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|solutionrelative:dominio\\interfaces\\idetallepedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\dominio\\interfaces\\idetallecomprarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|solutionrelative:dominio\\interfaces\\idetallecomprarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\infraestructura\\repositorios\\detallecomprarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|solutionrelative:infraestructura\\repositorios\\detallecomprarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\dominio\\interfaces\\icomprarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|solutionrelative:dominio\\interfaces\\icomprarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\dominio\\entidades\\compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entidades\\compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\dominio\\interfaces\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|solutionrelative:dominio\\interfaces\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\dominio\\interfaces\\irepositoriobase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|solutionrelative:dominio\\interfaces\\irepositoriobase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\dominio\\interfaces\\icarritorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|solutionrelative:dominio\\interfaces\\icarritorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\infraestructura\\repositorios\\carritorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|solutionrelative:infraestructura\\repositorios\\carritorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\infraestructura\\repositorios\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|solutionrelative:infraestructura\\repositorios\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\infraestructura\\repositorios\\rolrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|solutionrelative:infraestructura\\repositorios\\rolrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\infraestructura\\repositorios\\roldeusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|solutionrelative:infraestructura\\repositorios\\roldeusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\infraestructura\\repositorios\\notificacionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|solutionrelative:infraestructura\\repositorios\\notificacionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\infraestructura\\repositorios\\permisorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|solutionrelative:infraestructura\\repositorios\\permisorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\infraestructura\\repositorios\\permisoderolrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|solutionrelative:infraestructura\\repositorios\\permisoderolrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\infraestructura\\repositorios\\notificacionporusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|solutionrelative:infraestructura\\repositorios\\notificacionporusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\infraestructura\\repositorios\\metododepagorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|solutionrelative:infraestructura\\repositorios\\metododepagorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\infraestructura\\repositorios\\inventariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|solutionrelative:infraestructura\\repositorios\\inventariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\infraestructura\\repositorios\\imagenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|solutionrelative:infraestructura\\repositorios\\imagenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\dominio\\entidades\\imagen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entidades\\imagen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\infraestructura\\repositorios\\direccionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|solutionrelative:infraestructura\\repositorios\\direccionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\infraestructura\\repositorios\\detalleventarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|solutionrelative:infraestructura\\repositorios\\detalleventarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\infraestructura\\repositorios\\detallepedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83D1B9D6-00F7-E5F9-5721-F7FF84ACC188}|Infraestructura\\Infraestructura.csproj|solutionrelative:infraestructura\\repositorios\\detallepedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54D7E773-B5EC-2465-6F17-0048D1E6AE79}|Aplicacion\\Aplicacion.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\aplicacion\\dtos\\filtroclientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54D7E773-B5EC-2465-6F17-0048D1E6AE79}|Aplicacion\\Aplicacion.csproj|solutionrelative:aplicacion\\dtos\\filtroclientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54D7E773-B5EC-2465-6F17-0048D1E6AE79}|Aplicacion\\Aplicacion.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\aplicacion\\dtos\\filtroproductodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54D7E773-B5EC-2465-6F17-0048D1E6AE79}|Aplicacion\\Aplicacion.csproj|solutionrelative:aplicacion\\dtos\\filtroproductodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\dominio\\entidades\\detallecompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entidades\\detallecompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\dominio\\entidades\\roldeusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entidades\\roldeusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\dominio\\entidades\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entidades\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\dominio\\entidades\\permisoderol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entidades\\permisoderol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\dominio\\entidades\\notificacionporusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entidades\\notificacionporusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\dominio\\entidades\\notificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entidades\\notificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\dominio\\entidades\\metododepago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entidades\\metododepago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\dominio\\entidades\\direccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entidades\\direccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\dominio\\entidades\\detalleventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entidades\\detalleventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\dominio\\entidades\\detallepedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F3CF19-F88C-0774-969F-8840F52C7312}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entidades\\detallepedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54D7E773-B5EC-2465-6F17-0048D1E6AE79}|Aplicacion\\Aplicacion.csproj|c:\\users\\mmaur\\dotnet\\3erparcial\\aplicacion\\dtos\\productomascompradodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54D7E773-B5EC-2465-6F17-0048D1E6AE79}|Aplicacion\\Aplicacion.csproj|solutionrelative:aplicacion\\dtos\\productomascompradodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,86 +378,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DetallePedidoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Repositorios\\DetallePedidoRepository.cs",
-              "RelativeDocumentMoniker": "Infraestructura\\Repositorios\\DetallePedidoRepository.cs",
-              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Repositorios\\DetallePedidoRepository.cs",
-              "RelativeToolTip": "Infraestructura\\Repositorios\\DetallePedidoRepository.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAAADkAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T02:29:39.573Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IDetalleCompraRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Interfaces\\IDetalleCompraRepository.cs",
-              "RelativeDocumentMoniker": "Dominio\\Interfaces\\IDetalleCompraRepository.cs",
-              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Interfaces\\IDetalleCompraRepository.cs",
-              "RelativeToolTip": "Dominio\\Interfaces\\IDetalleCompraRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAB3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T01:32:08.022Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DetalleCompraRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Repositorios\\DetalleCompraRepository.cs",
-              "RelativeDocumentMoniker": "Infraestructura\\Repositorios\\DetalleCompraRepository.cs",
-              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Repositorios\\DetalleCompraRepository.cs",
-              "RelativeToolTip": "Infraestructura\\Repositorios\\DetalleCompraRepository.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAgwAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T01:23:25.648Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CompraRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Repositorios\\CompraRepository.cs",
-              "RelativeDocumentMoniker": "Infraestructura\\Repositorios\\CompraRepository.cs",
-              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Repositorios\\CompraRepository.cs",
-              "RelativeToolTip": "Infraestructura\\Repositorios\\CompraRepository.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAgwB0AAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T01:05:20.295Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IClienteRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Interfaces\\IClienteRepository.cs",
-              "RelativeDocumentMoniker": "Dominio\\Interfaces\\IClienteRepository.cs",
-              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Interfaces\\IClienteRepository.cs",
-              "RelativeToolTip": "Dominio\\Interfaces\\IClienteRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T01:00:53.328Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ClienteRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Repositorios\\ClienteRepository.cs",
-              "RelativeDocumentMoniker": "Infraestructura\\Repositorios\\ClienteRepository.cs",
-              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Repositorios\\ClienteRepository.cs",
-              "RelativeToolTip": "Infraestructura\\Repositorios\\ClienteRepository.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAAAEUAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T00:42:03.278Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -140,20 +394,852 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Presentacion\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Presentacion\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Presentacion\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Presentacion\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T03:23:48.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Presentacion\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "Presentacion\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Presentacion\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "Presentacion\\ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-06-02T02:57:14.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Presentacion\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Presentacion\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Presentacion\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Presentacion\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T02:09:43.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Presentacion\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Presentacion\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Presentacion\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Presentacion\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T02:34:18.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductosController.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Presentacion\\Controllers\\ProductosController.cs",
+              "RelativeDocumentMoniker": "Presentacion\\Controllers\\ProductosController.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Presentacion\\Controllers\\ProductosController.cs",
+              "RelativeToolTip": "Presentacion\\Controllers\\ProductosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T01:38:01.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Persistencia\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Infraestructura\\Persistencia\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Persistencia\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Infraestructura\\Persistencia\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T02:45:12.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Presentacion\\Program.cs",
+              "RelativeDocumentMoniker": "Presentacion\\Program.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Presentacion\\Program.cs",
+              "RelativeToolTip": "Presentacion\\Program.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAgwAYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T01:38:45.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Crear.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Presentacion\\Views\\Productos\\Crear.cshtml",
+              "RelativeDocumentMoniker": "Presentacion\\Views\\Productos\\Crear.cshtml",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Presentacion\\Views\\Productos\\Crear.cshtml",
+              "RelativeToolTip": "Presentacion\\Views\\Productos\\Crear.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T01:56:11.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Repositorios\\ProductoRepository.cs",
+              "RelativeDocumentMoniker": "Infraestructura\\Repositorios\\ProductoRepository.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Repositorios\\ProductoRepository.cs",
+              "RelativeToolTip": "Infraestructura\\Repositorios\\ProductoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T19:33:41.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "EmailSender.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Aplicacion\\Servicios\\EmailSender.cs",
+              "RelativeDocumentMoniker": "Aplicacion\\Servicios\\EmailSender.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Aplicacion\\Servicios\\EmailSender.cs",
+              "RelativeToolTip": "Aplicacion\\Servicios\\EmailSender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T03:15:41.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Entidades\\Producto.cs",
+              "RelativeDocumentMoniker": "Dominio\\Entidades\\Producto.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Entidades\\Producto.cs",
+              "RelativeToolTip": "Dominio\\Entidades\\Producto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T19:57:23.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Carrito.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Entidades\\Carrito.cs",
+              "RelativeDocumentMoniker": "Dominio\\Entidades\\Carrito.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Entidades\\Carrito.cs",
+              "RelativeToolTip": "Dominio\\Entidades\\Carrito.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T20:10:16.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Inventario.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Entidades\\Inventario.cs",
+              "RelativeDocumentMoniker": "Dominio\\Entidades\\Inventario.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Entidades\\Inventario.cs",
+              "RelativeToolTip": "Dominio\\Entidades\\Inventario.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAiwBEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T02:32:27.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Presentacion\\Views\\Productos\\Index.cshtml",
+              "RelativeDocumentMoniker": "Presentacion\\Views\\Productos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Presentacion\\Views\\Productos\\Index.cshtml",
+              "RelativeToolTip": "Presentacion\\Views\\Productos\\Index.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAcwBIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T01:40:35.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProductoService.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Aplicacion\\Servicios\\ProductoService.cs",
+              "RelativeDocumentMoniker": "Aplicacion\\Servicios\\ProductoService.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Aplicacion\\Servicios\\ProductoService.cs",
+              "RelativeToolTip": "Aplicacion\\Servicios\\ProductoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T01:25:44.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Presentacion\\Views\\Productos\\Editar.cshtml",
+              "RelativeDocumentMoniker": "Presentacion\\Views\\Productos\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Presentacion\\Views\\Productos\\Editar.cshtml",
+              "RelativeToolTip": "Presentacion\\Views\\Productos\\Editar.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAQwBoAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T01:56:19.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Detalles.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Presentacion\\Views\\Productos\\Detalles.cshtml",
+              "RelativeDocumentMoniker": "Presentacion\\Views\\Productos\\Detalles.cshtml",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Presentacion\\Views\\Productos\\Detalles.cshtml",
+              "RelativeToolTip": "Presentacion\\Views\\Productos\\Detalles.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAYwBoAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T01:56:42.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IQueryableExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Aplicacion\\Extensions\\IQueryableExtensions.cs",
+              "RelativeDocumentMoniker": "Aplicacion\\Extensions\\IQueryableExtensions.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Aplicacion\\Extensions\\IQueryableExtensions.cs",
+              "RelativeToolTip": "Aplicacion\\Extensions\\IQueryableExtensions.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAAAJIAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T04:39:49.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Eliminar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Presentacion\\Views\\Productos\\Eliminar.cshtml",
+              "RelativeDocumentMoniker": "Presentacion\\Views\\Productos\\Eliminar.cshtml",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Presentacion\\Views\\Productos\\Eliminar.cshtml",
+              "RelativeToolTip": "Presentacion\\Views\\Productos\\Eliminar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAlwCoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T01:56:32.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "OrdenarProductosPor.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Aplicacion\\Enums\\OrdenarProductosPor.cs",
+              "RelativeDocumentMoniker": "Aplicacion\\Enums\\OrdenarProductosPor.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Aplicacion\\Enums\\OrdenarProductosPor.cs",
+              "RelativeToolTip": "Aplicacion\\Enums\\OrdenarProductosPor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T06:06:11.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Aplicacion",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Aplicacion\\Aplicacion.csproj",
+              "RelativeDocumentMoniker": "Aplicacion\\Aplicacion.csproj",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Aplicacion\\Aplicacion.csproj",
+              "RelativeToolTip": "Aplicacion\\Aplicacion.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-02T01:29:09.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Infraestructura",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Infraestructura.csproj",
+              "RelativeDocumentMoniker": "Infraestructura\\Infraestructura.csproj",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Infraestructura.csproj",
+              "RelativeToolTip": "Infraestructura\\Infraestructura.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-02T01:41:07.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IVentaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Interfaces\\IVentaRepository.cs",
+              "RelativeDocumentMoniker": "Dominio\\Interfaces\\IVentaRepository.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Interfaces\\IVentaRepository.cs",
+              "RelativeToolTip": "Dominio\\Interfaces\\IVentaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T03:09:07.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IProductoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Interfaces\\IProductoRepository.cs",
+              "RelativeDocumentMoniker": "Dominio\\Interfaces\\IProductoRepository.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Interfaces\\IProductoRepository.cs",
+              "RelativeToolTip": "Dominio\\Interfaces\\IProductoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T03:04:29.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "VentaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Repositorios\\VentaRepository.cs",
+              "RelativeDocumentMoniker": "Infraestructura\\Repositorios\\VentaRepository.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Repositorios\\VentaRepository.cs",
+              "RelativeToolTip": "Infraestructura\\Repositorios\\VentaRepository.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAIBJwFoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T06:46:56.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "OrdenarVentasPor.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Aplicacion\\Enums\\OrdenarVentasPor.cs",
+              "RelativeDocumentMoniker": "Aplicacion\\Enums\\OrdenarVentasPor.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Aplicacion\\Enums\\OrdenarVentasPor.cs",
+              "RelativeToolTip": "Aplicacion\\Enums\\OrdenarVentasPor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T06:38:25.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Venta.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Entidades\\Venta.cs",
+              "RelativeDocumentMoniker": "Dominio\\Entidades\\Venta.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Entidades\\Venta.cs",
+              "RelativeToolTip": "Dominio\\Entidades\\Venta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T02:51:35.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IUsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Interfaces\\IUsuarioRepository.cs",
+              "RelativeDocumentMoniker": "Dominio\\Interfaces\\IUsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Interfaces\\IUsuarioRepository.cs",
+              "RelativeToolTip": "Dominio\\Interfaces\\IUsuarioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T03:08:30.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "OrdenarUsuariosPor.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Aplicacion\\Enums\\OrdenarUsuariosPor.cs",
+              "RelativeDocumentMoniker": "Aplicacion\\Enums\\OrdenarUsuariosPor.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Aplicacion\\Enums\\OrdenarUsuariosPor.cs",
+              "RelativeToolTip": "Aplicacion\\Enums\\OrdenarUsuariosPor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T06:27:05.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Entidades\\Usuario.cs",
+              "RelativeDocumentMoniker": "Dominio\\Entidades\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Entidades\\Usuario.cs",
+              "RelativeToolTip": "Dominio\\Entidades\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T02:50:58.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Repositorios\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "Infraestructura\\Repositorios\\UsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Repositorios\\UsuarioRepository.cs",
+              "RelativeToolTip": "Infraestructura\\Repositorios\\UsuarioRepository.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAIBJwFQAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T03:55:11.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "OrdenarClientePor.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Aplicacion\\Enums\\OrdenarClientePor.cs",
+              "RelativeDocumentMoniker": "Aplicacion\\Enums\\OrdenarClientePor.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Aplicacion\\Enums\\OrdenarClientePor.cs",
+              "RelativeToolTip": "Aplicacion\\Enums\\OrdenarClientePor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T04:36:01.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IRepositorioBase.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Interfaces\\IRepositorioBase.cs",
+              "RelativeDocumentMoniker": "Dominio\\Interfaces\\IRepositorioBase.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Interfaces\\IRepositorioBase.cs",
+              "RelativeToolTip": "Dominio\\Interfaces\\IRepositorioBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T00:40:42.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IProveedorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Interfaces\\IProveedorRepository.cs",
+              "RelativeDocumentMoniker": "Dominio\\Interfaces\\IProveedorRepository.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Interfaces\\IProveedorRepository.cs",
+              "RelativeToolTip": "Dominio\\Interfaces\\IProveedorRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T03:07:50.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IRolDeUsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Interfaces\\IRolDeUsuarioRepository.cs",
+              "RelativeDocumentMoniker": "Dominio\\Interfaces\\IRolDeUsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Interfaces\\IRolDeUsuarioRepository.cs",
+              "RelativeToolTip": "Dominio\\Interfaces\\IRolDeUsuarioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T04:02:18.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ProveedorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Repositorios\\ProveedorRepository.cs",
+              "RelativeDocumentMoniker": "Infraestructura\\Repositorios\\ProveedorRepository.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Repositorios\\ProveedorRepository.cs",
+              "RelativeToolTip": "Infraestructura\\Repositorios\\ProveedorRepository.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAxwE0AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T03:32:23.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "OrdenarProveedoresPor.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Aplicacion\\Enums\\OrdenarProveedoresPor.cs",
+              "RelativeDocumentMoniker": "Aplicacion\\Enums\\OrdenarProveedoresPor.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Aplicacion\\Enums\\OrdenarProveedoresPor.cs",
+              "RelativeToolTip": "Aplicacion\\Enums\\OrdenarProveedoresPor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T06:18:00.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Proveedor.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Entidades\\Proveedor.cs",
+              "RelativeDocumentMoniker": "Dominio\\Entidades\\Proveedor.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Entidades\\Proveedor.cs",
+              "RelativeToolTip": "Dominio\\Entidades\\Proveedor.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAswCAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T02:49:59.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ProductoEnCarritoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Repositorios\\ProductoEnCarritoRepository.cs",
+              "RelativeDocumentMoniker": "Infraestructura\\Repositorios\\ProductoEnCarritoRepository.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Repositorios\\ProductoEnCarritoRepository.cs",
+              "RelativeToolTip": "Infraestructura\\Repositorios\\ProductoEnCarritoRepository.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAgwIoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T18:32:32.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IProductoEnCarritoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Interfaces\\IProductoEnCarritoRepository.cs",
+              "RelativeDocumentMoniker": "Dominio\\Interfaces\\IProductoEnCarritoRepository.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Interfaces\\IProductoEnCarritoRepository.cs",
+              "RelativeToolTip": "Dominio\\Interfaces\\IProductoEnCarritoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T03:02:54.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "OrdenarProductosEnCarritoPor.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Aplicacion\\Enums\\OrdenarProductosEnCarritoPor.cs",
+              "RelativeDocumentMoniker": "Aplicacion\\Enums\\OrdenarProductosEnCarritoPor.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Aplicacion\\Enums\\OrdenarProductosEnCarritoPor.cs",
+              "RelativeToolTip": "Aplicacion\\Enums\\OrdenarProductosEnCarritoPor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T05:52:26.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ProductoEnCarrito.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Entidades\\ProductoEnCarrito.cs",
+              "RelativeDocumentMoniker": "Dominio\\Entidades\\ProductoEnCarrito.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Entidades\\ProductoEnCarrito.cs",
+              "RelativeToolTip": "Dominio\\Entidades\\ProductoEnCarrito.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T02:49:40.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "EmpleadoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Repositorios\\EmpleadoRepository.cs",
+              "RelativeDocumentMoniker": "Infraestructura\\Repositorios\\EmpleadoRepository.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Repositorios\\EmpleadoRepository.cs",
+              "RelativeToolTip": "Infraestructura\\Repositorios\\EmpleadoRepository.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAIBJwF0AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T19:32:03.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "CompraRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Repositorios\\CompraRepository.cs",
+              "RelativeDocumentMoniker": "Infraestructura\\Repositorios\\CompraRepository.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Repositorios\\CompraRepository.cs",
+              "RelativeToolTip": "Infraestructura\\Repositorios\\CompraRepository.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAABQwE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T01:05:20.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ClienteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Repositorios\\ClienteRepository.cs",
+              "RelativeDocumentMoniker": "Infraestructura\\Repositorios\\ClienteRepository.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Repositorios\\ClienteRepository.cs",
+              "RelativeToolTip": "Infraestructura\\Repositorios\\ClienteRepository.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAIBJwBQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T00:42:03.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "PedidoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Repositorios\\PedidoRepository.cs",
+              "RelativeDocumentMoniker": "Infraestructura\\Repositorios\\PedidoRepository.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Repositorios\\PedidoRepository.cs",
+              "RelativeToolTip": "Infraestructura\\Repositorios\\PedidoRepository.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAIBJwF8AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T05:25:53.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "IPedidoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Interfaces\\IPedidoRepository.cs",
+              "RelativeDocumentMoniker": "Dominio\\Interfaces\\IPedidoRepository.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Interfaces\\IPedidoRepository.cs",
+              "RelativeToolTip": "Dominio\\Interfaces\\IPedidoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T03:01:54.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "OrdenarPedidoPor.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Aplicacion\\Enums\\OrdenarPedidoPor.cs",
+              "RelativeDocumentMoniker": "Aplicacion\\Enums\\OrdenarPedidoPor.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Aplicacion\\Enums\\OrdenarPedidoPor.cs",
+              "RelativeToolTip": "Aplicacion\\Enums\\OrdenarPedidoPor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T05:31:33.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "OrdenarCompraPor.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Aplicacion\\Enums\\OrdenarCompraPor.cs",
+              "RelativeDocumentMoniker": "Aplicacion\\Enums\\OrdenarCompraPor.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Aplicacion\\Enums\\OrdenarCompraPor.cs",
+              "RelativeToolTip": "Aplicacion\\Enums\\OrdenarCompraPor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T04:56:37.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Pedido.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Entidades\\Pedido.cs",
+              "RelativeDocumentMoniker": "Dominio\\Entidades\\Pedido.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Entidades\\Pedido.cs",
+              "RelativeToolTip": "Dominio\\Entidades\\Pedido.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T02:46:27.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "OrdenarEmpleadoPor.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Aplicacion\\Enums\\OrdenarEmpleadoPor.cs",
+              "RelativeDocumentMoniker": "Aplicacion\\Enums\\OrdenarEmpleadoPor.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Aplicacion\\Enums\\OrdenarEmpleadoPor.cs",
+              "RelativeToolTip": "Aplicacion\\Enums\\OrdenarEmpleadoPor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T05:14:52.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Permiso.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Entidades\\Permiso.cs",
+              "RelativeDocumentMoniker": "Dominio\\Entidades\\Permiso.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Entidades\\Permiso.cs",
+              "RelativeToolTip": "Dominio\\Entidades\\Permiso.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T02:48:47.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Entidades\\Cliente.cs",
+              "RelativeDocumentMoniker": "Dominio\\Entidades\\Cliente.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Entidades\\Cliente.cs",
+              "RelativeToolTip": "Dominio\\Entidades\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T02:15:36.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "INotificacionPorUsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Interfaces\\INotificacionPorUsuarioRepository.cs",
+              "RelativeDocumentMoniker": "Dominio\\Interfaces\\INotificacionPorUsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Interfaces\\INotificacionPorUsuarioRepository.cs",
+              "RelativeToolTip": "Dominio\\Interfaces\\INotificacionPorUsuarioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T04:00:35.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "IImagenRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Interfaces\\IImagenRepository.cs",
+              "RelativeDocumentMoniker": "Dominio\\Interfaces\\IImagenRepository.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Interfaces\\IImagenRepository.cs",
+              "RelativeToolTip": "Dominio\\Interfaces\\IImagenRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T03:55:52.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "IEmpleadoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Interfaces\\IEmpleadoRepository.cs",
+              "RelativeDocumentMoniker": "Dominio\\Interfaces\\IEmpleadoRepository.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Interfaces\\IEmpleadoRepository.cs",
+              "RelativeToolTip": "Dominio\\Interfaces\\IEmpleadoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T19:33:40.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Empleado.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Entidades\\Empleado.cs",
+              "RelativeDocumentMoniker": "Dominio\\Entidades\\Empleado.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Entidades\\Empleado.cs",
+              "RelativeToolTip": "Dominio\\Entidades\\Empleado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T02:30:52.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "IDetallePedidoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Interfaces\\IDetallePedidoRepository.cs",
+              "RelativeDocumentMoniker": "Dominio\\Interfaces\\IDetallePedidoRepository.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Interfaces\\IDetallePedidoRepository.cs",
+              "RelativeToolTip": "Dominio\\Interfaces\\IDetallePedidoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T03:05:11.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "IDetalleCompraRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Interfaces\\IDetalleCompraRepository.cs",
+              "RelativeDocumentMoniker": "Dominio\\Interfaces\\IDetalleCompraRepository.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Interfaces\\IDetalleCompraRepository.cs",
+              "RelativeToolTip": "Dominio\\Interfaces\\IDetalleCompraRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T01:32:08.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "DetalleCompraRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Repositorios\\DetalleCompraRepository.cs",
+              "RelativeDocumentMoniker": "Infraestructura\\Repositorios\\DetalleCompraRepository.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Repositorios\\DetalleCompraRepository.cs",
+              "RelativeToolTip": "Infraestructura\\Repositorios\\DetalleCompraRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T01:23:25.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "ICompraRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Interfaces\\ICompraRepository.cs",
+              "RelativeDocumentMoniker": "Dominio\\Interfaces\\ICompraRepository.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Interfaces\\ICompraRepository.cs",
+              "RelativeToolTip": "Dominio\\Interfaces\\ICompraRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T02:57:06.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Compra.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Entidades\\Compra.cs",
+              "RelativeDocumentMoniker": "Dominio\\Entidades\\Compra.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Entidades\\Compra.cs",
+              "RelativeToolTip": "Dominio\\Entidades\\Compra.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T02:22:21.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "IClienteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Interfaces\\IClienteRepository.cs",
+              "RelativeDocumentMoniker": "Dominio\\Interfaces\\IClienteRepository.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Interfaces\\IClienteRepository.cs",
+              "RelativeToolTip": "Dominio\\Interfaces\\IClienteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T01:00:53.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
               "Title": "CarritoRepository.cs",
               "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Repositorios\\CarritoRepository.cs",
               "RelativeDocumentMoniker": "Infraestructura\\Repositorios\\CarritoRepository.cs",
               "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Repositorios\\CarritoRepository.cs",
               "RelativeToolTip": "Infraestructura\\Repositorios\\CarritoRepository.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-26T00:23:10.552Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 63,
+              "Title": "ICarritoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Interfaces\\ICarritoRepository.cs",
+              "RelativeDocumentMoniker": "Dominio\\Interfaces\\ICarritoRepository.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Interfaces\\ICarritoRepository.cs",
+              "RelativeToolTip": "Dominio\\Interfaces\\ICarritoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T03:55:53.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
               "Title": "GlobalUsings.cs",
               "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Repositorios\\GlobalUsings.cs",
               "RelativeDocumentMoniker": "Infraestructura\\Repositorios\\GlobalUsings.cs",
@@ -166,15 +1252,340 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IRepositorioBase.cs",
-              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Interfaces\\IRepositorioBase.cs",
-              "RelativeDocumentMoniker": "Dominio\\Interfaces\\IRepositorioBase.cs",
-              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Interfaces\\IRepositorioBase.cs",
-              "RelativeToolTip": "Dominio\\Interfaces\\IRepositorioBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "DocumentIndex": 66,
+              "Title": "RolRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Repositorios\\RolRepository.cs",
+              "RelativeDocumentMoniker": "Infraestructura\\Repositorios\\RolRepository.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Repositorios\\RolRepository.cs",
+              "RelativeToolTip": "Infraestructura\\Repositorios\\RolRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAxwDoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T00:40:42.615Z",
+              "WhenOpened": "2025-05-31T03:49:28.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "RolDeUsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Repositorios\\RolDeUsuarioRepository.cs",
+              "RelativeDocumentMoniker": "Infraestructura\\Repositorios\\RolDeUsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Repositorios\\RolDeUsuarioRepository.cs",
+              "RelativeToolTip": "Infraestructura\\Repositorios\\RolDeUsuarioRepository.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAABQwDYAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T03:44:52.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "NotificacionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Repositorios\\NotificacionRepository.cs",
+              "RelativeDocumentMoniker": "Infraestructura\\Repositorios\\NotificacionRepository.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Repositorios\\NotificacionRepository.cs",
+              "RelativeToolTip": "Infraestructura\\Repositorios\\NotificacionRepository.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAABQwC8AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T05:19:14.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "PermisoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Repositorios\\PermisoRepository.cs",
+              "RelativeDocumentMoniker": "Infraestructura\\Repositorios\\PermisoRepository.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Repositorios\\PermisoRepository.cs",
+              "RelativeToolTip": "Infraestructura\\Repositorios\\PermisoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T18:27:54.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "PermisoDeRolRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Repositorios\\PermisoDeRolRepository.cs",
+              "RelativeDocumentMoniker": "Infraestructura\\Repositorios\\PermisoDeRolRepository.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Repositorios\\PermisoDeRolRepository.cs",
+              "RelativeToolTip": "Infraestructura\\Repositorios\\PermisoDeRolRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAxwDIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T18:23:43.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "NotificacionPorUsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Repositorios\\NotificacionPorUsuarioRepository.cs",
+              "RelativeDocumentMoniker": "Infraestructura\\Repositorios\\NotificacionPorUsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Repositorios\\NotificacionPorUsuarioRepository.cs",
+              "RelativeToolTip": "Infraestructura\\Repositorios\\NotificacionPorUsuarioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGcAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T04:49:19.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "MetodoDePagoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Repositorios\\MetodoDePagoRepository.cs",
+              "RelativeDocumentMoniker": "Infraestructura\\Repositorios\\MetodoDePagoRepository.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Repositorios\\MetodoDePagoRepository.cs",
+              "RelativeToolTip": "Infraestructura\\Repositorios\\MetodoDePagoRepository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAMBcwDAAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T04:37:34.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "InventarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Repositorios\\InventarioRepository.cs",
+              "RelativeDocumentMoniker": "Infraestructura\\Repositorios\\InventarioRepository.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Repositorios\\InventarioRepository.cs",
+              "RelativeToolTip": "Infraestructura\\Repositorios\\InventarioRepository.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAqwDcAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T04:32:58.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "ImagenRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Repositorios\\ImagenRepository.cs",
+              "RelativeDocumentMoniker": "Infraestructura\\Repositorios\\ImagenRepository.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Repositorios\\ImagenRepository.cs",
+              "RelativeToolTip": "Infraestructura\\Repositorios\\ImagenRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T04:29:15.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "DetalleVentaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Repositorios\\DetalleVentaRepository.cs",
+              "RelativeDocumentMoniker": "Infraestructura\\Repositorios\\DetalleVentaRepository.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Repositorios\\DetalleVentaRepository.cs",
+              "RelativeToolTip": "Infraestructura\\Repositorios\\DetalleVentaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG8AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T18:08:48.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "DireccionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Repositorios\\DireccionRepository.cs",
+              "RelativeDocumentMoniker": "Infraestructura\\Repositorios\\DireccionRepository.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Repositorios\\DireccionRepository.cs",
+              "RelativeToolTip": "Infraestructura\\Repositorios\\DireccionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAxwAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T18:26:15.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "Imagen.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Entidades\\Imagen.cs",
+              "RelativeDocumentMoniker": "Dominio\\Entidades\\Imagen.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Entidades\\Imagen.cs",
+              "RelativeToolTip": "Dominio\\Entidades\\Imagen.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAwwB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T02:31:49.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "DetallePedidoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Repositorios\\DetallePedidoRepository.cs",
+              "RelativeDocumentMoniker": "Infraestructura\\Repositorios\\DetallePedidoRepository.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Repositorios\\DetallePedidoRepository.cs",
+              "RelativeToolTip": "Infraestructura\\Repositorios\\DetallePedidoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T02:29:39.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "FiltroClienteDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Aplicacion\\DTOs\\FiltroClienteDTO.cs",
+              "RelativeDocumentMoniker": "Aplicacion\\DTOs\\FiltroClienteDTO.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Aplicacion\\DTOs\\FiltroClienteDTO.cs",
+              "RelativeToolTip": "Aplicacion\\DTOs\\FiltroClienteDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T04:04:34.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "FiltroProductoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Aplicacion\\DTOs\\FiltroProductoDTO.cs",
+              "RelativeDocumentMoniker": "Aplicacion\\DTOs\\FiltroProductoDTO.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Aplicacion\\DTOs\\FiltroProductoDTO.cs",
+              "RelativeToolTip": "Aplicacion\\DTOs\\FiltroProductoDTO.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAgwBAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T19:56:21.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "DetalleCompra.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Entidades\\DetalleCompra.cs",
+              "RelativeDocumentMoniker": "Dominio\\Entidades\\DetalleCompra.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Entidades\\DetalleCompra.cs",
+              "RelativeToolTip": "Dominio\\Entidades\\DetalleCompra.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T02:24:15.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "RolDeUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Entidades\\RolDeUsuario.cs",
+              "RelativeDocumentMoniker": "Dominio\\Entidades\\RolDeUsuario.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Entidades\\RolDeUsuario.cs",
+              "RelativeToolTip": "Dominio\\Entidades\\RolDeUsuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T02:50:48.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "Rol.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Entidades\\Rol.cs",
+              "RelativeDocumentMoniker": "Dominio\\Entidades\\Rol.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Entidades\\Rol.cs",
+              "RelativeToolTip": "Dominio\\Entidades\\Rol.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T02:50:28.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "PermisoDeRol.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Entidades\\PermisoDeRol.cs",
+              "RelativeDocumentMoniker": "Dominio\\Entidades\\PermisoDeRol.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Entidades\\PermisoDeRol.cs",
+              "RelativeToolTip": "Dominio\\Entidades\\PermisoDeRol.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T02:49:07.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "NotificacionPorUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Entidades\\NotificacionPorUsuario.cs",
+              "RelativeDocumentMoniker": "Dominio\\Entidades\\NotificacionPorUsuario.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Entidades\\NotificacionPorUsuario.cs",
+              "RelativeToolTip": "Dominio\\Entidades\\NotificacionPorUsuario.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAowBMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T02:45:48.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "Notificacion.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Entidades\\Notificacion.cs",
+              "RelativeDocumentMoniker": "Dominio\\Entidades\\Notificacion.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Entidades\\Notificacion.cs",
+              "RelativeToolTip": "Dominio\\Entidades\\Notificacion.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAkwBYAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T02:45:03.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "MetodoDePago.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Entidades\\MetodoDePago.cs",
+              "RelativeDocumentMoniker": "Dominio\\Entidades\\MetodoDePago.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Entidades\\MetodoDePago.cs",
+              "RelativeToolTip": "Dominio\\Entidades\\MetodoDePago.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAA8wDAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T02:32:59.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "Direccion.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Entidades\\Direccion.cs",
+              "RelativeDocumentMoniker": "Dominio\\Entidades\\Direccion.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Entidades\\Direccion.cs",
+              "RelativeToolTip": "Dominio\\Entidades\\Direccion.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA8wCUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T02:27:31.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "DetalleVenta.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Entidades\\DetalleVenta.cs",
+              "RelativeDocumentMoniker": "Dominio\\Entidades\\DetalleVenta.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Entidades\\DetalleVenta.cs",
+              "RelativeToolTip": "Dominio\\Entidades\\DetalleVenta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAABzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T02:27:15.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "DetallePedido.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Entidades\\DetallePedido.cs",
+              "RelativeDocumentMoniker": "Dominio\\Entidades\\DetallePedido.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Dominio\\Entidades\\DetallePedido.cs",
+              "RelativeToolTip": "Dominio\\Entidades\\DetallePedido.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAABzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T02:27:00.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "ProductoMasCompradoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Aplicacion\\DTOs\\ProductoMasCompradoDTO.cs",
+              "RelativeDocumentMoniker": "Aplicacion\\DTOs\\ProductoMasCompradoDTO.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Aplicacion\\DTOs\\ProductoMasCompradoDTO.cs",
+              "RelativeToolTip": "Aplicacion\\DTOs\\ProductoMasCompradoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T19:55:55.587Z",
               "EditorCaption": ""
             }
           ]

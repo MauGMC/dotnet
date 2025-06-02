@@ -1,0 +1,146 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Mmaur\\dotnet\\EFprueba\\Web\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{19538F6D-D559-46FF-934F-B2036EC295DF}|Web.csproj|c:\\users\\mmaur\\dotnet\\efprueba\\web\\web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{19538F6D-D559-46FF-934F-B2036EC295DF}|Web.csproj|solutionrelative:web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBC8316B-08A6-3329-353D-E425D058F2C0}|..\\Infraestructura\\Infraestructura.csproj|c:\\users\\mmaur\\dotnet\\efprueba\\infraestructura\\productosdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19538F6D-D559-46FF-934F-B2036EC295DF}|DBFirst.csproj|c:\\users\\mmaur\\dotnet\\efprueba\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19538F6D-D559-46FF-934F-B2036EC295DF}|DBFirst.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0977AB5F-C41D-4FB2-824B-40BFE1499C3A}|..\\Aplicacion\\Aplicacion.csproj|c:\\users\\mmaur\\dotnet\\efprueba\\aplicacion\\servicios\\obtenerproductoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0977AB5F-C41D-4FB2-824B-40BFE1499C3A}|..\\Aplicacion\\Aplicacion.csproj|c:\\users\\mmaur\\dotnet\\efprueba\\aplicacion\\perfiles de mapeo\\productoprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0977AB5F-C41D-4FB2-824B-40BFE1499C3A}|..\\Aplicacion\\Aplicacion.csproj|c:\\users\\mmaur\\dotnet\\efprueba\\aplicacion\\dtos\\productoresumendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0977AB5F-C41D-4FB2-824B-40BFE1499C3A}|..\\Aplicacion\\Aplicacion.csproj|c:\\users\\mmaur\\dotnet\\efprueba\\aplicacion\\dtos\\productodetalledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductosDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba\\Infraestructura\\ProductosDbContext.cs",
+              "RelativeDocumentMoniker": "..\\Infraestructura\\ProductosDbContext.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba\\Infraestructura\\ProductosDbContext.cs",
+              "RelativeToolTip": "..\\Infraestructura\\ProductosDbContext.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T04:07:10.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Web.csproj",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba\\Web\\Web.csproj",
+              "RelativeDocumentMoniker": "Web.csproj",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba\\Web\\Web.csproj",
+              "RelativeToolTip": "Web.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-13T04:05:34.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba\\Web\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba\\Web\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T04:04:05.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ObtenerProductoService.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba\\Aplicacion\\Servicios\\ObtenerProductoService.cs",
+              "RelativeDocumentMoniker": "..\\Aplicacion\\Servicios\\ObtenerProductoService.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba\\Aplicacion\\Servicios\\ObtenerProductoService.cs",
+              "RelativeToolTip": "..\\Aplicacion\\Servicios\\ObtenerProductoService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T04:04:01.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductoProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba\\Aplicacion\\Perfiles de mapeo\\ProductoProfile.cs",
+              "RelativeDocumentMoniker": "..\\Aplicacion\\Perfiles de mapeo\\ProductoProfile.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba\\Aplicacion\\Perfiles de mapeo\\ProductoProfile.cs",
+              "RelativeToolTip": "..\\Aplicacion\\Perfiles de mapeo\\ProductoProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T04:03:59.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductoResumenDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba\\Aplicacion\\DTOs\\ProductoResumenDTO.cs",
+              "RelativeDocumentMoniker": "..\\Aplicacion\\DTOs\\ProductoResumenDTO.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba\\Aplicacion\\DTOs\\ProductoResumenDTO.cs",
+              "RelativeToolTip": "..\\Aplicacion\\DTOs\\ProductoResumenDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T04:03:58.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductoDetalleDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba\\Aplicacion\\DTOs\\ProductoDetalleDTO.cs",
+              "RelativeDocumentMoniker": "..\\Aplicacion\\DTOs\\ProductoDetalleDTO.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba\\Aplicacion\\DTOs\\ProductoDetalleDTO.cs",
+              "RelativeToolTip": "..\\Aplicacion\\DTOs\\ProductoDetalleDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T04:03:56.867Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

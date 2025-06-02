@@ -1,0 +1,45 @@
+﻿@model IEnumerable<Dominio.Entidades.Producto>
+@{
+    ViewData["Title"] = "Productos";
+}
+<h2> Lista de productos disponibles</h2>
+<p>
+    <a asp-action="Crear" class="btn btn-primary">Crear nuevo</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Categoria</th>
+            <th>Descripcion</th>
+            <th>Precio</th>
+            <th>Stock</th>
+            <th>Fecha de agregado</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var producto in Model)
+        {
+            <tr>
+                <td>@producto.ProductoID</td>
+                <td>@producto.Nombre</td>
+                <td>@producto.Categoria</td>
+                <td>@producto.Descripcion</td>
+                <td>@producto.Precio</td>
+                <td>@producto.Stock</td>
+                <td>@producto.FechaCreacion</td>
+                <td style="white-space: nowrap;">
+                    <div style="display: flex; flex-direction: column; gap: 4px; align-items: flex-start;">
+                        <a asp-action="Detalles" asp-route-id="@producto.ProductoID" class="btn btn-info btn-sm">Detalles</a>
+                        <a asp-action="Editar" asp-route-id="@producto.ProductoID" class="btn btn-warning btn-sm">Editar</a>
+                        <form asp-action="Eliminar" asp-route-id="@producto.ProductoID" method="post" onsubmit="return confirm('¿Estás seguro que quieres eliminar este producto?');" style="margin:0; padding:0;">
+                            <button type="submit" class="btn btn-danger btn-sm">Eliminar</button>
+                        </form>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>    
+</table>

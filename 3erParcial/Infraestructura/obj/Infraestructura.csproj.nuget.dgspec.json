@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mmaur\\dotnet\\3erParcial\\infraestructura\\Infraestructura.csproj": {}
+    "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Infraestructura.csproj": {}
   },
   "projects": {
     "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Aplicacion\\Aplicacion.csproj": {
@@ -53,6 +53,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[8.0.13, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -138,14 +144,14 @@
         }
       }
     },
-    "C:\\Users\\Mmaur\\dotnet\\3erParcial\\infraestructura\\Infraestructura.csproj": {
+    "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Infraestructura.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\infraestructura\\Infraestructura.csproj",
+        "projectUniqueName": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Infraestructura.csproj",
         "projectName": "Infraestructura",
-        "projectPath": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\infraestructura\\Infraestructura.csproj",
+        "projectPath": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\Infraestructura.csproj",
         "packagesPath": "C:\\Users\\Mmaur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\infraestructura\\obj\\",
+        "outputPath": "C:\\Users\\Mmaur\\dotnet\\3erParcial\\Infraestructura\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -191,6 +197,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.13, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.13, )"

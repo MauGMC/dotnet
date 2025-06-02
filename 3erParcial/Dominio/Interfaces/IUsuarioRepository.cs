@@ -2,17 +2,21 @@
 {
     public interface IUsuarioRepository : IRepositorioBase<Usuario>
     {
-        //Consultas generales
-        Task<IEnumerable<Usuario>> ObtenerPorRangoDeFechaDeRegistroAsync(DateTime desde, DateTime hasta);
-        Task<IEnumerable<Usuario>> ObtenerPorUltimoAccesoAsync(string parametroFecha);
-        Task<IEnumerable<Usuario>> ObtenerPorEstadoAsync(bool activo);
-        //Consultas especificas
-        Task<Usuario> ObtenerPorNombreDeUsuarioAsync(string nombreUsuario);
-        Task<Usuario> ObtenerPorEmailAsync(string email);
         //Acciones especificas
-        Task<Usuario> CambiarEstadoAsync(string idUsuario, bool estado);
+        Task CambiarEstadoAsync(string idUsuario, bool estado);
         //Acciones masivas
-        Task EliminarUsuariosAsync(IEnumerable<Usuario> idUsuarios);
+        Task EliminarUsuariosAsync(IEnumerable<string> idUsuarios);
+        Task<IEnumerable<Usuario>> ObtenerUsuariosFiltradoGeneralAsync(
+            int ordenarPor=1,
+            bool ordenAscendente=true,
+            int pagina=1,
+            int tamanoPagina = 10,
+            string? nombre=null,
+            string? email=null,
+            DateTime? fechaDesde = null,
+            DateTime? fechaHasta = null,
+            bool? activo = null
+        );
 
     }
 }

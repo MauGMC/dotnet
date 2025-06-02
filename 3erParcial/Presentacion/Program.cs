@@ -1,5 +1,10 @@
+using Aplicacion.Servicios;
+using Dominio.Interfaces;
 using Infraestructura.Persistencia;
+using Infraestructura.Repositorios;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity.UI.Services;
 
 namespace Presentacion
 {
@@ -9,23 +14,44 @@ namespace Presentacion
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
-            builder.Services.AddControllersWithViews();
-            //Conexión BD
+            // Conexiï¿½n BD
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
-            {
                 options.UseMySql(
                     builder.Configuration.GetConnectionString("DefaultConnection"),
                     ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection"))
-                );
-            });
+                ));
+
+            // Servicios propios
+            builder.Services.AddScoped<IProductoRepository, ProductoRepository>();
+            builder.Services.AddScoped<ProductoService>();
+            builder.Services.AddTransient<IEmailSender, EmailSender>();
+
+            // Configuraciï¿½n Identity con roles y opciones personalizadas
+            builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
+            {
+                options.SignIn.RequireConfirmedPhoneNumber = false;
+                options.SignIn.RequireConfirmedAccount = false;
+                options.SignIn.RequireConfirmedEmail = false;
+                options.Password.RequireDigit = true;
+                options.Password.RequiredLength = 6;
+                options.Password.RequireNonAlphanumeric = false;
+                options.Password.RequireUppercase = false;
+            })
+                .AddEntityFrameworkStores<ApplicationDbContext>()
+                .AddDefaultTokenProviders();
+
+            // MVC
+            builder.Services.AddControllersWithViews();
+
+            // Si vas a usar las pï¿½ginas de Identity UI (login, registro, etc)
+            builder.Services.AddRazorPages();
+
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
+            // Middleware
             if (!app.Environment.IsDevelopment())
             {
                 app.UseExceptionHandler("/Home/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
 
@@ -34,11 +60,15 @@ namespace Presentacion
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
+            // Rutas
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
+
+            app.MapRazorPages();
 
             app.Run();
         }

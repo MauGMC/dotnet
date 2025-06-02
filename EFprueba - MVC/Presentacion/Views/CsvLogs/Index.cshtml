@@ -1,0 +1,94 @@
+﻿@page "{pagina:int?}"
+@model Presentacion.Pages.CsvLogs.IndexModel
+@{
+	ViewData["Title"] = "Logs de importación";
+}
+<h1>Logs de importación</h1>
+<h4>Últimos logs importados</h4>
+<link rel="stylesheet" href="~/css/datatables.css" />
+<link rel="stylesheet" href="~/css/buttons.dataTables.css" />
+
+<form method="get" class="mb-3">
+    <input type="hidden" name="pagina" value="1" />
+    <label for="tamañoPagina">Mostrar:</label>
+    <select name="tamañoPagina" id="tamañoPagina" onchange="this.form.submit()" class="form-select d-inline w-auto mx-2">
+        <option value="5" selected="@(Model.TamañoPagina == 5)">5</option>
+        <option value="10" selected="@(Model.TamañoPagina == 10)">10</option>
+        <option value="25" selected="@(Model.TamañoPagina == 25)">25</option>
+        <option value="50" selected="@(Model.TamañoPagina == 50)">50</option>
+        <option value="100" selected="@(Model.TamañoPagina == 100)">100</option>
+    </select>
+    <span>productos por página</span>
+</form>
+
+<table class="table text-center" id="logsTable" border="1">
+    <thead>
+        <tr>
+            <th rowspan="2">ID</th>
+            <th rowspan="2">Usuario</th>
+            <th rowspan="2">Fecha de importación</th>
+            <th colspan="3">Resumen</th> <!-- Este abarca 3 columnas -->
+            <th rowspan="2">Archivo</th>
+        </tr>
+        <tr>
+            <th>Éxitos</th>
+            <th>Advertencias</th>
+            <th>Errores</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var log in Model.CsvLogs)
+        {
+            <tr>
+                <td>@log.CsvLogID</td>
+                <td>@log.Usuario</td>
+                <td>@log.FechaImportacion.ToString("g")</td>
+                <td>@log.Exitos</td>
+                <td>@log.Advertencias</td>
+                <td>@log.Errores</td>
+                <td>
+                    <a asp-page="./Index" asp-route-id="@log.CsvLogID" asp-page-handler="DescargarArchivo">Descargar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<nav aria-label="Paginación de productos">
+    <ul class="pagination justify-content-center">
+
+        <li class="page-item @(Model.PaginaActual == 1 ? "disabled" : "")">
+            <a class="page-link" asp-page="./Index" asp-route-pagina="1" asp-route-tamañoPagina="@Model.TamañoPagina">Primero</a>
+        </li>
+
+        <li class="page-item @(Model.PaginaActual <= 1 ? "disabled" : "")">
+            <a class="page-link" asp-page="./Index" asp-route-pagina="@(Model.PaginaActual - 1)" asp-route-tamañoPagina="@Model.TamañoPagina">Anterior</a>
+        </li>
+
+        @for (int i = Model.PaginaAtras; i <= Model.PaginaAdelante; i++)
+        {
+            <li class="page-item @(i == Model.PaginaActual ? "active" : "")">
+                <a class="page-link" asp-page="./Index" asp-route-pagina="@i" asp-route-tamañoPagina="@Model.TamañoPagina">@i</a>
+            </li>
+        }
+
+        <li class="page-item @(Model.PaginaActual >= Model.TotalPaginas ? "disabled" : "")">
+            <a class="page-link" asp-page="./Index" asp-route-pagina="@(Model.PaginaActual + 1)" asp-route-tamañoPagina="@Model.TamañoPagina">Siguiente</a>
+        </li>
+
+        <li class="page-item @(Model.PaginaActual == Model.TotalPaginas ? "disabled" : "")">
+            <a class="page-link" asp-page="./Index" asp-route-pagina="@Model.TotalPaginas" asp-route-tamañoPagina="@Model.TamañoPagina">Último</a>
+        </li>
+
+    </ul>
+</nav>
+@section Scripts
+{
+    <script>
+        new DataTable('#logsTable', {
+            info:false,
+            paging:false, 
+            order: [[2,'desc']]
+        });
+    </script>
+}
+

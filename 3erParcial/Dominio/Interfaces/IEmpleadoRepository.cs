@@ -2,14 +2,18 @@
 {
     public interface IEmpleadoRepository : IRepositorioBase<Empleado>
     {
-        Task<Empleado> ObtenerPorNombreCompletoAsync(string nombreCompleto);
-        Task<Empleado> ObtenerPorTelefonoAsync(string telefono);
-        Task<IEnumerable<Empleado>> ObtenerPorRangoDeEdadAsync(DateTime desde, DateTime hasta);
-        Task<IEnumerable<Empleado>> ObtenerPorSexoAsync(char sexo);
-        Task<IEnumerable<Empleado>> ObtenerPorPuestoAsync(string puesto);
-        Task<IEnumerable<Empleado>> ObtenerPorEstadoAsync(int estado);
-        Task<IEnumerable<Empleado>> ObtenerPorFechaContratacionAsync(DateTime fechaContratacion);
-        Task<IEnumerable<Empleado>> ObtenerPorRangoDeFechaDeContratacionAsync(DateTime desde, DateTime hasta);
         Task DarDeBajaAEmpleados(IEnumerable<int> empleadosIds);
+        Task<IEnumerable<Empleado>> ObtenerEmpleadosFiltradoGeneralAsync(
+            int ordenarPor=1,
+            bool ordernarAscendente=true,
+            int pagina=1,
+            int tamanoPagina = 10,
+            string? nombreCompleto = null,
+            string? telefono = null,
+            DateTime? fechaContratacionDesde = null,
+            DateTime? fechaContratacionHasta = null,
+            char? sexo = null,
+            string? puesto = null,
+            int? estado = null);
     }
 }

@@ -1,4 +1,6 @@
 ﻿
+using Aplicacion.Enums;
+using Aplicacion.Extensions;
 using Dominio.Entidades;
 
 namespace Infraestructura.Repositorios
@@ -41,28 +43,33 @@ namespace Infraestructura.Repositorios
             }
         }
 
-        public async Task<IEnumerable<Cliente>> ObtenerClientePorNombreAsync(string cadena)
+        public async Task<IEnumerable<Cliente>> ObtenerClientesFiltradoGeneralAsync(int ordenarPor = 1, bool ordenAscendente = true, int pagina = 1, int tamanoPagina = 10, string? nombreCompleto = null, string? telefono = null, DateTime? fechaNacimientoDesde = null, DateTime? fechaNacimientoHasta = null, char? sexo = null)
         {
-            cadena = $"%{cadena.Trim()}%";
-            return await _context.Clientes
-                .Where(c => EF.Functions.Like(
-                    c.Nombres + " " + c.ApellidoPaterno + " " + c.ApellidoMaterno,
-                    cadena))
-                .ToListAsync();
-        }
+            var query = _context.Clientes.AsQueryable();
 
-        public async Task<IEnumerable<Cliente>> ObtenerClientesNacidosEntreAsync(DateTime desde, DateTime hasta)
-        {
-            return await _context.Clientes
-                .Where(cliente => cliente.FechaNacimiento >= desde && cliente.FechaNacimiento <= hasta)
-                .ToListAsync();
-        }
+            if (!string.IsNullOrWhiteSpace(nombreCompleto))
+                query = query.Where(c => (c.Nombres + " " + c.ApellidoPaterno + " " + c.ApellidoMaterno).Contains(nombreCompleto));
+            if (!string.IsNullOrWhiteSpace(telefono))
+                query = query.Where(c => c.Telefono.Contains(telefono));
+            if (fechaNacimientoDesde.HasValue)
+                query = query.Where(c => c.FechaNacimiento >= fechaNacimientoDesde.Value);
+            if (fechaNacimientoHasta.HasValue)
+                query = query.Where(c => c.FechaNacimiento <= fechaNacimientoHasta.Value);
+            if (sexo is 'M' or 'F' or 'N')
+                query = query.Where(c => c.Sexo == sexo);
 
-        public async Task<IEnumerable<Cliente>> ObtenerClientesPorSexoAsync(string sexo)
-        {
-            return await _context.Clientes
-                .Where(cliente => cliente.Sexo.ToString() == sexo)
-                .ToListAsync();
+            OrdenarClientePor orden;
+            if (!Enum.IsDefined(typeof(OrdenarClientePor), ordenarPor))
+                orden = OrdenarClientePor.ClienteID;
+            else
+                orden = (OrdenarClientePor)ordenarPor;
+
+            query = query.OrdenarPor(orden, ordenAscendente);
+
+            query = query.Skip((pagina - 1) * tamanoPagina).Take(tamanoPagina);
+
+            return await query.ToListAsync();
+
         }
 
         public async Task<Cliente> ObtenerPorIdAsync(int id)

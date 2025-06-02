@@ -2,6 +2,6 @@
 {
     public interface IImagenRepository : IRepositorioBase<Imagen>
     {
-        Task<IEnumerable<Imagen>> ObtenerImagenesPorTablaEIdAsync(string tablaOrigen, int idRegistro);
+        Task<IEnumerable<Imagen>> ObtenerImagenesPorTablaEIdAsync(string tablaOrigen, string idRegistro);
     }
 }

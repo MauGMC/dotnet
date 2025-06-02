@@ -3,12 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\Mmaur\\dotnet\\EFprueba\\Web\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{19538F6D-D559-46FF-934F-B2036EC295DF}|Web.csproj|c:\\users\\mmaur\\dotnet\\efprueba\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19538F6D-D559-46FF-934F-B2036EC295DF}|Web.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{19538F6D-D559-46FF-934F-B2036EC295DF}|Web.csproj|c:\\users\\mmaur\\dotnet\\efprueba\\web\\web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{19538F6D-D559-46FF-934F-B2036EC295DF}|Web.csproj|solutionrelative:web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19538F6D-D559-46FF-934F-B2036EC295DF}|Web.csproj|c:\\users\\mmaur\\dotnet\\efprueba\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19538F6D-D559-46FF-934F-B2036EC295DF}|Web.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FBC8316B-08A6-3329-353D-E425D058F2C0}|..\\Infraestructura\\Infraestructura.csproj|c:\\users\\mmaur\\dotnet\\efprueba\\infraestructura\\infraestructura.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{19538F6D-D559-46FF-934F-B2036EC295DF}|Web.csproj|c:\\users\\mmaur\\dotnet\\efprueba\\web\\pages\\productos\\lista.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,9 +20,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{19538F6D-D559-46FF-934F-B2036EC295DF}|Web.csproj|c:\\users\\mmaur\\dotnet\\efprueba\\web\\pages\\productos\\lista.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{19538F6D-D559-46FF-934F-B2036EC295DF}|Web.csproj|solutionrelative:pages\\productos\\lista.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBC8316B-08A6-3329-353D-E425D058F2C0}|..\\Infraestructura\\Infraestructura.csproj|c:\\users\\mmaur\\dotnet\\efprueba\\infraestructura\\infraestructura.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{19538F6D-D559-46FF-934F-B2036EC295DF}|Web.csproj|c:\\users\\mmaur\\dotnet\\efprueba\\web\\pages\\csvlogs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -49,11 +49,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Lista.cshtml",
               "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba\\Web\\Pages\\Productos\\Lista.cshtml",
               "RelativeDocumentMoniker": "Pages\\Productos\\Lista.cshtml",
@@ -66,7 +66,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Lista.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba\\Web\\Pages\\Productos\\Lista.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Productos\\Lista.cshtml.cs",
@@ -117,42 +117,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba\\Web\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba\\Web\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAwwE8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAADEAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-24T17:26:05.443Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Infraestructura.csproj",
               "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba\\Infraestructura\\Infraestructura.csproj",
               "RelativeDocumentMoniker": "..\\Infraestructura\\Infraestructura.csproj",
               "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba\\Infraestructura\\Infraestructura.csproj",
               "RelativeToolTip": "..\\Infraestructura\\Infraestructura.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-24T07:41:21.409Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-24T07:41:21.409Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Web.csproj",
               "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba\\Web\\Web.csproj",
               "RelativeDocumentMoniker": "Web.csproj",
               "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba\\Web\\Web.csproj",
               "RelativeToolTip": "Web.csproj",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAowBkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAowBUAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-24T07:36:27.803Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-24T07:36:27.803Z"
             },
             {
               "$type": "Document",

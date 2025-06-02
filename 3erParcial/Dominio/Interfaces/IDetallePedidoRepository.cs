@@ -2,6 +2,6 @@
 {
     public interface IDetallePedidoRepository : IRepositorioBase<DetallePedido>
     {
-        Task<IEnumerable<DetallePedido>> ObtenerDetallesDePedidos(int pedidoId);
+        Task<IEnumerable<DetallePedido>> ObtenerDetallesDePedidosAsync(int pedidoId);
     }
 }

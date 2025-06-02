@@ -1,0 +1,20 @@
+﻿@model Presentacion.Models.CsvImportViewModel
+
+<div class="modal-header">
+    <h5 class="modal-title">Importar productos desde CSV</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+</div>
+<div class="modal-body">
+    <form method="post" enctype="multipart/form-data" asp-page-handler="ImportarCsv" id="csvImportForm" asp-antiforgery="true">
+        <div class="form-group">
+            <label asp-for="ArchivoCsv" class="form-label"></label>
+            <input asp-for="ArchivoCsv" class="form-control" type="file" accept=".csv"/>
+            <span asp-validation-for="ArchivoCsv" class="text-danger"></span>
+        </div>
+        <small class="form-text text-muted mt-2">Selecciona un archivo CSV con los productos a importar.</small>
+    </form>
+</div>
+<div class="modal-footer">
+    <button form="csvImportForm" class="btn btn-primary">Importar</button>
+    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+</div>

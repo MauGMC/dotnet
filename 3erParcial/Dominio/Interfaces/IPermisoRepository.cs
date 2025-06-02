@@ -1,4 +1,4 @@
 ﻿namespace Dominio.Interfaces
 {
-    public interface IPermisoRepository : IRepositorioBase<IPermisoRepository>;
+    public interface IPermisoRepository : IRepositorioBase<Permiso>;
 }

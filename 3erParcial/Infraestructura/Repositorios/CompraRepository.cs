@@ -1,4 +1,7 @@
 ﻿
+using Aplicacion.Enums;
+using Aplicacion.Extensions;
+
 namespace Infraestructura.Repositorios
 {
     public class CompraRepository : ICompraRepository
@@ -48,53 +51,43 @@ namespace Infraestructura.Repositorios
             {
                 throw new Exception("Error al guardar los cambios de la compra.", ex);
             }
-        }   
-        public async Task<Compra> ObtenerCompraPorNumeroFactura(string numeroFactura)
+        } 
+        public async Task<IEnumerable<Compra>> ObtenerComprasFiltradoGeneralAsync(int ordenarPor= 1, bool ordenAscendente = true, int pagina = 1, int tamanoPagina = 10, string? numeroFactura = null, int? proveedorId = null, int? empleadoId = null, int? estado = null, DateTime? fechaCompraRealizadaDesde = null, DateTime? fechaCompraRealizadaHasta = null, DateTime? fechaEntregaDesde = null, DateTime? fechaEntreagadaHasta = null, decimal? precioMinimo = null, decimal? precioMaximo = null)
         {
-            return await _context.Compras
-                .FirstOrDefaultAsync(c => c.NumeroFactura == numeroFactura);
-        }
+            var query = _context.Compras.AsQueryable();
+            if (!string.IsNullOrWhiteSpace(numeroFactura))
+                query = query.Where(c => c.NumeroFactura.Contains(numeroFactura));
+            if (proveedorId.HasValue)
+                query = query.Where(c => c.ProveedorID == proveedorId.Value);
+            if (empleadoId.HasValue)
+                query = query.Where(c => c.EmpleadoID == empleadoId.Value);
+            if (estado.HasValue)
+                query = query.Where(c => c.Estado == estado.Value);
+            if (fechaCompraRealizadaDesde.HasValue)
+                query = query.Where(c => c.FechaCompra >= fechaCompraRealizadaDesde.Value);
+            if (fechaCompraRealizadaHasta.HasValue)
+                query = query.Where(c => c.FechaCompra <= fechaCompraRealizadaHasta.Value);
+            if (fechaEntregaDesde.HasValue)
+                query = query.Where(c => c.FechaEntrega >= fechaEntregaDesde.Value);
+            if (fechaEntreagadaHasta.HasValue)
+                query = query.Where(c => c.FechaEntrega <= fechaEntreagadaHasta.Value);
+            if (precioMinimo.HasValue)
+                query = query.Where(c => c.Total >= precioMinimo.Value);
+            if (precioMaximo.HasValue)
+                query = query.Where(c => c.Total <= precioMaximo.Value);
 
-        public async Task<IEnumerable<Compra>> ObtenerComprasEntregadasEntreFechasAsync(DateTime desde, DateTime hasta)
-        {
-            return await _context.Compras
-                .Where(compras=>compras.FechaEntrega >= desde && compras.FechaEntrega <= hasta)
-                .ToListAsync();
-        }
+            OrdenarCompraPor orden;
+            if (!Enum.IsDefined(typeof(OrdenarCompraPor), ordenarPor))
+                orden = OrdenarCompraPor.CompraID;
+            else
+                orden = (OrdenarCompraPor)ordenarPor;
 
-        public async Task<IEnumerable<Compra>> ObtenerComprasPorEmpleadoAsync(int empleadoId)
-        {
-            return await _context.Compras
-                .Where(compra => compra.EmpleadoID == empleadoId)
-                .ToListAsync();
-        }
+            query = query.OrdenarPor(orden, ordenAscendente);
 
-        public async Task<IEnumerable<Compra>> ObtenerComprasPorEstadoAsync(int estado)
-        {
-            return await _context.Compras
-                .Where(compra => compra.Estado == estado)
-                .ToListAsync();
-        }
-
-        public async Task<IEnumerable<Compra>> ObtenerComprasPorProveedorAsync(int proveedorId)
-        {
-            return await _context.Compras
-                .Where(compra => compra.ProveedorID == proveedorId)
-                .ToListAsync();
-        }
-
-        public async Task<IEnumerable<Compra>> ObtenerComprasPorRangoDePrecioAsync(decimal minimo, decimal max)
-        {
-            return await _context.Compras
-                .Where(compra => compra.Total >= minimo && compra.Total <= max)
-                .ToListAsync();
-        }
-
-        public async Task<IEnumerable<Compra>> ObtenerComprasRealizadasEntreFechasAsync(DateTime desde, DateTime hasta)
-        {
-            return await _context.Compras
-                .Where(compra => compra.FechaCompra >= desde && compra.FechaCompra <= hasta)
-                .ToListAsync();
+                query = query
+                    .Skip((pagina - 1) * tamanoPagina)
+                    .Take(tamanoPagina);
+            return await query.ToListAsync();
         }
 
         public async Task<Compra> ObtenerPorIdAsync(int id)

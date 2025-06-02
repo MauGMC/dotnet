@@ -40,7 +40,7 @@ namespace Infraestructura.Repositorios
             }
         }
 
-        public async Task<IEnumerable<DetallePedido>> ObtenerDetallesDePedidos(int pedidoId)
+        public async Task<IEnumerable<DetallePedido>> ObtenerDetallesDePedidosAsync(int pedidoId)
         {
             return await _context.DetallesPedidos
                 .Where(dp => dp.PedidoID == pedidoId)

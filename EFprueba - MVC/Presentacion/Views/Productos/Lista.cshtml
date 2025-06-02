@@ -1,0 +1,354 @@
+﻿@page "{pagina:int?}"
+@using Aplicacion.Enums
+@using Presentacion.Pages.Productos
+@model Presentacion.Pages.Productos.ListaModel
+@{
+    ViewData["Title"] = "Lista";
+}
+<link rel="stylesheet" href="~/css/datatables.css" />
+<link rel="stylesheet" href="~/css/buttons.dataTables.css" />
+
+<h2>Lista de Productos</h2>
+
+
+<form method="get" class="mb-3">
+    <input type="hidden" name="pagina" value="1" />
+    <label for="tamañoPagina">Mostrar:</label>
+    <select name="tamañoPagina" id="tamañoPagina" onchange="this.form.submit()" class="form-select d-inline w-auto mx-2">
+        <option value="5" selected="@(Model.TamañoPagina == 5)">5</option>
+        <option value="10" selected="@(Model.TamañoPagina == 10)">10</option>
+        <option value="25" selected="@(Model.TamañoPagina == 25)">25</option>
+        <option value="50" selected="@(Model.TamañoPagina == 50)">50</option>
+        <option value="100" selected="@(Model.TamañoPagina == 100)">100</option>
+    </select>
+    <span>productos por página</span>
+</form>
+
+<table class="table text-center" id="productos" border="1">
+    <thead>
+        <tr>
+            <th class="text-center">ID</th>
+            <th class ="text-center">Categoría</th>
+            <th class="text-center">Nombre</th>
+            <th class="text-center">Precio</th>
+            <th class="text-center">Cantidad</th>
+            <th class="text-center">Subtotal</th>
+            <th class="text-center">Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.ProductoResumenViewModel?.Productos != null)
+        {
+            foreach (var producto in Model.ProductoResumenViewModel.Productos)
+            {
+                <tr>
+                    <td>@producto.ProductoID</td>
+                    <td>@((Categorias)producto.Categoria)</td>
+                    <td>@producto.Nombre</td>
+                    <td>$@producto.Precio</td>
+                    <td>@producto.Cantidad</td>
+                    <td>$@producto.Subtotal</td>
+                    <td>
+                        <button class="btn btn-primary" onclick="abrirModalProducto(@producto.ProductoID,'detalles')" style="width:5rem"> Detalles </button>
+                        <button class="btn btn-warning" onclick="abrirModalProducto(@producto.ProductoID,'editar')" style="width:5rem">Editar </button>
+                        <button class="btn btn-danger" onclick="abrirModalProducto(@producto.ProductoID,'eliminar')" style="width:5rem"> Eliminar </button>
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr><td colspan="5">No hay productos disponibles.</td></tr>
+        }
+    </tbody>
+    <tfoot>
+        <tr>
+            <th colspan="3" class="text-end">Total de esta página:</th>
+            <th id="precioTotalPagina" colspan="3" class="text-start">$@Model.ProductoResumenViewModel.PrecioTotal</th>
+        </tr>
+    </tfoot>
+</table>
+
+<nav aria-label="Paginación de productos">
+    <ul class="pagination justify-content-center">
+
+        <li class="page-item @(Model.PaginaActual == 1 ? "disabled" : "")">
+            <a class="page-link" asp-page="./Lista" asp-route-pagina="1" asp-route-tamañoPagina="@Model.TamañoPagina">Primero</a>
+        </li>
+
+        <li class="page-item @(Model.PaginaActual <= 1 ? "disabled" : "")">
+            <a class="page-link" asp-page="./Lista" asp-route-pagina="@(Model.PaginaActual - 1)" asp-route-tamañoPagina="@Model.TamañoPagina">Anterior</a>
+        </li>
+
+        @for (int i = Model.PaginaAtras; i <= Model.PaginaAdelante; i++)
+        {
+            <li class="page-item @(i == Model.PaginaActual ? "active" : "")">
+                <a class="page-link" asp-page="./Lista" asp-route-pagina="@i" asp-route-tamañoPagina="@Model.TamañoPagina">@i</a>
+            </li>
+        }
+
+        <li class="page-item @(Model.PaginaActual >= Model.TotalPaginas ? "disabled" : "")">
+            <a class="page-link" asp-page="./Lista" asp-route-pagina="@(Model.PaginaActual + 1)" asp-route-tamañoPagina="@Model.TamañoPagina">Siguiente</a>
+        </li>
+
+        <li class="page-item @(Model.PaginaActual == Model.TotalPaginas ? "disabled" : "")">
+            <a class="page-link" asp-page="./Lista" asp-route-pagina="@Model.TotalPaginas" asp-route-tamañoPagina="@Model.TamañoPagina">Último</a>
+        </li>
+
+    </ul>
+</nav>
+
+<form id="token-form" method="post" style="display:none">
+    @Html.AntiForgeryToken
+</form>
+
+
+<h3></h3>
+@section Scripts
+{
+    
+    <script>
+        async function abrirModalProducto(productoId, accion) {
+        const modalElement = document.getElementById('Modal');
+
+        try {
+        const url = `?handler=ProductoForm&productoId=${productoId}&accion=${accion}`;
+        const response = await fetch(url);
+
+        if (!response.ok) {
+        const errorText = await response.text();
+        throw new Error(`Error HTTP ${response.status}: ${errorText}`);
+        }
+
+        const html = await response.text();
+        modalElement.querySelector('.modal-content').innerHTML = html;
+
+        // ⚠️ Esta línea es la clave para que la validación unobtrusive funcione de nuevo:
+        $.validator.unobtrusive.parse(modalElement);
+
+        const modal = new bootstrap.Modal(modalElement);
+        modal.show();
+        } catch (error) {
+        console.error('Error al cargar el modal:', error);
+        alert('Ocurrió un error al abrir el modal.');
+        }
+        }
+    </script>
+    <script>
+        const categoriasEnum = @Html.Raw(Json.Serialize(
+                Model.ObtenerCategorias().Select(c => new { text = c.Text, value = c.Text })
+            ));
+        new DataTable('#productos', {
+        info: false,
+        paging: false,
+        language: {
+        url: '//cdn.datatables.net/plug-ins/2.3.0/i18n/es-MX.json'
+        },
+        layout: {
+        topStart: {
+        buttons: [
+        {
+        text: 'Agregar un nuevo producto',
+        className: 'btn btn-agregar me-2',
+        action: function () {
+        abrirModalProducto(0, 'agregar');
+        }
+        },
+        {
+        text: 'Mostrar filtro',
+        className: 'btn-filtrar',
+        action: function (e, dt, node, config) {
+        const filtroId = 'contenedorFiltroCategoria';
+        let container = document.getElementById(filtroId);
+        const btnElement = node[0];
+
+        if (!container) {
+        container = document.createElement('div');
+        container.id = filtroId;
+        container.className = 'ms-3 d-inline-block';
+
+        const select = document.createElement('select');
+        select.id = 'categoriaFiltro';
+        select.className = 'form-select form-select-sm ms-2';
+
+        const opcionDefault = document.createElement('option');
+        opcionDefault.value = '';
+        opcionDefault.text = 'Seleccionar categoría';
+        select.appendChild(opcionDefault);
+
+        categoriasEnum.forEach(categoria => {
+        const opcion = document.createElement('option');
+        opcion.value = categoria.value;
+        opcion.text = categoria.text;
+        select.appendChild(opcion);
+        });
+
+        select.addEventListener('change', function () {
+        const valor = this.value;
+        dt.column(1).search(valor ? '^' + valor + '$' : '', true, false).draw();
+        });
+
+        container.appendChild(select);
+
+        const botonesContainer = document.querySelector('.dt-buttons');
+        if (botonesContainer) {
+        botonesContainer.appendChild(container);
+        }
+
+        btnElement.textContent = "Ocultar filtro";
+        btnElement.classList.add('activo');
+        } else {
+        container.remove();
+        btnElement.textContent = "Mostrar filtro";
+        btnElement.classList.remove('activo');
+        dt.column(1).search('').draw();
+        }
+        }
+        }
+        ]
+        },
+        bottomEnd: {
+        buttons: [
+        {
+        text: 'Importar desde CSV',
+        className: 'btn btn-importar',
+                               action: function () {
+                    $.get('/Productos/Lista?handler=ImportarCsvForm', function (html) {
+            const modalContent = document.querySelector('#Modal .modal-content');
+            modalContent.innerHTML = html;
+
+            // Aquí mismo agregamos el evento al form
+            const form = document.getElementById("csvImportForm");
+            if (form) {
+                        form.addEventListener("submit", async function (e) {
+            e.preventDefault();
+            const formData = new FormData(form);
+
+            try {
+                const response = await fetch("/Productos/Lista?handler=ImportarCsv", {
+                    method: "POST",
+                    body: formData
+                });
+
+                if (!response.ok) {
+                    // Aquí puedes manejar un error HTTP antes de parsear
+                    const textoError = await response.text(); // para debug
+                    console.error("Respuesta no OK:", response.status, textoError);
+                    Swal.fire({
+                        title: "Error",
+                        text: "El servidor respondió con un error: " + response.status,
+                        icon: "error"
+                    });
+                    return;
+                }
+
+                const result = await response.json();
+
+                if (result.exito) {
+                    Swal.fire({
+                        title: "¡Importación exitosa!",
+                        text: result.mensaje,
+                        icon: "success",
+                        confirmButtonText: "Aceptar"
+                    });
+                } else {
+                    Swal.fire({
+                        title: "Error",
+                        text: result.mensaje,
+                        icon: "error"
+                    });
+                }
+            } catch (error) {
+                Swal.fire({
+                    title: "Error",
+                    text: "Error de red o del servidor.",
+                    icon: "error"
+                });
+                console.error(error);
+            }
+        });
+
+            }
+
+            // Mostrar modal
+            const modalElement = document.getElementById('Modal');
+            const modal = new bootstrap.Modal(modalElement);
+            modal.show();
+
+            // Re-parsear validaciones de jQuery unobtrusive
+            $.validator.unobtrusive.parse(modalElement);
+        });
+
+        }
+
+        },
+        {
+        text: 'Exportar a PDF',
+        className: 'btn btn-exportar',
+        action: function () 
+        {
+        fetch('?handler=ExportarPDF')
+        .then(response => {
+        if (!response.ok) throw new Error('Error al generar PDF');
+        return response.blob();
+        })
+        .then(blob => {
+        const url = window.URL.createObjectURL(blob);
+        window.open(url, '_blank');
+        setTimeout(() => URL.revokeObjectURL(url), 5000);
+        })
+        .catch(error => {
+        alert('Error al exportar PDF: ' + error.message);
+        });
+        }
+        }
+        ]
+        }
+        }
+        });
+
+    </script>
+
+    <style>
+        .dt-buttons .btn-agregar {
+            background-color: #2ba804 !important;
+            border-color: #2ba804 !important;
+            color: white !important;
+            width:250px;
+            border-radius: 0.3rem !important;
+        }
+
+        .dt-buttons .btn-importar {
+            background-color: #105f18 !important;
+            border-color: #105f18 !important;
+            color: white !important;
+            border-radius: 0.3rem !important;
+            width: 10rem;
+        }
+        .dt-buttons .btn-exportar{
+            background-color: #ad0505 !important;
+            border-color: #ad0505 !important;
+            color: white !important;
+            border-radius: 0.3rem !important;
+            width: 10rem;
+        }
+        .dt-buttons .btn-filtrar{
+            background-color: #848583 !important;
+            border-color: none !important;
+            color: white !important;
+            border-radius: 0.3rem !important;
+        }
+
+        .dt-buttons .btn-filtrar.activo {
+                background-color: white !important;
+            border: 2px solid gray !important; /* borde azul (bootstrap primary) */
+            color: black !important;
+        }
+
+        .dt-search input
+        {
+            width:300px;
+        }
+    </style>
+}
+

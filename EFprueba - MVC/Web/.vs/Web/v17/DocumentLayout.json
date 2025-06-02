@@ -1,0 +1,877 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Web\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{173DC6F4-B0F2-45C7-BF4C-6B28503EA4A8}|..\\Presentacion\\Presentacion.csproj|c:\\users\\mmaur\\dotnet\\efprueba - mvc\\presentacion\\models\\productoresumenviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{173DC6F4-B0F2-45C7-BF4C-6B28503EA4A8}|..\\Presentacion\\Presentacion.csproj|c:\\users\\mmaur\\dotnet\\efprueba - mvc\\presentacion\\views\\productos\\lista.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{173DC6F4-B0F2-45C7-BF4C-6B28503EA4A8}|..\\Presentacion\\Presentacion.csproj|c:\\users\\mmaur\\dotnet\\efprueba - mvc\\presentacion\\views\\productos\\lista.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{173DC6F4-B0F2-45C7-BF4C-6B28503EA4A8}|..\\Presentacion\\Presentacion.csproj|c:\\users\\mmaur\\dotnet\\efprueba - mvc\\presentacion\\views\\csvlogs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{173DC6F4-B0F2-45C7-BF4C-6B28503EA4A8}|..\\Presentacion\\Presentacion.csproj|c:\\users\\mmaur\\dotnet\\efprueba - mvc\\presentacion\\views\\productos\\modales\\_productoform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{173DC6F4-B0F2-45C7-BF4C-6B28503EA4A8}|..\\Presentacion\\Presentacion.csproj|c:\\users\\mmaur\\dotnet\\efprueba - mvc\\presentacion\\views\\productos\\modales\\_csvform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{173DC6F4-B0F2-45C7-BF4C-6B28503EA4A8}|..\\Presentacion\\Presentacion.csproj|c:\\users\\mmaur\\dotnet\\efprueba - mvc\\presentacion\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{173DC6F4-B0F2-45C7-BF4C-6B28503EA4A8}|..\\Presentacion\\Presentacion.csproj|c:\\users\\mmaur\\dotnet\\efprueba - mvc\\presentacion\\helpers\\razorviewtostringrenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19538F6D-D559-46FF-934F-B2036EC295DF}|Web.csproj|c:\\users\\mmaur\\dotnet\\efprueba - mvc\\web\\pages\\productos\\lista.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19538F6D-D559-46FF-934F-B2036EC295DF}|Web.csproj|solutionrelative:pages\\productos\\lista.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19538F6D-D559-46FF-934F-B2036EC295DF}|Web.csproj|c:\\users\\mmaur\\dotnet\\efprueba - mvc\\web\\pages\\productos\\lista.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19538F6D-D559-46FF-934F-B2036EC295DF}|Web.csproj|solutionrelative:pages\\productos\\lista.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{173DC6F4-B0F2-45C7-BF4C-6B28503EA4A8}|..\\Presentacion\\Presentacion.csproj|c:\\users\\mmaur\\dotnet\\efprueba - mvc\\presentacion\\models\\productodetalleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{173DC6F4-B0F2-45C7-BF4C-6B28503EA4A8}|..\\Presentacion\\Presentacion.csproj|c:\\users\\mmaur\\dotnet\\efprueba - mvc\\presentacion\\models\\productoformviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{173DC6F4-B0F2-45C7-BF4C-6B28503EA4A8}|..\\Presentacion\\Presentacion.csproj|c:\\users\\mmaur\\dotnet\\efprueba - mvc\\presentacion\\validaciones\\todayonwardsattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{173DC6F4-B0F2-45C7-BF4C-6B28503EA4A8}|..\\Presentacion\\Presentacion.csproj|c:\\users\\mmaur\\dotnet\\efprueba - mvc\\presentacion\\validaciones\\notemptyfileattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{173DC6F4-B0F2-45C7-BF4C-6B28503EA4A8}|..\\Presentacion\\Presentacion.csproj|c:\\users\\mmaur\\dotnet\\efprueba - mvc\\presentacion\\validaciones\\mindateattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{173DC6F4-B0F2-45C7-BF4C-6B28503EA4A8}|..\\Presentacion\\Presentacion.csproj|c:\\users\\mmaur\\dotnet\\efprueba - mvc\\presentacion\\validaciones\\maxfilesizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{173DC6F4-B0F2-45C7-BF4C-6B28503EA4A8}|..\\Presentacion\\Presentacion.csproj|c:\\users\\mmaur\\dotnet\\efprueba - mvc\\presentacion\\validaciones\\allowedextensionsattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{173DC6F4-B0F2-45C7-BF4C-6B28503EA4A8}|..\\Presentacion\\Presentacion.csproj|c:\\users\\mmaur\\dotnet\\efprueba - mvc\\presentacion\\presentacion.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{173DC6F4-B0F2-45C7-BF4C-6B28503EA4A8}|..\\Presentacion\\Presentacion.csproj|c:\\users\\mmaur\\dotnet\\efprueba - mvc\\presentacion\\controllers\\csvlogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{173DC6F4-B0F2-45C7-BF4C-6B28503EA4A8}|..\\Presentacion\\Presentacion.csproj|c:\\users\\mmaur\\dotnet\\efprueba - mvc\\presentacion\\servicios\\reportepdfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{173DC6F4-B0F2-45C7-BF4C-6B28503EA4A8}|..\\Presentacion\\Presentacion.csproj|c:\\users\\mmaur\\dotnet\\efprueba - mvc\\presentacion\\servicios\\customassemblyloadcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{173DC6F4-B0F2-45C7-BF4C-6B28503EA4A8}|..\\Presentacion\\Presentacion.csproj|c:\\users\\mmaur\\dotnet\\efprueba - mvc\\presentacion\\perfiles de mapeo\\productoviewmodelprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{173DC6F4-B0F2-45C7-BF4C-6B28503EA4A8}|..\\Presentacion\\Presentacion.csproj|c:\\users\\mmaur\\dotnet\\efprueba - mvc\\presentacion\\perfiles de mapeo\\csvlogsprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{173DC6F4-B0F2-45C7-BF4C-6B28503EA4A8}|..\\Presentacion\\Presentacion.csproj|c:\\users\\mmaur\\dotnet\\efprueba - mvc\\presentacion\\models\\csvlogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{173DC6F4-B0F2-45C7-BF4C-6B28503EA4A8}|..\\Presentacion\\Presentacion.csproj|c:\\users\\mmaur\\dotnet\\efprueba - mvc\\presentacion\\models\\csvimportviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{173DC6F4-B0F2-45C7-BF4C-6B28503EA4A8}|..\\Presentacion\\Presentacion.csproj|c:\\users\\mmaur\\dotnet\\efprueba - mvc\\presentacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19538F6D-D559-46FF-934F-B2036EC295DF}|Web.csproj|c:\\users\\mmaur\\dotnet\\efprueba - mvc\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19538F6D-D559-46FF-934F-B2036EC295DF}|Web.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{173DC6F4-B0F2-45C7-BF4C-6B28503EA4A8}|..\\Presentacion\\Presentacion.csproj|c:\\users\\mmaur\\dotnet\\efprueba - mvc\\presentacion\\views\\csvlogs\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{173DC6F4-B0F2-45C7-BF4C-6B28503EA4A8}|..\\Presentacion\\Presentacion.csproj|c:\\users\\mmaur\\dotnet\\efprueba - mvc\\presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{173DC6F4-B0F2-45C7-BF4C-6B28503EA4A8}|..\\Presentacion\\Presentacion.csproj|c:\\users\\mmaur\\dotnet\\efprueba - mvc\\presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{173DC6F4-B0F2-45C7-BF4C-6B28503EA4A8}|..\\Presentacion\\Presentacion.csproj|c:\\users\\mmaur\\dotnet\\efprueba - mvc\\presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{173DC6F4-B0F2-45C7-BF4C-6B28503EA4A8}|..\\Presentacion\\Presentacion.csproj|c:\\users\\mmaur\\dotnet\\efprueba - mvc\\presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{173DC6F4-B0F2-45C7-BF4C-6B28503EA4A8}|..\\Presentacion\\Presentacion.csproj|c:\\users\\mmaur\\dotnet\\efprueba - mvc\\presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{173DC6F4-B0F2-45C7-BF4C-6B28503EA4A8}|..\\Presentacion\\Presentacion.csproj|c:\\users\\mmaur\\dotnet\\efprueba - mvc\\presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{173DC6F4-B0F2-45C7-BF4C-6B28503EA4A8}|..\\Presentacion\\Presentacion.csproj|c:\\users\\mmaur\\dotnet\\efprueba - mvc\\presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{173DC6F4-B0F2-45C7-BF4C-6B28503EA4A8}|..\\Presentacion\\Presentacion.csproj|c:\\users\\mmaur\\dotnet\\efprueba - mvc\\presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{173DC6F4-B0F2-45C7-BF4C-6B28503EA4A8}|..\\Presentacion\\Presentacion.csproj|c:\\users\\mmaur\\dotnet\\efprueba - mvc\\presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{173DC6F4-B0F2-45C7-BF4C-6B28503EA4A8}|..\\Presentacion\\Presentacion.csproj|c:\\users\\mmaur\\dotnet\\efprueba - mvc\\presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{173DC6F4-B0F2-45C7-BF4C-6B28503EA4A8}|..\\Presentacion\\Presentacion.csproj|c:\\users\\mmaur\\dotnet\\efprueba - mvc\\presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{173DC6F4-B0F2-45C7-BF4C-6B28503EA4A8}|..\\Presentacion\\Presentacion.csproj|c:\\users\\mmaur\\dotnet\\efprueba - mvc\\presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{173DC6F4-B0F2-45C7-BF4C-6B28503EA4A8}|..\\Presentacion\\Presentacion.csproj|c:\\users\\mmaur\\dotnet\\efprueba - mvc\\presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{173DC6F4-B0F2-45C7-BF4C-6B28503EA4A8}|..\\Presentacion\\Presentacion.csproj|c:\\users\\mmaur\\dotnet\\efprueba - mvc\\presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{173DC6F4-B0F2-45C7-BF4C-6B28503EA4A8}|..\\Presentacion\\Presentacion.csproj|c:\\users\\mmaur\\dotnet\\efprueba - mvc\\presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{173DC6F4-B0F2-45C7-BF4C-6B28503EA4A8}|..\\Presentacion\\Presentacion.csproj|c:\\users\\mmaur\\dotnet\\efprueba - mvc\\presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19538F6D-D559-46FF-934F-B2036EC295DF}|Web.csproj|c:\\users\\mmaur\\dotnet\\efprueba - mvc\\web\\web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{19538F6D-D559-46FF-934F-B2036EC295DF}|Web.csproj|solutionrelative:web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{173DC6F4-B0F2-45C7-BF4C-6B28503EA4A8}|..\\Presentacion\\Presentacion.csproj|c:\\users\\mmaur\\dotnet\\efprueba - mvc\\presentacion\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19538F6D-D559-46FF-934F-B2036EC295DF}|Web.csproj|c:\\users\\mmaur\\dotnet\\efprueba - mvc\\web\\pages\\csvlogs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19538F6D-D559-46FF-934F-B2036EC295DF}|Web.csproj|solutionrelative:pages\\csvlogs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19538F6D-D559-46FF-934F-B2036EC295DF}|Web.csproj|c:\\users\\mmaur\\dotnet\\efprueba - mvc\\web\\pages\\csvlogs\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19538F6D-D559-46FF-934F-B2036EC295DF}|Web.csproj|solutionrelative:pages\\csvlogs\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19538F6D-D559-46FF-934F-B2036EC295DF}|Web.csproj|c:\\users\\mmaur\\dotnet\\efprueba - mvc\\web\\pages\\productos\\modales\\_productoform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19538F6D-D559-46FF-934F-B2036EC295DF}|Web.csproj|solutionrelative:pages\\productos\\modales\\_productoform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19538F6D-D559-46FF-934F-B2036EC295DF}|Web.csproj|c:\\users\\mmaur\\dotnet\\efprueba - mvc\\web\\viewmodels\\productodetalleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19538F6D-D559-46FF-934F-B2036EC295DF}|Web.csproj|solutionrelative:viewmodels\\productodetalleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19538F6D-D559-46FF-934F-B2036EC295DF}|Web.csproj|c:\\users\\mmaur\\dotnet\\efprueba - mvc\\web\\viewmodels\\productoformviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19538F6D-D559-46FF-934F-B2036EC295DF}|Web.csproj|solutionrelative:viewmodels\\productoformviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mmaur\\dotnet\\EFprueba\\Infraestructura\\Infraestructura.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Lista.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Web\\Pages\\Productos\\Lista.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Productos\\Lista.cshtml",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Web\\Pages\\Productos\\Lista.cshtml",
+              "RelativeToolTip": "Pages\\Productos\\Lista.cshtml",
+              "ViewState": "AgIAAPMAAAAAAAAAAADwvwUBAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T22:45:57.638Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Lista.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Web\\Pages\\Productos\\Lista.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Productos\\Lista.cshtml.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Web\\Pages\\Productos\\Lista.cshtml.cs",
+              "RelativeToolTip": "Pages\\Productos\\Lista.cshtml.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAAAFgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T22:46:09.467Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Web\\Pages\\CsvLogs\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\CsvLogs\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Web\\Pages\\CsvLogs\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\CsvLogs\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T04:35:12.48Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Web\\Pages\\CsvLogs\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\CsvLogs\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Web\\Pages\\CsvLogs\\Index.cshtml",
+              "RelativeToolTip": "Pages\\CsvLogs\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwBkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-18T04:35:23.834Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Lista.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\Views\\Productos\\Lista.cshtml",
+              "RelativeDocumentMoniker": "..\\Presentacion\\Views\\Productos\\Lista.cshtml",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\Views\\Productos\\Lista.cshtml",
+              "RelativeToolTip": "..\\Presentacion\\Views\\Productos\\Lista.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-01T02:48:40.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductoResumenViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\Models\\ProductoResumenViewModel.cs",
+              "RelativeDocumentMoniker": "..\\Presentacion\\Models\\ProductoResumenViewModel.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\Models\\ProductoResumenViewModel.cs",
+              "RelativeToolTip": "..\\Presentacion\\Models\\ProductoResumenViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T02:47:49.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Lista.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\Views\\Productos\\Lista.cshtml.cs",
+              "RelativeDocumentMoniker": "..\\Presentacion\\Views\\Productos\\Lista.cshtml.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\Views\\Productos\\Lista.cshtml.cs",
+              "RelativeToolTip": "..\\Presentacion\\Views\\Productos\\Lista.cshtml.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAACIAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T02:48:56.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\Views\\CsvLogs\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\Presentacion\\Views\\CsvLogs\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\Views\\CsvLogs\\Index.cshtml",
+              "RelativeToolTip": "..\\Presentacion\\Views\\CsvLogs\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-01T02:48:11.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ProductoForm.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\Views\\Productos\\Modales\\_ProductoForm.cshtml",
+              "RelativeDocumentMoniker": "..\\Presentacion\\Views\\Productos\\Modales\\_ProductoForm.cshtml",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\Views\\Productos\\Modales\\_ProductoForm.cshtml",
+              "RelativeToolTip": "..\\Presentacion\\Views\\Productos\\Modales\\_ProductoForm.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-01T02:50:37.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_CsvForm.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\Views\\Productos\\Modales\\_CsvForm.cshtml",
+              "RelativeDocumentMoniker": "..\\Presentacion\\Views\\Productos\\Modales\\_CsvForm.cshtml",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\Views\\Productos\\Modales\\_CsvForm.cshtml",
+              "RelativeToolTip": "..\\Presentacion\\Views\\Productos\\Modales\\_CsvForm.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-01T02:49:36.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductoController.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\Controllers\\ProductoController.cs",
+              "RelativeDocumentMoniker": "..\\Presentacion\\Controllers\\ProductoController.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\Controllers\\ProductoController.cs",
+              "RelativeToolTip": "..\\Presentacion\\Controllers\\ProductoController.cs",
+              "ViewState": "AgIAAM8AAAAAAAAAAAAAwOEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T03:03:54.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RazorViewToStringRenderer.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\Helpers\\RazorViewToStringRenderer.cs",
+              "RelativeDocumentMoniker": "..\\Presentacion\\Helpers\\RazorViewToStringRenderer.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\Helpers\\RazorViewToStringRenderer.cs",
+              "RelativeToolTip": "..\\Presentacion\\Helpers\\RazorViewToStringRenderer.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T02:44:43.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductoDetalleViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\Models\\ProductoDetalleViewModel.cs",
+              "RelativeDocumentMoniker": "..\\Presentacion\\Models\\ProductoDetalleViewModel.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\Models\\ProductoDetalleViewModel.cs",
+              "RelativeToolTip": "..\\Presentacion\\Models\\ProductoDetalleViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T02:47:28.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductoFormViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\Models\\ProductoFormViewModel.cs",
+              "RelativeDocumentMoniker": "..\\Presentacion\\Models\\ProductoFormViewModel.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\Models\\ProductoFormViewModel.cs",
+              "RelativeToolTip": "..\\Presentacion\\Models\\ProductoFormViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T02:47:44.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TodayOnwardsAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\Validaciones\\TodayOnwardsAttribute.cs",
+              "RelativeDocumentMoniker": "..\\Presentacion\\Validaciones\\TodayOnwardsAttribute.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\Validaciones\\TodayOnwardsAttribute.cs",
+              "RelativeToolTip": "..\\Presentacion\\Validaciones\\TodayOnwardsAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T03:11:06.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "NotEmptyFileAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\Validaciones\\NotEmptyFileAttribute.cs",
+              "RelativeDocumentMoniker": "..\\Presentacion\\Validaciones\\NotEmptyFileAttribute.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\Validaciones\\NotEmptyFileAttribute.cs",
+              "RelativeToolTip": "..\\Presentacion\\Validaciones\\NotEmptyFileAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T03:11:02.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MinDateAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\Validaciones\\MinDateAttribute.cs",
+              "RelativeDocumentMoniker": "..\\Presentacion\\Validaciones\\MinDateAttribute.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\Validaciones\\MinDateAttribute.cs",
+              "RelativeToolTip": "..\\Presentacion\\Validaciones\\MinDateAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T03:10:58.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MaxFileSizeAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\Validaciones\\MaxFileSizeAttribute.cs",
+              "RelativeDocumentMoniker": "..\\Presentacion\\Validaciones\\MaxFileSizeAttribute.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\Validaciones\\MaxFileSizeAttribute.cs",
+              "RelativeToolTip": "..\\Presentacion\\Validaciones\\MaxFileSizeAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T03:10:51.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AllowedExtensionsAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\Validaciones\\AllowedExtensionsAttribute.cs",
+              "RelativeDocumentMoniker": "..\\Presentacion\\Validaciones\\AllowedExtensionsAttribute.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\Validaciones\\AllowedExtensionsAttribute.cs",
+              "RelativeToolTip": "..\\Presentacion\\Validaciones\\AllowedExtensionsAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T03:10:44.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Presentacion",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\Presentacion.csproj",
+              "RelativeDocumentMoniker": "..\\Presentacion\\Presentacion.csproj",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\Presentacion.csproj",
+              "RelativeToolTip": "..\\Presentacion\\Presentacion.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-01T02:30:56.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CsvLogController.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\Controllers\\CsvLogController.cs",
+              "RelativeDocumentMoniker": "..\\Presentacion\\Controllers\\CsvLogController.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\Controllers\\CsvLogController.cs",
+              "RelativeToolTip": "..\\Presentacion\\Controllers\\CsvLogController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T03:04:47.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CustomAssemblyLoadContext.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\Servicios\\CustomAssemblyLoadContext.cs",
+              "RelativeDocumentMoniker": "..\\Presentacion\\Servicios\\CustomAssemblyLoadContext.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\Servicios\\CustomAssemblyLoadContext.cs",
+              "RelativeToolTip": "..\\Presentacion\\Servicios\\CustomAssemblyLoadContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T02:47:55.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ReportePdfService.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\Servicios\\ReportePdfService.cs",
+              "RelativeDocumentMoniker": "..\\Presentacion\\Servicios\\ReportePdfService.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\Servicios\\ReportePdfService.cs",
+              "RelativeToolTip": "..\\Presentacion\\Servicios\\ReportePdfService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T02:47:59.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ProductoViewModelProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\Perfiles de mapeo\\ProductoViewModelProfile.cs",
+              "RelativeDocumentMoniker": "..\\Presentacion\\Perfiles de mapeo\\ProductoViewModelProfile.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\Perfiles de mapeo\\ProductoViewModelProfile.cs",
+              "RelativeToolTip": "..\\Presentacion\\Perfiles de mapeo\\ProductoViewModelProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T02:53:53.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CsvLogsProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\Perfiles de mapeo\\CsvLogsProfile.cs",
+              "RelativeDocumentMoniker": "..\\Presentacion\\Perfiles de mapeo\\CsvLogsProfile.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\Perfiles de mapeo\\CsvLogsProfile.cs",
+              "RelativeToolTip": "..\\Presentacion\\Perfiles de mapeo\\CsvLogsProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T02:53:42.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CsvLogViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\Models\\CsvLogViewModel.cs",
+              "RelativeDocumentMoniker": "..\\Presentacion\\Models\\CsvLogViewModel.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\Models\\CsvLogViewModel.cs",
+              "RelativeToolTip": "..\\Presentacion\\Models\\CsvLogViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T02:47:17.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CsvImportViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\Models\\CsvImportViewModel.cs",
+              "RelativeDocumentMoniker": "..\\Presentacion\\Models\\CsvImportViewModel.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\Models\\CsvImportViewModel.cs",
+              "RelativeToolTip": "..\\Presentacion\\Models\\CsvImportViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T02:44:56.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Presentacion\\Program.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\Program.cs",
+              "RelativeToolTip": "..\\Presentacion\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T02:38:57.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Web\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Web\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAACEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T17:26:05.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\Views\\CsvLogs\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "..\\Presentacion\\Views\\CsvLogs\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\Views\\CsvLogs\\Index.cshtml.cs",
+              "RelativeToolTip": "..\\Presentacion\\Views\\CsvLogs\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T02:48:21.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "bootstrap.rtl.css.map",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+              "RelativeDocumentMoniker": "..\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+              "RelativeToolTip": "..\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAADK1AQAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-01T02:47:03.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "bootstrap.min.js.map",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+              "RelativeDocumentMoniker": "..\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+              "RelativeToolTip": "..\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAADDKAIAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-01T02:47:00.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "bootstrap.min.css.map",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+              "RelativeDocumentMoniker": "..\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+              "RelativeToolTip": "..\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA7UQYAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-01T02:46:55.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "bootstrap.js.map",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+              "RelativeDocumentMoniker": "..\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+              "RelativeToolTip": "..\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAhJAEAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-01T02:46:53.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "bootstrap.js",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+              "RelativeDocumentMoniker": "..\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+              "RelativeToolTip": "..\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+              "ViewState": "AgIAAHcJAAAAAAAAAAAAAHcJAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-01T02:46:52.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "bootstrap.esm.min.js.map",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+              "RelativeDocumentMoniker": "..\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+              "RelativeToolTip": "..\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAArQQIAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-01T02:46:51.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "bootstrap.esm.js.map",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+              "RelativeDocumentMoniker": "..\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+              "RelativeToolTip": "..\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANJAEAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-01T02:46:49.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "bootstrap.esm.js",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+              "RelativeDocumentMoniker": "..\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+              "RelativeToolTip": "..\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+              "ViewState": "AgIAAF0JAAAAAAAAAAAAAF0JAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-01T02:46:48.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "bootstrap.css.map",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+              "RelativeDocumentMoniker": "..\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+              "RelativeToolTip": "..\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAADHpgcAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-01T02:46:41.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "bootstrap.bundle.min.js.map",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+              "RelativeDocumentMoniker": "..\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+              "RelativeToolTip": "..\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAADh1gMAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-01T02:46:38.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "bootstrap.bundle.js.map",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+              "RelativeDocumentMoniker": "..\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+              "RelativeToolTip": "..\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAADOUQIAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-01T02:46:36.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "bootstrap.bundle.js",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+              "RelativeDocumentMoniker": "..\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+              "RelativeToolTip": "..\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+              "ViewState": "AgIAADkQAAAAAAAAAAAowFEQAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-01T02:46:29.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "bootstrap-reboot.rtl.min.css.map",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+              "RelativeDocumentMoniker": "..\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+              "RelativeToolTip": "..\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAACWMAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-01T02:46:28.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "bootstrap-reboot.rtl.css.map",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+              "RelativeDocumentMoniker": "..\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+              "RelativeToolTip": "..\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA/MgAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-01T02:46:27.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "bootstrap-reboot.min.css.map",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+              "RelativeDocumentMoniker": "..\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+              "RelativeToolTip": "..\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABYMAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-01T02:46:22.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "bootstrap-reboot.css.map",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+              "RelativeDocumentMoniker": "..\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+              "RelativeToolTip": "..\\Presentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAyMgAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-01T02:46:21.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Web.csproj",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Web\\Web.csproj",
+              "RelativeDocumentMoniker": "Web.csproj",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Web\\Web.csproj",
+              "RelativeToolTip": "Web.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-24T07:36:27.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\Presentacion\\appsettings.json",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Presentacion\\appsettings.json",
+              "RelativeToolTip": "..\\Presentacion\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-01T02:38:19.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Infraestructura.csproj",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba\\Infraestructura\\Infraestructura.csproj",
+              "RelativeDocumentMoniker": "..\\..\\EFprueba\\Infraestructura\\Infraestructura.csproj",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba\\Infraestructura\\Infraestructura.csproj",
+              "RelativeToolTip": "..\\..\\EFprueba\\Infraestructura\\Infraestructura.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-24T07:41:21.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ProductoDetalleViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Web\\ViewModels\\ProductoDetalleViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ProductoDetalleViewModel.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Web\\ViewModels\\ProductoDetalleViewModel.cs",
+              "RelativeToolTip": "ViewModels\\ProductoDetalleViewModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA1wCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T04:56:36.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "_ProductoForm.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Web\\Pages\\Productos\\Modales\\_ProductoForm.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Productos\\Modales\\_ProductoForm.cshtml",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Web\\Pages\\Productos\\Modales\\_ProductoForm.cshtml",
+              "RelativeToolTip": "Pages\\Productos\\Modales\\_ProductoForm.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-18T04:54:45.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ProductoFormViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Web\\ViewModels\\ProductoFormViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ProductoFormViewModel.cs",
+              "ToolTip": "C:\\Users\\Mmaur\\dotnet\\EFprueba - MVC\\Web\\ViewModels\\ProductoFormViewModel.cs",
+              "RelativeToolTip": "ViewModels\\ProductoFormViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T04:56:37.932Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -2,10 +2,15 @@
 {
     public interface IProveedorRepository : IRepositorioBase<Proveedor>
     {
-        Task<Proveedor> ObtenerProveedorPorNombreAsync(string nombre);
-        Task<Proveedor> ObtenerProveedorPorTelefonoAsync(string telefono);
-        Task<Proveedor> ObtenerProveedorPorEmailAsync(string email);
-        Task<IEnumerable<Proveedor>> ObtenerProveedoresPorEstadoAsync(bool estado);
         Task CambiarEstadoDeProveedorAsync(int idProveedor, bool estado);
+        Task<IEnumerable<Proveedor>> ObtenerProveedoresFiltradoGeneralAsync(
+            int ordenarPor=1,
+            bool ordenAscendente=true,
+            int pagina = 1,
+            int tamanoPagina = 10,
+            string? nombre = null,
+            string? telefono = null,
+            string? email = null,
+            bool? estado = null);
     }
 }

@@ -16,6 +16,29 @@
         public ICollection<DetallePedido> DetallesPedidos { get; set; } = new HashSet<DetallePedido>();
         public ICollection<DetalleVenta> DetallesVentas { get; set; } = new HashSet<DetalleVenta>();
         public ICollection<ProductoEnCarrito> ProductosEnCarrito { get; set; } = new HashSet<ProductoEnCarrito>();
-        public Inventario Inventario { get; set; } = new Inventario();
+        public Inventario? Inventario { get; set; }
+        //Constructores
+        public Producto() { }
+        public Producto(int productoId, string nombre, int categoria, decimal precio, int stock,
+            string? descripcion = null)
+        {
+            if (productoId < 0)
+                throw new ArgumentOutOfRangeException("El ID del producto no puede ser negativo.");
+            if (string.IsNullOrWhiteSpace(nombre))
+                throw new ArgumentException("El nombre del producto no puede estar vacío.", nameof(nombre));
+            if (categoria < 0)
+                throw new ArgumentOutOfRangeException("La categoría del producto no puede ser negativa.");
+            if (precio < 0)
+                throw new ArgumentOutOfRangeException("El precio del producto no puede ser negativo.");
+            if (stock < 0)
+                throw new ArgumentOutOfRangeException("El stock del producto no puede ser negativo.");
+            ProductoID = productoId;
+            Nombre = nombre;
+            Categoria = categoria;
+            Descripcion = descripcion;
+            Precio = precio;
+            Stock = stock;
+            FechaCreacion = DateTime.Now; // Por defecto, la fecha de creación es hoy
+        }
     }
 }
